@@ -1,0 +1,144 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEFA18BFEEFA18BFE",
+      "device": "xc7a35tcpg236-1",
+      "name": "Segment_E",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "segment_E": {
+        "xup_inv_0": "",
+        "xup_and2_0": "",
+        "xup_or2_0": ""
+      }
+    },
+    "ports": {
+      "X2": {
+        "direction": "I"
+      },
+      "X1": {
+        "direction": "I"
+      },
+      "X0": {
+        "direction": "I"
+      },
+      "E": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "segment_E": {
+        "ports": {
+          "X1": {
+            "direction": "I"
+          },
+          "X2": {
+            "direction": "I"
+          },
+          "X0": {
+            "direction": "I"
+          },
+          "E": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "xup_inv_0": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Segment_E_xup_inv_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_and2_0": {
+            "vlnv": "xilinx.com:xup:xup_and2:1.0",
+            "xci_name": "Segment_E_xup_and2_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_or2_0": {
+            "vlnv": "xilinx.com:xup:xup_or2:1.0",
+            "xci_name": "Segment_E_xup_or2_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "xup_inv_0_y": {
+            "ports": [
+              "xup_inv_0/y",
+              "xup_and2_0/a"
+            ]
+          },
+          "xup_and2_0_y": {
+            "ports": [
+              "xup_and2_0/y",
+              "xup_or2_0/a"
+            ]
+          },
+          "a_0_1": {
+            "ports": [
+              "X1",
+              "xup_inv_0/a"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "X2",
+              "xup_and2_0/b"
+            ]
+          },
+          "b_1_1": {
+            "ports": [
+              "X0",
+              "xup_or2_0/b"
+            ]
+          },
+          "xup_or2_0_y": {
+            "ports": [
+              "xup_or2_0/y",
+              "E"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "b_0_1": {
+        "ports": [
+          "X2",
+          "segment_E/X2"
+        ]
+      },
+      "a_0_1": {
+        "ports": [
+          "X1",
+          "segment_E/X1"
+        ]
+      },
+      "b_1_1": {
+        "ports": [
+          "X0",
+          "segment_E/X0"
+        ]
+      },
+      "xup_or2_0_y": {
+        "ports": [
+          "segment_E/E",
+          "E"
+        ]
+      }
+    }
+  }
+}

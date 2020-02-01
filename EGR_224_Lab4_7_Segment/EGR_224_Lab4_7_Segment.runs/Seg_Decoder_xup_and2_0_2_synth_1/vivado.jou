@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 30 21:40:38 2020
+# Process ID: 10264
+# Current directory: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/Seg_Decoder_xup_and2_0_2_synth_1
+# Command line: vivado.exe -log Seg_Decoder_xup_and2_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg_Decoder_xup_and2_0_2.tcl
+# Log file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/Seg_Decoder_xup_and2_0_2_synth_1/Seg_Decoder_xup_and2_0_2.vds
+# Journal file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/Seg_Decoder_xup_and2_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source Seg_Decoder_xup_and2_0_2.tcl -notrace

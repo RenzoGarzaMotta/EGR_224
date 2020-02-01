@@ -1,0 +1,25 @@
+{
+   "ExpandedHierarchyInLayout":"/segment_B",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port B -pg 1 -y 110 -defaultsOSRD
+preplace port X0 -pg 1 -y 120 -defaultsOSRD
+preplace port X1 -pg 1 -y 90 -defaultsOSRD
+preplace port X2 -pg 1 -y 170 -defaultsOSRD
+preplace inst segment_B -pg 1 -lvl 1 -y 80 -defaultsOSRD
+preplace inst segment_B|xup_xor2_0 -pg 1 -lvl 1 -y 100 -defaultsOSRD
+preplace inst segment_B|xup_and2_0 -pg 1 -lvl 2 -y 110 -defaultsOSRD
+preplace netloc X0_1 1 0 1 20J
+preplace netloc segment_B|X0_1 1 0 1 N
+preplace netloc segment_B|X1_1 1 0 1 N
+preplace netloc X1_1 1 0 1 NJ
+preplace netloc segment_B|xup_and2_0_y 1 2 1 N
+preplace netloc segment_B|xup_xor2_0_y 1 1 1 N
+preplace netloc X2_1 1 0 1 NJ
+preplace netloc xup_and2_0_y 1 1 1 N
+preplace netloc segment_B|X2_1 1 0 2 NJ 170 280
+levelinfo -pg 1 0 100 550 -top 0 -bot 200
+levelinfo -hier segment_B * 190 370 *
+"
+}
+

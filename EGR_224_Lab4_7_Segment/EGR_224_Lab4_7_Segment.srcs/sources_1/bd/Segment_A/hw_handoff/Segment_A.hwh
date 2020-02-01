@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Jan 30 21:37:00 2020" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="Segment_A" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="A" SIGIS="undef" SIGNAME="segment_A_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_A_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X0" SIGIS="undef" SIGNAME="External_Ports_X0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_A_xup_and4_0" PORT="d"/>
+        <CONNECTION INSTANCE="segment_A_xup_inv_1" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X1" SIGIS="undef" SIGNAME="External_Ports_X1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_A_xup_inv_4" PORT="a"/>
+        <CONNECTION INSTANCE="segment_A_xup_inv_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X2" SIGIS="undef" SIGNAME="External_Ports_X2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_A_xup_and3_0" PORT="a"/>
+        <CONNECTION INSTANCE="segment_A_xup_inv_3" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X3" SIGIS="undef" SIGNAME="External_Ports_X3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="segment_A_xup_inv_2" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_and3_0" HWVERSION="1.0" INSTANCE="segment_A_xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_and3_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="segment_A_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="segment_A_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_and4_0" HWVERSION="1.0" INSTANCE="segment_A_xup_and4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_and4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="segment_A_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="segment_A_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="segment_A_xup_inv_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_inv_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_inv_0" HWVERSION="1.0" INSTANCE="segment_A_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_inv_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_inv_1" HWVERSION="1.0" INSTANCE="segment_A_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_inv_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_inv_2" HWVERSION="1.0" INSTANCE="segment_A_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_inv_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_inv_3" HWVERSION="1.0" INSTANCE="segment_A_xup_inv_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_inv_3_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_inv_4" HWVERSION="1.0" INSTANCE="segment_A_xup_inv_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_inv_4_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_inv_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/segment_A/xup_or2_0" HWVERSION="1.0" INSTANCE="segment_A_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_A_xup_or2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="segment_A_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="segment_A_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="segment_A_xup_and4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="segment_A_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
