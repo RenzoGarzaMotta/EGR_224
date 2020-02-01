@@ -1,0 +1,128 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x71C51E5D71C51E5D",
+      "device": "xc7a35tcpg236-1",
+      "name": "Segment_B",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "segment_B": {
+        "xup_xor2_0": "",
+        "xup_and2_0": ""
+      }
+    },
+    "ports": {
+      "X2": {
+        "direction": "I"
+      },
+      "X1": {
+        "direction": "I"
+      },
+      "X0": {
+        "direction": "I"
+      },
+      "B": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "segment_B": {
+        "ports": {
+          "X1": {
+            "direction": "I"
+          },
+          "X0": {
+            "direction": "I"
+          },
+          "X2": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "xup_xor2_0": {
+            "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+            "xci_name": "Segment_B_xup_xor2_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_and2_0": {
+            "vlnv": "xilinx.com:xup:xup_and2:1.0",
+            "xci_name": "Segment_B_xup_and2_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "xup_xor2_0_y": {
+            "ports": [
+              "xup_xor2_0/y",
+              "xup_and2_0/a"
+            ]
+          },
+          "X1_1": {
+            "ports": [
+              "X1",
+              "xup_xor2_0/a"
+            ]
+          },
+          "X0_1": {
+            "ports": [
+              "X0",
+              "xup_xor2_0/b"
+            ]
+          },
+          "X2_1": {
+            "ports": [
+              "X2",
+              "xup_and2_0/b"
+            ]
+          },
+          "xup_and2_0_y": {
+            "ports": [
+              "xup_and2_0/y",
+              "B"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "xup_and2_0_y": {
+        "ports": [
+          "segment_B/B",
+          "B"
+        ]
+      },
+      "X2_1": {
+        "ports": [
+          "X2",
+          "segment_B/X2"
+        ]
+      },
+      "X0_1": {
+        "ports": [
+          "X0",
+          "segment_B/X0"
+        ]
+      },
+      "X1_1": {
+        "ports": [
+          "X1",
+          "segment_B/X1"
+        ]
+      }
+    }
+  }
+}

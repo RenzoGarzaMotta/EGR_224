@@ -1,0 +1,547 @@
+
+*** Running vivado
+    with args -log Seg_Decoder_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg_Decoder_wrapper.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source Seg_Decoder_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top Seg_Decoder_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5828 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 408.023 ; gain = 103.191
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_wrapper' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/hdl/Seg_Decoder_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_imp_1HTEPN8' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:74]
+INFO: [Synth 8-6157] synthesizing module 'segment_A_imp_134OHQI' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:162]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_0' (1#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and4_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and4_0_0' (2#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_0' (3#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_0' (4#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_0' (5#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_3_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_3_0' (6#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_4_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_4_0' (7#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_0' (8#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_A_imp_134OHQI' (9#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:162]
+INFO: [Synth 8-6157] synthesizing module 'segment_B_imp_1XJ4C3E' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:224]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_0' (10#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_xor2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_xor2_0_0' (11#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_B_imp_1XJ4C3E' (12#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:224]
+INFO: [Synth 8-6157] synthesizing module 'segment_C_imp_QZAX5H' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:254]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_1' (13#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_1' (14#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_1' (15#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_C_imp_QZAX5H' (16#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:254]
+INFO: [Synth 8-6157] synthesizing module 'segment_D_imp_6082XM' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:288]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_1' (17#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and4_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and4_0_1' (18#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_2' (19#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_2' (20#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_1' (21#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_3_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_3_1' (22#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_1' (23#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_xor2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_xor2_0_1' (24#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_D_imp_6082XM' (25#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:288]
+INFO: [Synth 8-6157] synthesizing module 'segment_E_imp_13EFID1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:350]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_2' (26#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_3' (27#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_2' (28#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_E_imp_13EFID1' (29#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:350]
+INFO: [Synth 8-6157] synthesizing module 'segment_F_imp_1X9CV9H' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:384]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_3' (30#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_1_0' (31#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_2_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_2_0' (32#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_4' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_4' (33#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_2' (34#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_3' (35#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_1_0' (36#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_F_imp_1X9CV9H' (37#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:384]
+INFO: [Synth 8-6157] synthesizing module 'segment_G_imp_R97HNU' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:441]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_2' (38#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_1_0' (39#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_5' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_5' (40#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_3' (41#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_3' (42#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_4' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_4' (43#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/.Xil/Vivado-7688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_G_imp_R97HNU' (44#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:441]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_imp_1HTEPN8' (45#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder' (46#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_wrapper' (47#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/hdl/Seg_Decoder_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 463.332 ; gain = 158.500
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 463.332 ; gain = 158.500
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 463.332 ; gain = 158.500
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_0/Seg_Decoder_xup_inv_0_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_0/Seg_Decoder_xup_inv_0_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_0/Seg_Decoder_xup_inv_1_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_0/Seg_Decoder_xup_inv_1_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_0/Seg_Decoder_xup_inv_2_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_2'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_0/Seg_Decoder_xup_inv_2_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_2'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_0/Seg_Decoder_xup_inv_3_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_3'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_0/Seg_Decoder_xup_inv_3_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_3'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_4_0/Seg_Decoder_xup_inv_4_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_4'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_4_0/Seg_Decoder_xup_inv_4_0/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_4'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_0/Seg_Decoder_xup_and3_0_0/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and3_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_0/Seg_Decoder_xup_and3_0_0/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and3_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_0/Seg_Decoder_xup_and4_0_0/Seg_Decoder_xup_and4_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and4_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_0/Seg_Decoder_xup_and4_0_0/Seg_Decoder_xup_and4_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and4_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_0/Seg_Decoder_xup_or2_0_0/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_or2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_0/Seg_Decoder_xup_or2_0_0/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_or2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_0/Seg_Decoder_xup_xor2_0_0/Seg_Decoder_xup_xor2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_xor2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_0/Seg_Decoder_xup_xor2_0_0/Seg_Decoder_xup_xor2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_xor2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_0/Seg_Decoder_xup_and2_0_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_and2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_0/Seg_Decoder_xup_and2_0_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_and2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_1/Seg_Decoder_xup_and3_0_1/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_and3_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_1/Seg_Decoder_xup_and3_0_1/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_and3_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_1/Seg_Decoder_xup_inv_0_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_1/Seg_Decoder_xup_inv_0_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_1/Seg_Decoder_xup_inv_1_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_1/Seg_Decoder_xup_inv_1_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_1/Seg_Decoder_xup_and4_0_1/Seg_Decoder_xup_and4_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and4_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_1/Seg_Decoder_xup_and4_0_1/Seg_Decoder_xup_and4_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and4_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_1/Seg_Decoder_xup_xor2_0_1/Seg_Decoder_xup_xor2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_xor2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_1/Seg_Decoder_xup_xor2_0_1/Seg_Decoder_xup_xor2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_xor2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_2/Seg_Decoder_xup_inv_0_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_2/Seg_Decoder_xup_inv_0_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_2/Seg_Decoder_xup_inv_1_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_2/Seg_Decoder_xup_inv_1_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_1/Seg_Decoder_xup_inv_2_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_2'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_1/Seg_Decoder_xup_inv_2_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_2'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_1/Seg_Decoder_xup_and2_0_1/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_1/Seg_Decoder_xup_and2_0_1/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_1/Seg_Decoder_xup_inv_3_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_3'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_1/Seg_Decoder_xup_inv_3_1/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_3'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_1/Seg_Decoder_xup_or2_0_1/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_or2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_1/Seg_Decoder_xup_or2_0_1/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_or2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_3/Seg_Decoder_xup_inv_0_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_3/Seg_Decoder_xup_inv_0_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_2/Seg_Decoder_xup_and2_0_2/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_and2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_2/Seg_Decoder_xup_and2_0_2/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_and2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_2/Seg_Decoder_xup_or2_0_2/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_or2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_2/Seg_Decoder_xup_or2_0_2/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_or2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_4/Seg_Decoder_xup_inv_0_4/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_4/Seg_Decoder_xup_inv_0_4/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_2/Seg_Decoder_xup_inv_2_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_2'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_2/Seg_Decoder_xup_inv_2_2/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_2'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_3/Seg_Decoder_xup_and2_0_3/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_3/Seg_Decoder_xup_and2_0_3/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_3/Seg_Decoder_xup_or2_0_3/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_3/Seg_Decoder_xup_or2_0_3/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_1_0/Seg_Decoder_xup_and2_1_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_1_0/Seg_Decoder_xup_and2_1_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_2_0/Seg_Decoder_xup_and2_2_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_2'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_2_0/Seg_Decoder_xup_and2_2_0/Seg_Decoder_xup_and2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_2'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_1_0/Seg_Decoder_xup_or2_1_0/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_1_0/Seg_Decoder_xup_or2_1_0/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_2/Seg_Decoder_xup_and3_0_2/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_2/Seg_Decoder_xup_and3_0_2/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_1_0/Seg_Decoder_xup_and3_1_0/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_1_0/Seg_Decoder_xup_and3_1_0/Seg_Decoder_xup_and3_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_5/Seg_Decoder_xup_inv_0_5/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_5/Seg_Decoder_xup_inv_0_5/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_0'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_3/Seg_Decoder_xup_inv_1_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_1'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_3/Seg_Decoder_xup_inv_1_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_1'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_3/Seg_Decoder_xup_inv_2_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_2'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_3/Seg_Decoder_xup_inv_2_3/Seg_Decoder_xup_inv_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_2'
+Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_4/Seg_Decoder_xup_or2_0_4/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_or2_0'
+Finished Parsing XDC File [c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_4/Seg_Decoder_xup_or2_0_4/Seg_Decoder_xup_or2_0_0_in_context.xdc] for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_or2_0'
+Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc]
+Finished Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc]
+Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 762.754 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 762.754 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 762.754 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 762.754 ; gain = 457.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 762.754 ; gain = 457.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_and4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_A/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_B/xup_xor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_B/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_C/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_and4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_xor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_D/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_E/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_E/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_E/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for Seg_Decoder_i/Seg_Decoder/segment_G/xup_or2_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 762.754 ; gain = 457.922
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 762.754 ; gain = 457.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 762.754 ; gain = 457.922
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 770.066 ; gain = 465.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 770.215 ; gain = 465.383
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:18 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------+----------+
+|      |BlackBox name            |Instances |
++------+-------------------------+----------+
+|1     |Seg_Decoder_xup_and3_0_0 |         1|
+|2     |Seg_Decoder_xup_and4_0_0 |         1|
+|3     |Seg_Decoder_xup_inv_0_0  |         1|
+|4     |Seg_Decoder_xup_inv_1_0  |         1|
+|5     |Seg_Decoder_xup_inv_2_0  |         1|
+|6     |Seg_Decoder_xup_inv_3_0  |         1|
+|7     |Seg_Decoder_xup_inv_4_0  |         1|
+|8     |Seg_Decoder_xup_or2_0_0  |         1|
+|9     |Seg_Decoder_xup_and2_0_0 |         1|
+|10    |Seg_Decoder_xup_xor2_0_0 |         1|
+|11    |Seg_Decoder_xup_and3_0_1 |         1|
+|12    |Seg_Decoder_xup_inv_0_1  |         1|
+|13    |Seg_Decoder_xup_inv_1_1  |         1|
+|14    |Seg_Decoder_xup_and2_0_1 |         1|
+|15    |Seg_Decoder_xup_and4_0_1 |         1|
+|16    |Seg_Decoder_xup_inv_0_2  |         1|
+|17    |Seg_Decoder_xup_inv_1_2  |         1|
+|18    |Seg_Decoder_xup_inv_2_1  |         1|
+|19    |Seg_Decoder_xup_inv_3_1  |         1|
+|20    |Seg_Decoder_xup_or2_0_1  |         1|
+|21    |Seg_Decoder_xup_xor2_0_1 |         1|
+|22    |Seg_Decoder_xup_and2_0_2 |         1|
+|23    |Seg_Decoder_xup_inv_0_3  |         1|
+|24    |Seg_Decoder_xup_or2_0_2  |         1|
+|25    |Seg_Decoder_xup_and2_0_3 |         1|
+|26    |Seg_Decoder_xup_and2_1_0 |         1|
+|27    |Seg_Decoder_xup_and2_2_0 |         1|
+|28    |Seg_Decoder_xup_inv_0_4  |         1|
+|29    |Seg_Decoder_xup_inv_2_2  |         1|
+|30    |Seg_Decoder_xup_or2_0_3  |         1|
+|31    |Seg_Decoder_xup_or2_1_0  |         1|
+|32    |Seg_Decoder_xup_and3_0_2 |         1|
+|33    |Seg_Decoder_xup_and3_1_0 |         1|
+|34    |Seg_Decoder_xup_inv_0_5  |         1|
+|35    |Seg_Decoder_xup_inv_1_3  |         1|
+|36    |Seg_Decoder_xup_inv_2_3  |         1|
+|37    |Seg_Decoder_xup_or2_0_4  |         1|
++------+-------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------+------+
+|      |Cell                     |Count |
++------+-------------------------+------+
+|1     |Seg_Decoder_xup_and2_0_0 |     1|
+|2     |Seg_Decoder_xup_and2_0_1 |     1|
+|3     |Seg_Decoder_xup_and2_0_2 |     1|
+|4     |Seg_Decoder_xup_and2_0_3 |     1|
+|5     |Seg_Decoder_xup_and2_1_0 |     1|
+|6     |Seg_Decoder_xup_and2_2_0 |     1|
+|7     |Seg_Decoder_xup_and3_0_0 |     1|
+|8     |Seg_Decoder_xup_and3_0_1 |     1|
+|9     |Seg_Decoder_xup_and3_0_2 |     1|
+|10    |Seg_Decoder_xup_and3_1_0 |     1|
+|11    |Seg_Decoder_xup_and4_0_0 |     1|
+|12    |Seg_Decoder_xup_and4_0_1 |     1|
+|13    |Seg_Decoder_xup_inv_0_0  |     1|
+|14    |Seg_Decoder_xup_inv_0_1  |     1|
+|15    |Seg_Decoder_xup_inv_0_2  |     1|
+|16    |Seg_Decoder_xup_inv_0_3  |     1|
+|17    |Seg_Decoder_xup_inv_0_4  |     1|
+|18    |Seg_Decoder_xup_inv_0_5  |     1|
+|19    |Seg_Decoder_xup_inv_1_0  |     1|
+|20    |Seg_Decoder_xup_inv_1_1  |     1|
+|21    |Seg_Decoder_xup_inv_1_2  |     1|
+|22    |Seg_Decoder_xup_inv_1_3  |     1|
+|23    |Seg_Decoder_xup_inv_2_0  |     1|
+|24    |Seg_Decoder_xup_inv_2_1  |     1|
+|25    |Seg_Decoder_xup_inv_2_2  |     1|
+|26    |Seg_Decoder_xup_inv_2_3  |     1|
+|27    |Seg_Decoder_xup_inv_3_0  |     1|
+|28    |Seg_Decoder_xup_inv_3_1  |     1|
+|29    |Seg_Decoder_xup_inv_4_0  |     1|
+|30    |Seg_Decoder_xup_or2_0_0  |     1|
+|31    |Seg_Decoder_xup_or2_0_1  |     1|
+|32    |Seg_Decoder_xup_or2_0_2  |     1|
+|33    |Seg_Decoder_xup_or2_0_3  |     1|
+|34    |Seg_Decoder_xup_or2_0_4  |     1|
+|35    |Seg_Decoder_xup_or2_1_0  |     1|
+|36    |Seg_Decoder_xup_xor2_0_0 |     1|
+|37    |Seg_Decoder_xup_xor2_0_1 |     1|
+|38    |IBUF                     |     4|
+|39    |OBUF                     |     7|
++------+-------------------------+------+
+
+Report Instance Areas: 
++------+----------------+------------------------+------+
+|      |Instance        |Module                  |Cells |
++------+----------------+------------------------+------+
+|1     |top             |                        |    48|
+|2     |  Seg_Decoder_i |Seg_Decoder             |    37|
+|3     |    Seg_Decoder |Seg_Decoder_imp_1HTEPN8 |    37|
+|4     |      segment_A |segment_A_imp_134OHQI   |     8|
+|5     |      segment_B |segment_B_imp_1XJ4C3E   |     2|
+|6     |      segment_C |segment_C_imp_QZAX5H    |     3|
+|7     |      segment_D |segment_D_imp_6082XM    |     8|
+|8     |      segment_E |segment_E_imp_13EFID1   |     3|
+|9     |      segment_F |segment_F_imp_1X9CV9H   |     7|
+|10    |      segment_G |segment_G_imp_R97HNU    |     6|
++------+----------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 779.746 ; gain = 474.914
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 779.746 ; gain = 175.492
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 779.746 ; gain = 474.914
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.602 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+106 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 788.605 ; gain = 495.242
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 788.605 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/Seg_Decoder_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Seg_Decoder_wrapper_utilization_synth.rpt -pb Seg_Decoder_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 30 22:01:45 2020...

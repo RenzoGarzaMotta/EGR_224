@@ -1,0 +1,469 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 30 21:50:35 2020
+# Process ID: 3688
+# Current directory: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2076 C:\Users\vonehrka\EGR_224\EGR_224_Lab4_7_Segment\EGR_224_Lab4_7_Segment.xpr
+# Log file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/vivado.log
+# Journal file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:08 . Memory (MB): peak = 779.234 ; gain = 181.188
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'Segment_tb' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj Segment_tb_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_0/sim/Seg_Decoder_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_0/sim/Seg_Decoder_xup_inv_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_0/sim/Seg_Decoder_xup_inv_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_0/sim/Seg_Decoder_xup_inv_3_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_3_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_4_0/sim/Seg_Decoder_xup_inv_4_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_4_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/b79c/xup_and3.srcs/sources_1/new/xup_and3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_0/sim/Seg_Decoder_xup_and3_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and3_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/77ea/xup_and4.srcs/sources_1/new/xup_and4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_0/sim/Seg_Decoder_xup_and4_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and4_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/1ec9/xup_or2.srcs/sources_1/new/xup_or2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_or2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_0/sim/Seg_Decoder_xup_or2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_xor2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_0/sim/Seg_Decoder_xup_xor2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_xor2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ipshared/778c/xup_and2.srcs/sources_1/new/xup_and2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_and2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_0/sim/Seg_Decoder_xup_and2_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_1/sim/Seg_Decoder_xup_and3_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and3_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_1/sim/Seg_Decoder_xup_inv_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_1/sim/Seg_Decoder_xup_inv_1_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_1_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_1/sim/Seg_Decoder_xup_and4_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and4_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_1/sim/Seg_Decoder_xup_xor2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_xor2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_2/sim/Seg_Decoder_xup_inv_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_2/sim/Seg_Decoder_xup_inv_1_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_1_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_1/sim/Seg_Decoder_xup_inv_2_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_2_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_1/sim/Seg_Decoder_xup_and2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_1/sim/Seg_Decoder_xup_inv_3_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_3_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_1/sim/Seg_Decoder_xup_or2_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_3/sim/Seg_Decoder_xup_inv_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_2/sim/Seg_Decoder_xup_and2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_2/sim/Seg_Decoder_xup_or2_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_4/sim/Seg_Decoder_xup_inv_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_2/sim/Seg_Decoder_xup_inv_2_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_2_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_3/sim/Seg_Decoder_xup_and2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_3/sim/Seg_Decoder_xup_or2_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_1_0/sim/Seg_Decoder_xup_and2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_2_0/sim/Seg_Decoder_xup_and2_2_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and2_2_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_1_0/sim/Seg_Decoder_xup_or2_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_2/sim/Seg_Decoder_xup_and3_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and3_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_1_0/sim/Seg_Decoder_xup_and3_1_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_and3_1_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_5/sim/Seg_Decoder_xup_inv_0_5.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_0_5
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_3/sim/Seg_Decoder_xup_inv_1_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_1_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_3/sim/Seg_Decoder_xup_inv_2_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_inv_2_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_4/sim/Seg_Decoder_xup_or2_0_4.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_xup_or2_0_4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.ip_user_files/bd/Seg_Decoder/sim/Seg_Decoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_imp_1HTEPN8
+INFO: [VRFC 10-311] analyzing module segment_A_imp_134OHQI
+INFO: [VRFC 10-311] analyzing module segment_B_imp_1XJ4C3E
+INFO: [VRFC 10-311] analyzing module segment_C_imp_QZAX5H
+INFO: [VRFC 10-311] analyzing module segment_D_imp_6082XM
+INFO: [VRFC 10-311] analyzing module segment_E_imp_13EFID1
+INFO: [VRFC 10-311] analyzing module segment_F_imp_1X9CV9H
+INFO: [VRFC 10-311] analyzing module segment_G_imp_R97HNU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/hdl/Seg_Decoder_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Seg_Decoder_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sim_1/new/Segment_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Segment_tb
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1263.785 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '5' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 3ac3e2061eec47b3b289ae4bd08432d2 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Segment_tb_behav xil_defaultlib.Segment_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_and3(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_and3_0_0
+Compiling module xil_defaultlib.xup_and4(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_and4_0_0
+Compiling module xil_defaultlib.xup_inv(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_1_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_2_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_3_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_4_0
+Compiling module xil_defaultlib.xup_or2(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_0_0
+Compiling module xil_defaultlib.segment_A_imp_134OHQI
+Compiling module xil_defaultlib.xup_and2(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_0_0
+Compiling module xil_defaultlib.xup_xor2(DELAY=0)
+Compiling module xil_defaultlib.Seg_Decoder_xup_xor2_0_0
+Compiling module xil_defaultlib.segment_B_imp_1XJ4C3E
+Compiling module xil_defaultlib.Seg_Decoder_xup_and3_0_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_1_1
+Compiling module xil_defaultlib.segment_C_imp_QZAX5H
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_0_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_and4_0_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_2
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_1_2
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_2_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_3_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_0_1
+Compiling module xil_defaultlib.Seg_Decoder_xup_xor2_0_1
+Compiling module xil_defaultlib.segment_D_imp_6082XM
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_0_2
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_3
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_0_2
+Compiling module xil_defaultlib.segment_E_imp_13EFID1
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_0_3
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_1_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_and2_2_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_4
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_2_2
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_0_3
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_1_0
+Compiling module xil_defaultlib.segment_F_imp_1X9CV9H
+Compiling module xil_defaultlib.Seg_Decoder_xup_and3_0_2
+Compiling module xil_defaultlib.Seg_Decoder_xup_and3_1_0
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_0_5
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_1_3
+Compiling module xil_defaultlib.Seg_Decoder_xup_inv_2_3
+Compiling module xil_defaultlib.Seg_Decoder_xup_or2_0_4
+Compiling module xil_defaultlib.segment_G_imp_R97HNU
+Compiling module xil_defaultlib.Seg_Decoder_imp_1HTEPN8
+Compiling module xil_defaultlib.Seg_Decoder
+Compiling module xil_defaultlib.Seg_Decoder_wrapper
+Compiling module xil_defaultlib.Segment_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot Segment_tb_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim/xsim.dir/Segment_tb_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim/xsim.dir/Segment_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Jan 30 21:51:32 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Jan 30 21:51:32 2020...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Segment_tb_behav -key {Behavioral:sim_1:Functional:Segment_tb} -tclbatch {Segment_tb.tcl} -protoinst "protoinst_files/Seg_Decoder.protoinst" -protoinst "protoinst_files/Segment_A.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Seg_Decoder.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Segment_A.protoinst
+WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Segment_A.protoinst for the following reason(s):
+There are no instances of module "Segment_A" in the design.
+
+Time resolution is 1 ps
+source Segment_tb.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+$finish called at time : 1 us : File "C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sim_1/new/Segment_tb.v" Line 36
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Segment_tb_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:14 . Memory (MB): peak = 1301.422 ; gain = 37.637
+file mkdir C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1
+file mkdir C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new
+close [ open C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc w ]
+add_files -fileset constrs_1 C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc
+launch_runs synth_1
+[Thu Jan 30 22:01:16 2020] Launched synth_1...
+Run output will be captured here: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/synth_1/runme.log
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/Seg_Decoder.bd]
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a35tcpg236-1
+Top: Seg_Decoder_wrapper
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1301.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_wrapper' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/hdl/Seg_Decoder_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_imp_1HTEPN8' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:74]
+INFO: [Synth 8-6157] synthesizing module 'segment_A_imp_134OHQI' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:162]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_0' (1#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and4_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and4_0_0' (2#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_0' (3#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_0' (4#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_0' (5#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_3_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_3_0' (6#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_4_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_4_0' (7#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_0' (8#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_A_imp_134OHQI' (9#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:162]
+INFO: [Synth 8-6157] synthesizing module 'segment_B_imp_1XJ4C3E' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:224]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_0' (10#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_xor2_0_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_xor2_0_0' (11#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_B_imp_1XJ4C3E' (12#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:224]
+INFO: [Synth 8-6157] synthesizing module 'segment_C_imp_QZAX5H' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:254]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_1' (13#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_1' (14#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_1' (15#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_C_imp_QZAX5H' (16#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:254]
+INFO: [Synth 8-6157] synthesizing module 'segment_D_imp_6082XM' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:288]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_1' (17#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and4_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and4_0_1' (18#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_2' (19#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_2' (20#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_1' (21#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_3_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_3_1' (22#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_1' (23#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_xor2_0_1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_xor2_0_1' (24#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_D_imp_6082XM' (25#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:288]
+INFO: [Synth 8-6157] synthesizing module 'segment_E_imp_13EFID1' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:350]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_2' (26#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_3' (27#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_2' (28#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_E_imp_13EFID1' (29#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:350]
+INFO: [Synth 8-6157] synthesizing module 'segment_F_imp_1X9CV9H' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:384]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_0_3' (30#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_1_0' (31#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and2_2_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and2_2_0' (32#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_4' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_4' (33#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_2' (34#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_3' (35#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_1_0' (36#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_F_imp_1X9CV9H' (37#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:384]
+INFO: [Synth 8-6157] synthesizing module 'segment_G_imp_R97HNU' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:441]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_0_2' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_0_2' (38#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_and3_1_0' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_and3_1_0' (39#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_0_5' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_0_5' (40#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_1_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_1_3' (41#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_inv_2_3' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_inv_2_3' (42#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_xup_or2_0_4' [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_xup_or2_0_4' (43#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/.Xil/Vivado-3688-KEN344-03/realtime/Seg_Decoder_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_G_imp_R97HNU' (44#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:441]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_imp_1HTEPN8' (45#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder' (46#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/synth/Seg_Decoder.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_wrapper' (47#1) [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/hdl/Seg_Decoder_wrapper.v:12]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1301.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1301.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1301.422 ; gain = 0.000
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_0/Seg_Decoder_xup_and3_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and3_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_0/Seg_Decoder_xup_and4_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_and4_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_0/Seg_Decoder_xup_inv_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_0/Seg_Decoder_xup_inv_1_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_0/Seg_Decoder_xup_inv_2_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_0/Seg_Decoder_xup_inv_3_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_3'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_4_0/Seg_Decoder_xup_inv_4_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_inv_4'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_0/Seg_Decoder_xup_or2_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_A/xup_or2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_0/Seg_Decoder_xup_and2_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_and2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_0/Seg_Decoder_xup_xor2_0_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_B/xup_xor2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_1/Seg_Decoder_xup_and3_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_and3_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_1/Seg_Decoder_xup_inv_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_1/Seg_Decoder_xup_inv_1_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_C/xup_inv_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_1/Seg_Decoder_xup_and2_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and4_0_1/Seg_Decoder_xup_and4_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_and4_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_2/Seg_Decoder_xup_inv_0_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_2/Seg_Decoder_xup_inv_1_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_1/Seg_Decoder_xup_inv_2_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_3_1/Seg_Decoder_xup_inv_3_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_inv_3'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_1/Seg_Decoder_xup_or2_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_or2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_xor2_0_1/Seg_Decoder_xup_xor2_0_1.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_D/xup_xor2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_2/Seg_Decoder_xup_and2_0_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_and2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_3/Seg_Decoder_xup_inv_0_3.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_2/Seg_Decoder_xup_or2_0_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_E/xup_or2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_0_3/Seg_Decoder_xup_and2_0_3.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_1_0/Seg_Decoder_xup_and2_1_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and2_2_0/Seg_Decoder_xup_and2_2_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_and2_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_4/Seg_Decoder_xup_inv_0_4.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_2/Seg_Decoder_xup_inv_2_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_inv_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_3/Seg_Decoder_xup_or2_0_3.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_1_0/Seg_Decoder_xup_or2_1_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_F/xup_or2_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_0_2/Seg_Decoder_xup_and3_0_2.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_and3_1_0/Seg_Decoder_xup_and3_1_0.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_and3_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_0_5/Seg_Decoder_xup_inv_0_5.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_0'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_1_3/Seg_Decoder_xup_inv_1_3.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_1'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_inv_2_3/Seg_Decoder_xup_inv_2_3.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_inv_2'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/ip/Seg_Decoder_xup_or2_0_4/Seg_Decoder_xup_or2_0_4.dcp' for cell 'Seg_Decoder_i/Seg_Decoder/segment_G/xup_or2_0'
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 4 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-141] Inserted 7 OBUFs to IO ports without IO buffers.
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc]
+Finished Parsing XDC File [C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1344.215 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1374.371 ; gain = 72.949
+138 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:15 ; elapsed = 00:00:11 . Memory (MB): peak = 1374.371 ; gain = 72.949
+set_property package_pin "" [get_ports [list  A]]
+place_ports A W7
+place_ports B W6
+place_ports C U8
+place_ports D V8
+place_ports E U5
+place_ports F V5
+place_ports G U7
+place_ports X3 R2
+place_ports X2 T1
+place_ports X1 U1
+place_ports X0 W2
+set_property IOSTANDARD LVCMOS33 [get_ports [list A]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list B]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list C]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list D]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list E]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list F]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list G]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X3]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X3]]
+place_ports X3 W17
+place_ports X2 W16
+place_ports X1 V16
+place_ports X0 V17
+set_property target_constrs_file C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc [current_fileset -constrset]
+save_constraints -force
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1377.449 ; gain = 0.000
+close_design
+launch_runs impl_1
+[Thu Jan 30 22:09:34 2020] Launched impl_1...
+Run output will be captured here: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Thu Jan 30 22:11:14 2020] Launched impl_1...
+Run output will be captured here: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.runs/impl_1/runme.log
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 30 22:40:20 2020...

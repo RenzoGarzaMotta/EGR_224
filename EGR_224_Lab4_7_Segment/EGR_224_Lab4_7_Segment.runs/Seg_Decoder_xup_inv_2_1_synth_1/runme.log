@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log Seg_Decoder_xup_inv_2_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Seg_Decoder_xup_inv_2_1.tcl
+

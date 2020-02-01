@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Jan 30 21:50:35 2020
+# Process ID: 3688
+# Current directory: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2076 C:\Users\vonehrka\EGR_224\EGR_224_Lab4_7_Segment\EGR_224_Lab4_7_Segment.xpr
+# Log file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/vivado.log
+# Journal file: C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+launch_simulation
+source Segment_tb.tcl
+file mkdir C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1
+file mkdir C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new
+close [ open C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc w ]
+add_files -fileset constrs_1 C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc
+launch_runs synth_1
+wait_on_run synth_1
+create_ip_run [get_files -of_objects [get_fileset sources_1] C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/sources_1/bd/Seg_Decoder/Seg_Decoder.bd]
+synth_design -rtl -name rtl_1
+set_property package_pin "" [get_ports [list  A]]
+place_ports A W7
+place_ports B W6
+place_ports C U8
+place_ports D V8
+place_ports E U5
+place_ports F V5
+place_ports G U7
+place_ports X3 R2
+place_ports X2 T1
+place_ports X1 U1
+place_ports X0 W2
+set_property IOSTANDARD LVCMOS33 [get_ports [list A]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list B]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list C]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list D]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list E]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list F]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list G]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X0]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X1]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X2]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X3]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list X3]]
+place_ports X3 W17
+place_ports X2 W16
+place_ports X1 V16
+place_ports X0 V17
+set_property target_constrs_file C:/Users/vonehrka/EGR_224/EGR_224_Lab4_7_Segment/EGR_224_Lab4_7_Segment.srcs/constrs_1/new/pins.xdc [current_fileset -constrset]
+save_constraints -force
+close_design
+launch_runs impl_1
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream
+wait_on_run impl_1
+close_sim

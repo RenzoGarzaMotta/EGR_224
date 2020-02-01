@@ -1,0 +1,37 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port X3 -pg 1 -y 170 -defaultsOSRD
+preplace port A -pg 1 -y 90 -defaultsOSRD
+preplace port B -pg 1 -y 230 -defaultsOSRD
+preplace port C -pg 1 -y 360 -defaultsOSRD
+preplace port D -pg 1 -y 500 -defaultsOSRD
+preplace port E -pg 1 -y 640 -defaultsOSRD
+preplace port F -pg 1 -y 780 -defaultsOSRD
+preplace port G -pg 1 -y 930 -defaultsOSRD
+preplace port X0 -pg 1 -y 150 -defaultsOSRD
+preplace port X1 -pg 1 -y 130 -defaultsOSRD
+preplace port X2 -pg 1 -y 190 -defaultsOSRD
+preplace inst segment_A -pg 1 -lvl 1 -y 82 -defaultsOSRD
+preplace inst segment_B -pg 1 -lvl 1 -y 230 -defaultsOSRD
+preplace inst segment_C -pg 1 -lvl 1 -y 360 -defaultsOSRD
+preplace inst segment_D -pg 1 -lvl 1 -y 610 -defaultsOSRD
+preplace inst segment_E -pg 1 -lvl 1 -y 750 -defaultsOSRD
+preplace inst segment_F -pg 1 -lvl 1 -y 890 -defaultsOSRD
+preplace inst segment_G -pg 1 -lvl 1 -y 1040 -defaultsOSRD
+preplace netloc xup_or2_0_y3 1 1 1 820J
+preplace netloc xup_or3_0_y 1 1 1 820J
+preplace netloc a_2_1 1 0 1 10J
+preplace netloc a_1_1 1 0 1 -10J
+preplace netloc xup_or2_0_y 1 1 1 820J
+preplace netloc xup_and3_0_y 1 1 1 NJ
+preplace netloc xup_or2_0_y1 1 1 1 820J
+preplace netloc xup_and2_0_y 1 1 1 NJ
+preplace netloc a_0_1 1 0 1 20J
+preplace netloc xup_or2_0_y2 1 1 1 820J
+preplace netloc a_0_2 1 0 1 0J
+levelinfo -pg 1 -30 750 840 -top -130 -bot 1570
+"
+}
+
