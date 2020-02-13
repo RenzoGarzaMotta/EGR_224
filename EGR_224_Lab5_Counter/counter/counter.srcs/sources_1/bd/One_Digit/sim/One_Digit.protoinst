@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"One_Digit": {
+			"proto_instances": {
+			}
+		}
+	}
+}

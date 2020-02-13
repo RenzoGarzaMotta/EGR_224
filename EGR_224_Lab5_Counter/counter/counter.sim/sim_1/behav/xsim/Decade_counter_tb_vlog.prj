@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../counter.ip_user_files/bd/Decade_counter/ip/Decade_counter_c_counter_binary_0_0/Decade_counter_c_counter_binary_0_0_sim_netlist.v" \
+"../../../../counter.ip_user_files/bd/Decade_counter/sim/Decade_counter.v" \
+"../../../../counter.srcs/sources_1/bd/Decade_counter/hdl/Decade_counter_wrapper.v" \
+"../../../../counter.srcs/sim_1/new/Decade_counter_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb  6 18:31:48 2020
+# Process ID: 11512
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/One_Digit_xup_inv_0_2_synth_1
+# Command line: vivado.exe -log One_Digit_xup_inv_0_2.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source One_Digit_xup_inv_0_2.tcl
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/One_Digit_xup_inv_0_2_synth_1/One_Digit_xup_inv_0_2.vds
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/One_Digit_xup_inv_0_2_synth_1\vivado.jou
+#-----------------------------------------------------------
+source One_Digit_xup_inv_0_2.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP One_Digit_xup_inv_0_2, cache-ID = df9703f2dbb36d6e.
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  6 18:31:53 2020...

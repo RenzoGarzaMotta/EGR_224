@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb  6 18:37:35 2020
+# Process ID: 8528
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/impl_1
+# Command line: vivado.exe -log One_Digit_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source One_Digit_wrapper.tcl -notrace
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/impl_1/One_Digit_wrapper.vdi
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source One_Digit_wrapper.tcl -notrace

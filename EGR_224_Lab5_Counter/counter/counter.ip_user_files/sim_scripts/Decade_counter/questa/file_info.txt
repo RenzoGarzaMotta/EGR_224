@@ -1,0 +1,2 @@
+Decade_counter.v,verilog,xil_defaultlib,../../../bd/Decade_counter/sim/Decade_counter.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

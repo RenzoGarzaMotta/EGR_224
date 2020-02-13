@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Decade_counter": {
+			"proto_instances": {
+			}
+		}
+	}
+}

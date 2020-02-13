@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Feb  4 21:50:39 2020
+# Process ID: 5680
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2860 C:\Users\garzamor\EGR224\EGR_224_Lab5_\counter\counter.xpr
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/vivado.log
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Decade_counter_tb.tcl
+close_sim
+launch_simulation
+launch_simulation
+open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/Decade_counter/Decade_counter.bd}
+launch_simulation
+launch_simulation
+source Decade_counter_tb.tcl
