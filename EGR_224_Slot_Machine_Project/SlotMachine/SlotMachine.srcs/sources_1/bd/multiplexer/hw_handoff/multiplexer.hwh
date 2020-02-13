@@ -1,0 +1,3623 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Feb 13 08:35:26 2020" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="multiplexer" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="O" NAME="A" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="B" SIGIS="undef" SIGNAME="Seg_Decoder_segment_B_xup_and2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_and2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="C" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_and3_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_and3_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="E" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="G" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="External_Ports_clkin">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_0" PORT="clkin"/>
+        <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_0" PORT="clkin"/>
+        <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_0" PORT="clkin"/>
+        <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_0" PORT="clkin"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="AN2_0" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="AN1_0" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_2_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="AN0_0" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_3_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" LEFT="0" NAME="AN3_0" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="5" FULLNAME="/Enable_Mux/xlconstant_GND" HWVERSION="1.1" INSTANCE="Enable_Mux_xlconstant_GND" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlconstant_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_GND_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="a"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="b"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="c"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/Enable_Mux/xlconstant_VCC" HWVERSION="1.1" INSTANCE="Enable_Mux_xlconstant_VCC" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlconstant_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="0" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="a"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="c"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="d"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="d"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="c"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="b"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="a"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="b"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="d"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="a"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="b"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Enable_Mux/xup_4_to_1_mux_vector_0" HWVERSION="1.0" INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_4_to_1_mux_vector" VLNV="xilinx.com:xup:xup_4_to_1_mux_vector:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="1"/>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_4_to_1_mux_vector_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_GND_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_GND" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN3_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Enable_Mux/xup_4_to_1_mux_vector_1" HWVERSION="1.0" INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_4_to_1_mux_vector" VLNV="xilinx.com:xup:xup_4_to_1_mux_vector:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="1"/>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_4_to_1_mux_vector_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_GND_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_GND" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN2_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Enable_Mux/xup_4_to_1_mux_vector_2" HWVERSION="1.0" INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_4_to_1_mux_vector" VLNV="xilinx.com:xup:xup_4_to_1_mux_vector:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="1"/>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_4_to_1_mux_vector_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_GND_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_GND" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN1_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/Enable_Mux/xup_4_to_1_mux_vector_3" HWVERSION="1.0" INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_4_to_1_mux_vector" VLNV="xilinx.com:xup:xup_4_to_1_mux_vector:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="1"/>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_4_to_1_mux_vector_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="0" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_VCC_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_VCC" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="0" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xlconstant_GND_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Enable_Mux_xlconstant_GND" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="Enable_Mux_xup_4_to_1_mux_vector_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="AN0_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_and3_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and3_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_and4_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_and4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_4" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_inv_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_inv_2" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_inv_3" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_inv_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_inv_4" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_inv_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_inv_4_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_A/xup_or2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_A_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_A_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_B/xup_and2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_B_xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_B_xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_xor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_B_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_B/xup_xor2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_B_xup_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_xor2_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_B_xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_and2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_C/xup_and3_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_C_xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and3_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_C/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_C_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_and3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_C/xup_inv_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_C_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_C_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_and3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_and2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_xor2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_and4_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_and4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_xor2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_inv_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and4_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_inv_2" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and4_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_inv_3" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_inv_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_3_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and4_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_or2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_and4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and4_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_D/xup_xor2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_D_xup_xor2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_xor2" VLNV="xilinx.com:xup:xup_xor2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_xor2_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_D_xup_xor2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_E/xup_and2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_E_xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_E/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_E_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_and2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_E/xup_or2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_E_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_E_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_and2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_and2_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_and2_2" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and2_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_inv_2" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_2_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_or2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_F/xup_or2_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_F_xup_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_and2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_F_xup_or2_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_and3_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_and3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and3_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_or2_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_and3_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_and3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and3" VLNV="xilinx.com:xup:xup_and3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_and3_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_or2_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_inv_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_inv_1" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_inv_2" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_inv_2_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Seg_Decoder/segment_G/xup_or2_0" HWVERSION="1.0" INSTANCE="Seg_Decoder_segment_G_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_or2_0_4"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_and3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_and3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Seg_Decoder_segment_G_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="G"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="12" FULLNAME="/c_counter_binary_0" HWVERSION="12.0" INSTANCE="c_counter_binary_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_counter_binary" VLNV="xilinx.com:ip:c_counter_binary:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_counter_binary;v=v12_0;d=pg121-c-counter-binary.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_IMPLEMENTATION" VALUE="0"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="artix7"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_THRESH0" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_LOAD" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_LOW" VALUE="0"/>
+        <PARAMETER NAME="C_LATENCY" VALUE="1"/>
+        <PARAMETER NAME="C_FB_LATENCY" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SCLR_OVERRIDES_SSET" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_0_0"/>
+        <PARAMETER NAME="Implementation" VALUE="Fabric"/>
+        <PARAMETER NAME="Output_Width" VALUE="4"/>
+        <PARAMETER NAME="Increment_Value" VALUE="9"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Count_Mode" VALUE="UP"/>
+        <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
+        <PARAMETER NAME="Threshold_Value" VALUE="1"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="Sync_CE_Priority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="AINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="Load" VALUE="false"/>
+        <PARAMETER NAME="Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Latency" VALUE="1"/>
+        <PARAMETER NAME="Fb_Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Fb_Latency" VALUE="0"/>
+        <PARAMETER NAME="Load_Sense" VALUE="Active_High"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_divide_1Hz_xup_clk_divider_26_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_26" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_counter_binary_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="12" FULLNAME="/c_counter_binary_1" HWVERSION="12.0" INSTANCE="c_counter_binary_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_counter_binary" VLNV="xilinx.com:ip:c_counter_binary:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_counter_binary;v=v12_0;d=pg121-c-counter-binary.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_IMPLEMENTATION" VALUE="0"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="artix7"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_THRESH0" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_LOAD" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_LOW" VALUE="0"/>
+        <PARAMETER NAME="C_LATENCY" VALUE="1"/>
+        <PARAMETER NAME="C_FB_LATENCY" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SCLR_OVERRIDES_SSET" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_0_1"/>
+        <PARAMETER NAME="Implementation" VALUE="Fabric"/>
+        <PARAMETER NAME="Output_Width" VALUE="4"/>
+        <PARAMETER NAME="Increment_Value" VALUE="9"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Count_Mode" VALUE="UP"/>
+        <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
+        <PARAMETER NAME="Threshold_Value" VALUE="1"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="Sync_CE_Priority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="AINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="Load" VALUE="false"/>
+        <PARAMETER NAME="Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Latency" VALUE="1"/>
+        <PARAMETER NAME="Fb_Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Fb_Latency" VALUE="0"/>
+        <PARAMETER NAME="Load_Sense" VALUE="Active_High"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_divide_3Hz_xup_clk_divider_24_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_24" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_counter_binary_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="12" FULLNAME="/c_counter_binary_2" HWVERSION="12.0" INSTANCE="c_counter_binary_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_counter_binary" VLNV="xilinx.com:ip:c_counter_binary:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_counter_binary;v=v12_0;d=pg121-c-counter-binary.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_IMPLEMENTATION" VALUE="0"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="artix7"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_THRESH0" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_LOAD" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_LOW" VALUE="0"/>
+        <PARAMETER NAME="C_LATENCY" VALUE="1"/>
+        <PARAMETER NAME="C_FB_LATENCY" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SCLR_OVERRIDES_SSET" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_1_0"/>
+        <PARAMETER NAME="Implementation" VALUE="Fabric"/>
+        <PARAMETER NAME="Output_Width" VALUE="4"/>
+        <PARAMETER NAME="Increment_Value" VALUE="9"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Count_Mode" VALUE="UP"/>
+        <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
+        <PARAMETER NAME="Threshold_Value" VALUE="1"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="Sync_CE_Priority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="AINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="Load" VALUE="false"/>
+        <PARAMETER NAME="Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Latency" VALUE="1"/>
+        <PARAMETER NAME="Fb_Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Fb_Latency" VALUE="0"/>
+        <PARAMETER NAME="Load_Sense" VALUE="Active_High"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_divide_10Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_22" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_counter_binary_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="12" FULLNAME="/c_counter_binary_3" HWVERSION="12.0" INSTANCE="c_counter_binary_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="c_counter_binary" VLNV="xilinx.com:ip:c_counter_binary:12.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=c_counter_binary;v=v12_0;d=pg121-c-counter-binary.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="C_IMPLEMENTATION" VALUE="0"/>
+        <PARAMETER NAME="C_VERBOSITY" VALUE="0"/>
+        <PARAMETER NAME="C_XDEVICEFAMILY" VALUE="artix7"/>
+        <PARAMETER NAME="C_WIDTH" VALUE="3"/>
+        <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="100"/>
+        <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
+        <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
+        <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_THRESH0" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_LOAD" VALUE="0"/>
+        <PARAMETER NAME="C_LOAD_LOW" VALUE="0"/>
+        <PARAMETER NAME="C_LATENCY" VALUE="1"/>
+        <PARAMETER NAME="C_FB_LATENCY" VALUE="0"/>
+        <PARAMETER NAME="C_AINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SINIT_VAL" VALUE="0"/>
+        <PARAMETER NAME="C_SCLR_OVERRIDES_SSET" VALUE="1"/>
+        <PARAMETER NAME="C_HAS_SSET" VALUE="0"/>
+        <PARAMETER NAME="C_HAS_SINIT" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_1_1"/>
+        <PARAMETER NAME="Implementation" VALUE="Fabric"/>
+        <PARAMETER NAME="Output_Width" VALUE="3"/>
+        <PARAMETER NAME="Increment_Value" VALUE="4"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Count_Mode" VALUE="UP"/>
+        <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
+        <PARAMETER NAME="Threshold_Value" VALUE="1"/>
+        <PARAMETER NAME="CE" VALUE="false"/>
+        <PARAMETER NAME="SCLR" VALUE="false"/>
+        <PARAMETER NAME="SSET" VALUE="false"/>
+        <PARAMETER NAME="SINIT" VALUE="false"/>
+        <PARAMETER NAME="SINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="SyncCtrlPriority" VALUE="Reset_Overrides_Set"/>
+        <PARAMETER NAME="Sync_CE_Priority" VALUE="Sync_Overrides_CE"/>
+        <PARAMETER NAME="AINIT_Value" VALUE="0"/>
+        <PARAMETER NAME="Load" VALUE="false"/>
+        <PARAMETER NAME="Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Latency" VALUE="1"/>
+        <PARAMETER NAME="Fb_Latency_Configuration" VALUE="Manual"/>
+        <PARAMETER NAME="Fb_Latency" VALUE="0"/>
+        <PARAMETER NAME="Load_Sense" VALUE="Active_High"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="10000000" DIR="I" NAME="CLK" SIGIS="clk" SIGNAME="clk_divide_1kHz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_16" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="2" NAME="Q" RIGHT="0" SIGIS="data" SIGNAME="c_counter_binary_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Din"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_0" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="External_Ports_clkin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_1" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_1" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_1_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_0" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_2" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_10" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_10_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_9" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_11" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_11" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_11_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_10" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_12" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_12" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_12_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_11" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_13" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_13" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_13_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_12" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_14" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_14" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_14_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_13" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_15" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_15" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_15_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_14" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_16" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_16" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_16_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_15" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_17" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_17" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_17" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_17_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_16" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_18" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_18" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_18" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_18_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_17" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_19" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_19" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_19" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_19_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_18" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_20" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_2" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_2_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_1" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_3" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_20" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_20" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_20_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_19" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_21" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_21" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_21_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_20" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_22" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_22" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_22_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_21" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_2" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_3" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_3_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_2" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_4" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_4" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_4_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_3" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_5" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_5" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_5_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_4" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_6" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_6" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_6_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_5" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_7" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_7" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_7_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_6" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_8" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_8" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_8_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_7" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_9" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_10Hz/xup_clk_divider_9" HWVERSION="1.0" INSTANCE="clk_divide_10Hz_xup_clk_divider_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_9_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_8" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_10Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_10Hz_xup_clk_divider_10" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_0" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="External_Ports_clkin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_1" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_1" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_1_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_0" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_2" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_10" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_10_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_9" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_11" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_11" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_11_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_10" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_12" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_12" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_12_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_11" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_13" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_13" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_13_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_12" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_14" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_14" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_14_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_13" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_15" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_15" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_15_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_14" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_16" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_16" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_16_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_15" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_17" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_17" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_17" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_17_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_16" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_18" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_18" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_18" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_18_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_17" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_19" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_19" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_19" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_19_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_18" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_20" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_2" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_2_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_1" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_3" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_20" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_20" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_20_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_19" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_21" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_21" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_21_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_20" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_22" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_22" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_22_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_21" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_23" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_23" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_23" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_23_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_22" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_23_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_24" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_24" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_24" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_24_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_23_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_23" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_24_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_25" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_25" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_25" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_25_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_24_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_24" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_25_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_26" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_26" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_26" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_26_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_25_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_25" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_26_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_0" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_3" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_3_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_2" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_4" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_4" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_3" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_5" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_5" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_5_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_4" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_6" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_6" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_6_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_5" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_7" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_7" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_7_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_6" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_8" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_8" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_8_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_7" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_9" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1Hz/xup_clk_divider_9" HWVERSION="1.0" INSTANCE="clk_divide_1Hz_xup_clk_divider_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_9_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_8" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1Hz_xup_clk_divider_10" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_0" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="External_Ports_clkin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_1" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_1" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_1_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_0" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_2" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_10" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_10_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_9" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_11" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_11" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_11_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_10" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_12" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_12" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_12_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_11" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_13" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_13" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_13_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_12" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_14" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_14" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_14_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_13" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_15" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_15" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_15_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_14" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_16" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_16" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_16_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_15" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_3" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_2" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_2_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_1" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_3" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_3" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_3_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_2" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_4" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_4" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_4_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_3" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_5" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_5" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_5_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_4" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_6" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_6" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_6_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_5" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_7" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_7" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_7_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_6" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_8" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_8" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_8_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_7" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_9" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_1kHz/xup_clk_divider_9" HWVERSION="1.0" INSTANCE="clk_divide_1kHz_xup_clk_divider_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_9_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_8" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_1kHz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_1kHz_xup_clk_divider_10" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_0" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="External_Ports_clkin">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_1" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_1" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_1_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_0_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_0" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_2" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_10" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_10" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_10_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_9" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_11" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_11" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_11" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_11_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_10_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_10" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_12" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_12" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_12" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_12_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_11_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_11" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_13" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_13" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_13" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_13_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_12_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_12" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_14" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_14" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_14" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_14_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_13_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_13" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_15" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_15" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_15" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_15_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_14_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_14" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_16" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_16" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_16" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_16_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_15_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_15" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_17" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_17" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_17" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_17_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_16_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_16" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_18" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_18" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_18" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_18_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_17_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_17" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_19" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_19" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_19" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_19_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_18_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_18" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_20" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_2" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_2_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_1_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_1" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_3" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_20" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_20" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_20_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_19_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_19" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_21" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_21" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_21" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_21_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_20_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_20" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_22" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_22" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_22" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_22_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_21_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_21" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_23" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_23" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_23" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_23_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_22_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_22" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_23_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_24" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_24" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_24" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_24_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_23_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_23" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_24_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_1" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_3" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_3_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_2_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_2" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_4" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_4" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_4_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_3_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_3" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_5" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_5" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_5" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_5_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_4_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_4" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_6" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_6" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_6" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_6_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_5_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_5" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_7" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_7" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_7" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_7_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_6_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_6" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_8" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_8" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_8" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_8_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_7_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_7" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_9" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/clk_divide_3Hz/xup_clk_divider_9" HWVERSION="1.0" INSTANCE="clk_divide_3Hz_xup_clk_divider_9" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_clk_divider" VLNV="xilinx.com:xup:xup_clk_divider:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_clk_divider_9_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="clkin" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_8_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_8" PORT="clkout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="clkout" SIGIS="undef" SIGNAME="clk_divide_3Hz_xup_clk_divider_9_clkout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="clk_divide_3Hz_xup_clk_divider_10" PORT="clkin"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="5" FULLNAME="/xlconstant_0" HWVERSION="1.1" INSTANCE="xlconstant_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlconstant" VLNV="xilinx.com:ip:xlconstant:1.1">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="CONST_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="CONST_VAL" VALUE="0x1"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlconstant_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="O" LEFT="3" NAME="dout" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xlslice_0" HWVERSION="1.0" INSTANCE="xlslice_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="3"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="1"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlslice_0_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="2" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="c_counter_binary_3_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_3" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="1" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="sel"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_0" PORT="sel"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_2" PORT="sel"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_3" PORT="sel"/>
+            <CONNECTION INSTANCE="Enable_Mux_xup_4_to_1_mux_vector_1" PORT="sel"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xlslice_X0" HWVERSION="1.0" INSTANCE="xlslice_X0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="0"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlslice_0_1"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_X0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and4_0" PORT="d"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_1" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_xor2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_inv_1" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and4_0" PORT="d"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_xor2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_or2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_1" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_2" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xlslice_X1" HWVERSION="1.0" INSTANCE="xlslice_X1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="0"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlslice_0_2"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_X1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_4" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_xor2_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_and3_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_2" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_inv_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_and2_2" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_or2_1" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_1" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_2" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xlslice_X2" HWVERSION="1.0" INSTANCE="xlslice_X2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="0"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlslice_0_3"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_X2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_and3_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_3" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_B_xup_and2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_C_xup_inv_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_3" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_E_xup_and2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_inv_0" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_and3_1" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_1" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/xlslice_X3" HWVERSION="1.0" INSTANCE="xlslice_X3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="0"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xlslice_0_4"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xup_4_to_1_mux_vector_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_X3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_A_xup_inv_2" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_D_xup_inv_1" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_F_xup_inv_2" PORT="a"/>
+            <CONNECTION INSTANCE="Seg_Decoder_segment_G_xup_inv_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/xup_4_to_1_mux_vector_0" HWVERSION="1.0" INSTANCE="xup_4_to_1_mux_vector_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_4_to_1_mux_vector" VLNV="xilinx.com:xup:xup_4_to_1_mux_vector:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="SIZE" VALUE="4"/>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="multiplexer_xup_4_to_1_mux_vector_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="a" RIGHT="0" SIGIS="undef" SIGNAME="c_counter_binary_0_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_0" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="b" RIGHT="0" SIGIS="undef" SIGNAME="c_counter_binary_1_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_1" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="c" RIGHT="0" SIGIS="undef" SIGNAME="c_counter_binary_2_Q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="c_counter_binary_2" PORT="Q"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="3" NAME="d" RIGHT="0" SIGIS="undef" SIGNAME="xlconstant_0_dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlconstant_0" PORT="dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" LEFT="1" NAME="sel" RIGHT="0" SIGIS="undef" SIGNAME="xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="3" NAME="y" RIGHT="0" SIGIS="undef" SIGNAME="xup_4_to_1_mux_vector_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="xlslice_X0" PORT="Din"/>
+            <CONNECTION INSTANCE="xlslice_X1" PORT="Din"/>
+            <CONNECTION INSTANCE="xlslice_X2" PORT="Din"/>
+            <CONNECTION INSTANCE="xlslice_X3" PORT="Din"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>
