@@ -1,0 +1,196 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Feb  6 18:59:08 2020
+| Host         : KEN344-03 running 64-bit major release  (build 9200)
+| Command      : report_methodology -file One_Digit_wrapper_methodology_drc_routed.rpt -pb One_Digit_wrapper_methodology_drc_routed.pb -rpx One_Digit_wrapper_methodology_drc_routed.rpx
+| Design       : One_Digit_wrapper
+| Device       : xc7a35tcpg236-1
+| Speed File   : -1
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 32
++-----------+----------+------------------------------------------------------------------+------------+
+| Rule      | Severity | Description                                                      | Violations |
++-----------+----------+------------------------------------------------------------------+------------+
+| CKLD-2    | Warning  | Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads | 1          |
+| TIMING-17 | Warning  | Non-clocked sequential cell                                      | 31         |
++-----------+----------+------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+CKLD-2#1 Warning
+Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
+Clock net clkin_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): One_Digit_i/clkin, clkin_IBUF_inst/O
+Related violations: <none>
+
+TIMING-17#1 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[1]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#2 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[2]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#3 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[3]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#4 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/c_counter_binary_0/U0/i_synth/i_baseblox.i_baseblox_counter/the_addsub/no_pipelining.the_addsub/i_lut6.i_lut6_addsub/i_q.i_simple.qreg/i_no_async_controls.output_reg[4]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#5 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_0/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#6 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_1/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#7 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_10/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#8 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_11/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#9 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_12/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#10 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_13/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#11 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_14/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#12 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_15/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#13 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_16/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#14 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_17/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#15 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_18/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#16 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_19/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#17 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_2/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#18 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_20/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#19 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_21/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#20 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_22/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#21 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_23/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#22 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_24/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#23 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_25/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_26/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_3/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#26 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_4/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#27 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_5/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#28 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_6/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#29 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_7/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#30 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_8/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#31 Warning
+Non-clocked sequential cell  
+The clock pin One_Digit_i/clk_divide_1Hz/xup_clk_divider_9/inst/clkout_reg/C is not reached by a timing clock
+Related violations: <none>
+
+

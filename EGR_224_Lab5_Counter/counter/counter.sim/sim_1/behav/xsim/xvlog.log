@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/Decade_counter/ip/Decade_counter_c_counter_binary_0_0/Decade_counter_c_counter_binary_0_0_sim_netlist.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_fabric_legacy
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_legacy
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_lut6_legacy
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12_legacy
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12_viv
+INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_reg_fd_v12_0_5_viv
+INFO: [VRFC 10-311] analyzing module glbl

@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"counter_2bit": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+
+*** Running vivado
+    with args -log One_Digit_xup_or2_1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source One_Digit_xup_or2_1_0.tcl
+

@@ -1,0 +1,813 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb  6 18:57:36 2020
+# Process ID: 7292
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1
+# Command line: vivado.exe -log One_Digit_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source One_Digit_wrapper.tcl
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/One_Digit_wrapper.vds
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source One_Digit_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+Command: synth_design -top One_Digit_wrapper -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 3396 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 411.047 ; gain = 104.984
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_wrapper' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/hdl/One_Digit_wrapper.v:12]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:13]
+INFO: [Synth 8-6157] synthesizing module 'Seg_Decoder_imp_DC9LPB' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:86]
+INFO: [Synth 8-6157] synthesizing module 'segment_A_imp_1OLKCKE' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:294]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and3_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and3_0_0' (1#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and4_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and4_0_0' (2#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and4_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_0' (3#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_1_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_1_0' (4#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_2_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_2_0' (5#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_3_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_3_0' (6#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_4_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_4_0' (7#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_0_0' (8#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_A_imp_1OLKCKE' (9#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:294]
+INFO: [Synth 8-6157] synthesizing module 'segment_B_imp_DOLBQ5' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:356]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_0_0' (10#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_xor2_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_xor2_0_0' (11#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_xor2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_B_imp_DOLBQ5' (12#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:356]
+INFO: [Synth 8-6157] synthesizing module 'segment_C_imp_1PR89LV' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:386]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and3_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and3_0_1' (13#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_1' (14#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_1_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_1_1' (15#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_C_imp_1PR89LV' (16#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:386]
+INFO: [Synth 8-6157] synthesizing module 'segment_D_imp_GQEHNE' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:420]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_0_1' (17#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and4_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and4_0_1' (18#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and4_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_2' (19#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_1_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_1_2' (20#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_2_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_2_1' (21#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_3_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_3_1' (22#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_0_1' (23#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_xor2_0_1' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_xor2_0_1' (24#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_xor2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_D_imp_GQEHNE' (25#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:420]
+INFO: [Synth 8-6157] synthesizing module 'segment_E_imp_1MP3OX0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:482]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_0_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_0_2' (26#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_3' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_3' (27#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_0_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_0_2' (28#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_E_imp_1MP3OX0' (29#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:482]
+INFO: [Synth 8-6157] synthesizing module 'segment_F_imp_FQO99J' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:516]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_0_3' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_0_3' (30#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_1_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_1_0' (31#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and2_2_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and2_2_0' (32#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and2_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_4' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_4' (33#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_2_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_2_2' (34#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_0_3' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_0_3' (35#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_1_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_1_0' (36#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_F_imp_FQO99J' (37#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:516]
+INFO: [Synth 8-6157] synthesizing module 'segment_G_imp_1NSB461' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:573]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and3_0_2' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and3_0_2' (38#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_and3_1_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_and3_1_0' (39#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_and3_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_0_5' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_0_5' (40#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_0_5_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_1_3' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_1_3' (41#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_1_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_inv_2_3' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_inv_2_3' (42#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_inv_2_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_or2_0_4' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_or2_0_4' (43#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_or2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'segment_G_imp_1NSB461' (44#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:573]
+INFO: [Synth 8-6155] done synthesizing module 'Seg_Decoder_imp_DC9LPB' (45#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:86]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_c_counter_binary_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_c_counter_binary_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_c_counter_binary_0_0' (46#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_c_counter_binary_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'clk_divide_1Hz_imp_47MCH8' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:174]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_0_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_0_0' (47#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_1_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_1_0' (48#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_10_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_10_0' (49#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_11_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_11_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_11_0' (50#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_11_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_12_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_12_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_12_0' (51#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_12_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_13_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_13_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_13_0' (52#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_13_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_14_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_14_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_14_0' (53#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_14_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_15_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_15_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_15_0' (54#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_15_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_16_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_16_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_16_0' (55#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_16_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_17_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_17_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_17_0' (56#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_17_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_18_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_18_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_18_0' (57#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_18_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_19_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_19_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_19_0' (58#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_19_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_2_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_2_0' (59#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_20_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_20_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_20_0' (60#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_20_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_21_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_21_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_21_0' (61#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_21_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_22_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_22_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_22_0' (62#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_22_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_23_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_23_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_23_0' (63#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_23_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_24_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_24_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_24_0' (64#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_24_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_25_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_25_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_25_0' (65#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_25_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_26_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_26_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_26_0' (66#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_26_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_3_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_3_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_3_0' (67#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_3_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_4_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_4_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_4_0' (68#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_4_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_5_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_5_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_5_0' (69#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_5_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_6_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_6_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_6_0' (70#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_6_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_7_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_7_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_7_0' (71#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_7_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_8_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_8_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_8_0' (72#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_8_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xup_clk_divider_9_0' [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_9_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xup_clk_divider_9_0' (73#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/.Xil/Vivado-7292-KEN344-03/realtime/One_Digit_xup_clk_divider_9_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'clk_divide_1Hz_imp_47MCH8' (74#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:174]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xlslice_0_1' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_1/synth/One_Digit_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 0 - type: integer 
+	Parameter DIN_TO bound to: 0 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice' (75#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xlslice_0_1' (76#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_1/synth/One_Digit_xlslice_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xlslice_0_2' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_2/synth/One_Digit_xlslice_0_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 1 - type: integer 
+	Parameter DIN_TO bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized0' (76#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xlslice_0_2' (77#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_2/synth/One_Digit_xlslice_0_2.v:57]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xlslice_0_3' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_3/synth/One_Digit_xlslice_0_3.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 2 - type: integer 
+	Parameter DIN_TO bound to: 2 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized1' (77#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xlslice_0_3' (78#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_3/synth/One_Digit_xlslice_0_3.v:57]
+INFO: [Synth 8-6157] synthesizing module 'One_Digit_xlslice_0_4' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_4/synth/One_Digit_xlslice_0_4.v:57]
+INFO: [Synth 8-6157] synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+	Parameter DIN_WIDTH bound to: 4 - type: integer 
+	Parameter DIN_FROM bound to: 3 - type: integer 
+	Parameter DIN_TO bound to: 3 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'xlslice_v1_0_1_xlslice__parameterized2' (78#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ipshared/f3db/hdl/xlslice_v1_0_vl_rfs.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_xlslice_0_4' (79#1) [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xlslice_0_4/synth/One_Digit_xlslice_0_4.v:57]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit' (80#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/synth/One_Digit.v:13]
+INFO: [Synth 8-6155] done synthesizing module 'One_Digit_wrapper' (81#1) [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/hdl/One_Digit_wrapper.v:12]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized2 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized1 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice__parameterized0 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[3]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[2]
+WARNING: [Synth 8-3331] design xlslice_v1_0_1_xlslice has unconnected port Din[1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 466.637 ; gain = 160.574
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 466.637 ; gain = 160.574
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 466.637 ; gain = 160.574
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_15_0/One_Digit_xup_clk_divider_15_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_15'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_15_0/One_Digit_xup_clk_divider_15_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_15'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_2_0/One_Digit_xup_clk_divider_2_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_2_0/One_Digit_xup_clk_divider_2_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_16_0/One_Digit_xup_clk_divider_16_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_16'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_16_0/One_Digit_xup_clk_divider_16_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_16'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_3_0/One_Digit_xup_clk_divider_3_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_3'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_3_0/One_Digit_xup_clk_divider_3_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_3'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_17_0/One_Digit_xup_clk_divider_17_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_17'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_17_0/One_Digit_xup_clk_divider_17_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_17'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_4_0/One_Digit_xup_clk_divider_4_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_4'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_4_0/One_Digit_xup_clk_divider_4_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_4'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_18_0/One_Digit_xup_clk_divider_18_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_18'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_18_0/One_Digit_xup_clk_divider_18_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_18'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_5_0/One_Digit_xup_clk_divider_5_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_5'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_5_0/One_Digit_xup_clk_divider_5_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_5'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_19_0/One_Digit_xup_clk_divider_19_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_19'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_19_0/One_Digit_xup_clk_divider_19_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_19'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_6_0/One_Digit_xup_clk_divider_6_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_6'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_6_0/One_Digit_xup_clk_divider_6_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_6'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_7_0/One_Digit_xup_clk_divider_7_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_7'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_7_0/One_Digit_xup_clk_divider_7_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_7'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_20_0/One_Digit_xup_clk_divider_20_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_20'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_20_0/One_Digit_xup_clk_divider_20_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_20'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_8_0/One_Digit_xup_clk_divider_8_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_8'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_8_0/One_Digit_xup_clk_divider_8_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_8'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_21_0/One_Digit_xup_clk_divider_21_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_21'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_21_0/One_Digit_xup_clk_divider_21_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_21'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_9_0/One_Digit_xup_clk_divider_9_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_9'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_9_0/One_Digit_xup_clk_divider_9_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_9'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_22_0/One_Digit_xup_clk_divider_22_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_22'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_22_0/One_Digit_xup_clk_divider_22_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_22'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_10_0/One_Digit_xup_clk_divider_10_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_10'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_10_0/One_Digit_xup_clk_divider_10_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_10'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_23_0/One_Digit_xup_clk_divider_23_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_23'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_23_0/One_Digit_xup_clk_divider_23_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_23'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_11_0/One_Digit_xup_clk_divider_11_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_11'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_11_0/One_Digit_xup_clk_divider_11_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_11'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_24_0/One_Digit_xup_clk_divider_24_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_24'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_24_0/One_Digit_xup_clk_divider_24_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_24'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_12_0/One_Digit_xup_clk_divider_12_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_12'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_12_0/One_Digit_xup_clk_divider_12_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_12'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_25_0/One_Digit_xup_clk_divider_25_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_25'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_25_0/One_Digit_xup_clk_divider_25_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_25'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_13_0/One_Digit_xup_clk_divider_13_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_13'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_13_0/One_Digit_xup_clk_divider_13_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_13'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_0_0/One_Digit_xup_clk_divider_0_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_0_0/One_Digit_xup_clk_divider_0_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_26_0/One_Digit_xup_clk_divider_26_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_26'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_26_0/One_Digit_xup_clk_divider_26_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_26'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_14_0/One_Digit_xup_clk_divider_14_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_14'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_14_0/One_Digit_xup_clk_divider_14_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_14'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_1_0/One_Digit_xup_clk_divider_1_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_clk_divider_1_0/One_Digit_xup_clk_divider_1_0/counter_xup_clk_divider_5_0_in_context.xdc] for cell 'One_Digit_i/clk_divide_1Hz/xup_clk_divider_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_c_counter_binary_0_0/One_Digit_c_counter_binary_0_0/Decade_counter_c_counter_binary_0_0_in_context.xdc] for cell 'One_Digit_i/c_counter_binary_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_c_counter_binary_0_0/One_Digit_c_counter_binary_0_0/Decade_counter_c_counter_binary_0_0_in_context.xdc] for cell 'One_Digit_i/c_counter_binary_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_0/One_Digit_xup_and3_0_0/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_and3_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_0/One_Digit_xup_and3_0_0/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_and3_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_and4_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_and4_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_0/One_Digit_xup_inv_1_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_0/One_Digit_xup_inv_1_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_0/One_Digit_xup_inv_2_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_0/One_Digit_xup_inv_2_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_3_0/One_Digit_xup_inv_3_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_3'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_3_0/One_Digit_xup_inv_3_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_3'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_4_0/One_Digit_xup_inv_4_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_4'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_4_0/One_Digit_xup_inv_4_0/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_inv_4'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_0/One_Digit_xup_or2_0_0/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_or2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_0/One_Digit_xup_or2_0_0/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_A/xup_or2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_0/One_Digit_xup_and2_0_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_B/xup_and2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_0/One_Digit_xup_and2_0_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_B/xup_and2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_B/xup_xor2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_B/xup_xor2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_1/One_Digit_xup_and3_0_1/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_and3_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_1/One_Digit_xup_and3_0_1/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_and3_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_1/One_Digit_xup_inv_1_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_inv_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_1/One_Digit_xup_inv_1_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_C/xup_inv_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_1/One_Digit_xup_and2_0_1/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_and2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_1/One_Digit_xup_and2_0_1/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_and2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_and4_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_and4_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_2/One_Digit_xup_inv_0_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_2/One_Digit_xup_inv_0_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_2/One_Digit_xup_inv_1_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_2/One_Digit_xup_inv_1_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_1/One_Digit_xup_inv_2_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_1/One_Digit_xup_inv_2_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_3_1/One_Digit_xup_inv_3_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_3'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_3_1/One_Digit_xup_inv_3_1/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_inv_3'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_or2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_or2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_xor2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_D/xup_xor2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_2/One_Digit_xup_and2_0_2/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_and2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_2/One_Digit_xup_and2_0_2/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_and2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_or2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_E/xup_or2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_3/One_Digit_xup_and2_0_3/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_0_3/One_Digit_xup_and2_0_3/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_1_0/One_Digit_xup_and2_1_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_1_0/One_Digit_xup_and2_1_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_2_0/One_Digit_xup_and2_2_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and2_2_0/One_Digit_xup_and2_2_0/One_Digit_xup_and2_2_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_and2_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_2/One_Digit_xup_inv_2_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_inv_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_2/One_Digit_xup_inv_2_2/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_inv_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_or2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_or2_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_1_0/One_Digit_xup_or2_1_0/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_or2_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_1_0/One_Digit_xup_or2_1_0/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_F/xup_or2_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_2/One_Digit_xup_and3_0_2/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_and3_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_0_2/One_Digit_xup_and3_0_2/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_and3_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_and3_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_and3_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_0'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_3/One_Digit_xup_inv_1_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_1'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_1_3/One_Digit_xup_inv_1_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_1'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_3/One_Digit_xup_inv_2_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_2'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_inv_2_3/One_Digit_xup_inv_2_3/One_Digit_xup_inv_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_inv_2'
+Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_or2_0'
+Finished Parsing XDC File [c:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/ip/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4_in_context.xdc] for cell 'One_Digit_i/Seg_Decoder/segment_G/xup_or2_0'
+Parsing XDC File [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clkout'. [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'clkout'. [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc:4]
+Finished Parsing XDC File [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/One_Digit_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/constrs_1/new/pins.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/One_Digit_wrapper_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/One_Digit_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/dont_touch.xdc]
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 777.828 ; gain = 0.000
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 777.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 777.828 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 777.828 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for One_Digit_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_19. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_20. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_21. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_22. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_23. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_24. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_25. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_26. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/clk_divide_1Hz/xup_clk_divider_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/c_counter_binary_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_and4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_inv_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_A/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_B/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_B/xup_xor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_C/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_C/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_C/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_and4_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_inv_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_D/xup_xor2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_E/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_E/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_E/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_and2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_and2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_and2_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_F/xup_or2_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_and3_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_and3_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_inv_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_inv_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_inv_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/Seg_Decoder/segment_G/xup_or2_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/xlslice_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/xlslice_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/xlslice_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for One_Digit_i/xlslice_3. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_4 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_4 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_4 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_3 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_3 has unconnected port Din[1]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_3 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_2 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_2 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_2 has unconnected port Din[0]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_1 has unconnected port Din[3]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_1 has unconnected port Din[2]
+WARNING: [Synth 8-3331] design One_Digit_xlslice_0_1 has unconnected port Din[1]
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 777.828 ; gain = 471.766
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+-------------------------------+----------+
+|      |BlackBox name                  |Instances |
++------+-------------------------------+----------+
+|1     |One_Digit_c_counter_binary_0_0 |         1|
+|2     |One_Digit_xup_and3_0_0         |         1|
+|3     |One_Digit_xup_and4_0_0         |         1|
+|4     |One_Digit_xup_inv_0_0          |         1|
+|5     |One_Digit_xup_inv_1_0          |         1|
+|6     |One_Digit_xup_inv_2_0          |         1|
+|7     |One_Digit_xup_inv_3_0          |         1|
+|8     |One_Digit_xup_inv_4_0          |         1|
+|9     |One_Digit_xup_or2_0_0          |         1|
+|10    |One_Digit_xup_and2_0_0         |         1|
+|11    |One_Digit_xup_xor2_0_0         |         1|
+|12    |One_Digit_xup_and3_0_1         |         1|
+|13    |One_Digit_xup_inv_0_1          |         1|
+|14    |One_Digit_xup_inv_1_1          |         1|
+|15    |One_Digit_xup_and2_0_1         |         1|
+|16    |One_Digit_xup_and4_0_1         |         1|
+|17    |One_Digit_xup_inv_0_2          |         1|
+|18    |One_Digit_xup_inv_1_2          |         1|
+|19    |One_Digit_xup_inv_2_1          |         1|
+|20    |One_Digit_xup_inv_3_1          |         1|
+|21    |One_Digit_xup_or2_0_1          |         1|
+|22    |One_Digit_xup_xor2_0_1         |         1|
+|23    |One_Digit_xup_and2_0_2         |         1|
+|24    |One_Digit_xup_inv_0_3          |         1|
+|25    |One_Digit_xup_or2_0_2          |         1|
+|26    |One_Digit_xup_and2_0_3         |         1|
+|27    |One_Digit_xup_and2_1_0         |         1|
+|28    |One_Digit_xup_and2_2_0         |         1|
+|29    |One_Digit_xup_inv_0_4          |         1|
+|30    |One_Digit_xup_inv_2_2          |         1|
+|31    |One_Digit_xup_or2_0_3          |         1|
+|32    |One_Digit_xup_or2_1_0          |         1|
+|33    |One_Digit_xup_and3_0_2         |         1|
+|34    |One_Digit_xup_and3_1_0         |         1|
+|35    |One_Digit_xup_inv_0_5          |         1|
+|36    |One_Digit_xup_inv_1_3          |         1|
+|37    |One_Digit_xup_inv_2_3          |         1|
+|38    |One_Digit_xup_or2_0_4          |         1|
+|39    |One_Digit_xup_clk_divider_0_0  |         1|
+|40    |One_Digit_xup_clk_divider_1_0  |         1|
+|41    |One_Digit_xup_clk_divider_10_0 |         1|
+|42    |One_Digit_xup_clk_divider_11_0 |         1|
+|43    |One_Digit_xup_clk_divider_12_0 |         1|
+|44    |One_Digit_xup_clk_divider_13_0 |         1|
+|45    |One_Digit_xup_clk_divider_14_0 |         1|
+|46    |One_Digit_xup_clk_divider_15_0 |         1|
+|47    |One_Digit_xup_clk_divider_16_0 |         1|
+|48    |One_Digit_xup_clk_divider_17_0 |         1|
+|49    |One_Digit_xup_clk_divider_18_0 |         1|
+|50    |One_Digit_xup_clk_divider_19_0 |         1|
+|51    |One_Digit_xup_clk_divider_2_0  |         1|
+|52    |One_Digit_xup_clk_divider_20_0 |         1|
+|53    |One_Digit_xup_clk_divider_21_0 |         1|
+|54    |One_Digit_xup_clk_divider_22_0 |         1|
+|55    |One_Digit_xup_clk_divider_23_0 |         1|
+|56    |One_Digit_xup_clk_divider_24_0 |         1|
+|57    |One_Digit_xup_clk_divider_25_0 |         1|
+|58    |One_Digit_xup_clk_divider_26_0 |         1|
+|59    |One_Digit_xup_clk_divider_3_0  |         1|
+|60    |One_Digit_xup_clk_divider_4_0  |         1|
+|61    |One_Digit_xup_clk_divider_5_0  |         1|
+|62    |One_Digit_xup_clk_divider_6_0  |         1|
+|63    |One_Digit_xup_clk_divider_7_0  |         1|
+|64    |One_Digit_xup_clk_divider_8_0  |         1|
+|65    |One_Digit_xup_clk_divider_9_0  |         1|
++------+-------------------------------+----------+
+
+Report Cell Usage: 
++------+-------------------------------+------+
+|      |Cell                           |Count |
++------+-------------------------------+------+
+|1     |One_Digit_c_counter_binary_0_0 |     1|
+|2     |One_Digit_xup_and2_0_0         |     1|
+|3     |One_Digit_xup_and2_0_1         |     1|
+|4     |One_Digit_xup_and2_0_2         |     1|
+|5     |One_Digit_xup_and2_0_3         |     1|
+|6     |One_Digit_xup_and2_1_0         |     1|
+|7     |One_Digit_xup_and2_2_0         |     1|
+|8     |One_Digit_xup_and3_0_0         |     1|
+|9     |One_Digit_xup_and3_0_1         |     1|
+|10    |One_Digit_xup_and3_0_2         |     1|
+|11    |One_Digit_xup_and3_1_0         |     1|
+|12    |One_Digit_xup_and4_0_0         |     1|
+|13    |One_Digit_xup_and4_0_1         |     1|
+|14    |One_Digit_xup_clk_divider_0_0  |     1|
+|15    |One_Digit_xup_clk_divider_10_0 |     1|
+|16    |One_Digit_xup_clk_divider_11_0 |     1|
+|17    |One_Digit_xup_clk_divider_12_0 |     1|
+|18    |One_Digit_xup_clk_divider_13_0 |     1|
+|19    |One_Digit_xup_clk_divider_14_0 |     1|
+|20    |One_Digit_xup_clk_divider_15_0 |     1|
+|21    |One_Digit_xup_clk_divider_16_0 |     1|
+|22    |One_Digit_xup_clk_divider_17_0 |     1|
+|23    |One_Digit_xup_clk_divider_18_0 |     1|
+|24    |One_Digit_xup_clk_divider_19_0 |     1|
+|25    |One_Digit_xup_clk_divider_1_0  |     1|
+|26    |One_Digit_xup_clk_divider_20_0 |     1|
+|27    |One_Digit_xup_clk_divider_21_0 |     1|
+|28    |One_Digit_xup_clk_divider_22_0 |     1|
+|29    |One_Digit_xup_clk_divider_23_0 |     1|
+|30    |One_Digit_xup_clk_divider_24_0 |     1|
+|31    |One_Digit_xup_clk_divider_25_0 |     1|
+|32    |One_Digit_xup_clk_divider_26_0 |     1|
+|33    |One_Digit_xup_clk_divider_2_0  |     1|
+|34    |One_Digit_xup_clk_divider_3_0  |     1|
+|35    |One_Digit_xup_clk_divider_4_0  |     1|
+|36    |One_Digit_xup_clk_divider_5_0  |     1|
+|37    |One_Digit_xup_clk_divider_6_0  |     1|
+|38    |One_Digit_xup_clk_divider_7_0  |     1|
+|39    |One_Digit_xup_clk_divider_8_0  |     1|
+|40    |One_Digit_xup_clk_divider_9_0  |     1|
+|41    |One_Digit_xup_inv_0_0          |     1|
+|42    |One_Digit_xup_inv_0_1          |     1|
+|43    |One_Digit_xup_inv_0_2          |     1|
+|44    |One_Digit_xup_inv_0_3          |     1|
+|45    |One_Digit_xup_inv_0_4          |     1|
+|46    |One_Digit_xup_inv_0_5          |     1|
+|47    |One_Digit_xup_inv_1_0          |     1|
+|48    |One_Digit_xup_inv_1_1          |     1|
+|49    |One_Digit_xup_inv_1_2          |     1|
+|50    |One_Digit_xup_inv_1_3          |     1|
+|51    |One_Digit_xup_inv_2_0          |     1|
+|52    |One_Digit_xup_inv_2_1          |     1|
+|53    |One_Digit_xup_inv_2_2          |     1|
+|54    |One_Digit_xup_inv_2_3          |     1|
+|55    |One_Digit_xup_inv_3_0          |     1|
+|56    |One_Digit_xup_inv_3_1          |     1|
+|57    |One_Digit_xup_inv_4_0          |     1|
+|58    |One_Digit_xup_or2_0_0          |     1|
+|59    |One_Digit_xup_or2_0_1          |     1|
+|60    |One_Digit_xup_or2_0_2          |     1|
+|61    |One_Digit_xup_or2_0_3          |     1|
+|62    |One_Digit_xup_or2_0_4          |     1|
+|63    |One_Digit_xup_or2_1_0          |     1|
+|64    |One_Digit_xup_xor2_0_0         |     1|
+|65    |One_Digit_xup_xor2_0_1         |     1|
+|66    |IBUF                           |     1|
+|67    |OBUF                           |     7|
++------+-------------------------------+------+
+
+Report Instance Areas: 
++------+-------------------+--------------------------+------+
+|      |Instance           |Module                    |Cells |
++------+-------------------+--------------------------+------+
+|1     |top                |                          |    76|
+|2     |  One_Digit_i      |One_Digit                 |    68|
+|3     |    xlslice_0      |One_Digit_xlslice_0_1     |     0|
+|4     |    xlslice_1      |One_Digit_xlslice_0_2     |     0|
+|5     |    xlslice_2      |One_Digit_xlslice_0_3     |     0|
+|6     |    xlslice_3      |One_Digit_xlslice_0_4     |     0|
+|7     |    Seg_Decoder    |Seg_Decoder_imp_DC9LPB    |    37|
+|8     |      segment_A    |segment_A_imp_1OLKCKE     |     8|
+|9     |      segment_B    |segment_B_imp_DOLBQ5      |     2|
+|10    |      segment_C    |segment_C_imp_1PR89LV     |     3|
+|11    |      segment_D    |segment_D_imp_GQEHNE      |     8|
+|12    |      segment_E    |segment_E_imp_1MP3OX0     |     3|
+|13    |      segment_F    |segment_F_imp_FQO99J      |     7|
+|14    |      segment_G    |segment_G_imp_1NSB461     |     6|
+|15    |    clk_divide_1Hz |clk_divide_1Hz_imp_47MCH8 |    27|
++------+-------------------+--------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 12 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 784.934 ; gain = 167.680
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 784.934 ; gain = 478.871
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 797.559 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+181 Infos, 27 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 797.617 ; gain = 504.434
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 797.617 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.runs/synth_1/One_Digit_wrapper.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file One_Digit_wrapper_utilization_synth.rpt -pb One_Digit_wrapper_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  6 18:58:03 2020...

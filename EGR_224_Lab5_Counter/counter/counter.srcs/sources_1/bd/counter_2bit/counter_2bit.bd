@@ -1,0 +1,134 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x4CBBF955DD2A85A9",
+      "device": "xc7a35tcpg236-1",
+      "name": "counter_2bit",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xup_dff_en_reset_0": "",
+      "xlconcat_0": "",
+      "xup_dff_en_reset_1": "",
+      "xup_xor2_0": "",
+      "xup_inv_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "en": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "Q": {
+        "direction": "O",
+        "left": "1",
+        "right": "0",
+        "parameters": {
+          "PortWidth": {
+            "value": "2",
+            "value_src": "ip_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "xup_dff_en_reset_0": {
+        "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+        "xci_name": "counter_2bit_xup_dff_en_reset_0_0",
+        "parameters": {
+          "DELAY": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconcat_0": {
+        "vlnv": "xilinx.com:ip:xlconcat:2.1",
+        "xci_name": "counter_2bit_xlconcat_0_0",
+        "parameters": {
+          "NUM_PORTS": {
+            "value": "2"
+          }
+        }
+      },
+      "xup_dff_en_reset_1": {
+        "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+        "xci_name": "counter_2bit_xup_dff_en_reset_0_1",
+        "parameters": {
+          "DELAY": {
+            "value": "0"
+          }
+        }
+      },
+      "xup_xor2_0": {
+        "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+        "xci_name": "counter_2bit_xup_xor2_0_0"
+      },
+      "xup_inv_0": {
+        "vlnv": "xilinx.com:xup:xup_inv:1.0",
+        "xci_name": "counter_2bit_xup_inv_0_0"
+      }
+    },
+    "nets": {
+      "clk_0_1": {
+        "ports": [
+          "clk",
+          "xup_dff_en_reset_0/clk",
+          "xup_dff_en_reset_1/clk"
+        ]
+      },
+      "en_0_1": {
+        "ports": [
+          "en",
+          "xup_dff_en_reset_0/en",
+          "xup_dff_en_reset_1/en"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset",
+          "xup_dff_en_reset_0/reset",
+          "xup_dff_en_reset_1/reset"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "xlconcat_0/dout",
+          "Q"
+        ]
+      },
+      "xup_xor2_0_y": {
+        "ports": [
+          "xup_xor2_0/y",
+          "xup_dff_en_reset_0/d"
+        ]
+      },
+      "xup_dff_en_reset_0_q": {
+        "ports": [
+          "xup_dff_en_reset_0/q",
+          "xup_xor2_0/a",
+          "xlconcat_0/In1"
+        ]
+      },
+      "xup_dff_en_reset_1_q": {
+        "ports": [
+          "xup_dff_en_reset_1/q",
+          "xup_inv_0/a",
+          "xlconcat_0/In0",
+          "xup_xor2_0/b"
+        ]
+      },
+      "xup_inv_0_y": {
+        "ports": [
+          "xup_inv_0/y",
+          "xup_dff_en_reset_1/d"
+        ]
+      }
+    }
+  }
+}
