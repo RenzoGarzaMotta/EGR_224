@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date             : Thu Feb 13 18:09:25 2020
-| Host             : B4-Digital running 64-bit major release  (build 9200)
+| Date             : Thu Feb 13 21:34:01 2020
+| Host             : KEN344-03 running 64-bit major release  (build 9200)
 | Command          : report_power -file multiplexer_wrapper_power_routed.rpt -pb multiplexer_wrapper_power_summary_routed.pb -rpx multiplexer_wrapper_power_routed.rpx
 | Design           : multiplexer_wrapper
 | Device           : xc7a35tcpg236-1
@@ -30,14 +30,14 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 15.899 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 20.662 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 15.613                           |
-| Device Static (W)        | 0.286                            |
+| Dynamic (W)              | 20.176                           |
+| Device Static (W)        | 0.486                            |
 | Effective TJA (C/W)      | 5.0                              |
-| Max Ambient (C)          | 5.5                              |
-| Junction Temperature (C) | 104.5                            |
+| Max Ambient (C)          | 0.0                              |
+| Junction Temperature (C) | 125.0                            |
 | Confidence Level         | Low                              |
 | Setting File             | ---                              |
 | Simulation Activity File | ---                              |
@@ -52,15 +52,15 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |     1.130 |      441 |       --- |             --- |
-|   LUT as Logic |     0.904 |      122 |     20800 |            0.59 |
-|   Register     |     0.214 |      107 |     41600 |            0.26 |
-|   CARRY4       |     0.011 |        4 |      8150 |            0.05 |
-|   Others       |     0.000 |      203 |       --- |             --- |
-| Signals        |     1.271 |      136 |       --- |             --- |
-| I/O            |    13.213 |       12 |       106 |           11.32 |
-| Static Power   |     0.286 |          |           |                 |
-| Total          |    15.899 |          |           |                 |
+| Slice Logic    |     1.208 |      439 |       --- |             --- |
+|   LUT as Logic |     0.980 |      124 |     20800 |            0.60 |
+|   Register     |     0.216 |      107 |     41600 |            0.26 |
+|   CARRY4       |     0.013 |        4 |      8150 |            0.05 |
+|   Others       |     0.000 |      200 |       --- |             --- |
+| Signals        |     1.266 |      140 |       --- |             --- |
+| I/O            |    17.701 |       12 |       106 |           11.32 |
+| Static Power   |     0.486 |          |           |                 |
+| Total          |    20.662 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -70,16 +70,16 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |     2.587 |       2.404 |      0.182 |
-| Vccaux    |       1.800 |     0.517 |       0.484 |      0.033 |
-| Vcco33    |       3.300 |     3.740 |       3.739 |      0.001 |
+| Vccint    |       1.000 |     2.819 |       2.478 |      0.341 |
+| Vccaux    |       1.800 |     0.702 |       0.649 |      0.053 |
+| Vcco33    |       3.300 |     5.010 |       5.009 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
 | Vcco135   |       1.350 |     0.000 |       0.000 |      0.000 |
 | Vcco12    |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccaux_io |       1.800 |     0.000 |       0.000 |      0.000 |
-| Vccbram   |       1.000 |     0.005 |       0.000 |      0.005 |
+| Vccbram   |       1.000 |     0.010 |       0.000 |      0.010 |
 | MGTAVcc   |       1.000 |     0.000 |       0.000 |      0.000 |
 | MGTAVtt   |       1.200 |     0.000 |       0.000 |      0.000 |
 | Vccadc    |       1.800 |     0.020 |       0.000 |      0.020 |
@@ -137,127 +137,127 @@ Table of Contents
 +-------------------------------+-----------+
 | Name                          | Power (W) |
 +-------------------------------+-----------+
-| multiplexer_wrapper           |    15.613 |
-|   multiplexer_i               |     2.398 |
-|     Enable_Mux                |     0.018 |
-|       xup_4_to_1_mux_vector_0 |     0.004 |
-|       xup_4_to_1_mux_vector_1 |     0.004 |
-|       xup_4_to_1_mux_vector_2 |     0.005 |
-|       xup_4_to_1_mux_vector_3 |     0.005 |
-|     Seg_Decoder               |     0.192 |
-|       segment_A               |     0.027 |
-|       segment_B               |     0.019 |
-|       segment_C               |     0.008 |
-|       segment_D               |     0.038 |
-|       segment_E               |     0.020 |
-|       segment_F               |     0.049 |
-|       segment_G               |     0.031 |
+| multiplexer_wrapper           |    20.176 |
+|   multiplexer_i               |     2.470 |
+|     Enable_Mux                |     0.033 |
+|       xup_4_to_1_mux_vector_0 |     0.007 |
+|       xup_4_to_1_mux_vector_1 |     0.008 |
+|       xup_4_to_1_mux_vector_2 |     0.009 |
+|       xup_4_to_1_mux_vector_3 |     0.008 |
+|     Seg_Decoder               |     0.277 |
+|       segment_A               |     0.037 |
+|       segment_B               |     0.028 |
+|       segment_C               |     0.012 |
+|       segment_D               |     0.055 |
+|       segment_E               |     0.027 |
+|       segment_F               |     0.067 |
+|       segment_G               |     0.050 |
 |     c_counter_binary_0        |     0.026 |
 |       U0                      |     0.026 |
-|     c_counter_binary_1        |     0.019 |
-|       U0                      |     0.019 |
-|     c_counter_binary_2        |     0.022 |
-|       U0                      |     0.022 |
-|     c_counter_binary_3        |     0.014 |
-|       U0                      |     0.014 |
-|     clk_divide_10Hz           |     0.507 |
+|     c_counter_binary_1        |     0.035 |
+|       U0                      |     0.035 |
+|     c_counter_binary_2        |     0.026 |
+|       U0                      |     0.026 |
+|     c_counter_binary_3        |     0.036 |
+|       U0                      |     0.036 |
+|     clk_divide_10Hz           |     0.467 |
 |       xup_clk_divider_0       |     0.022 |
-|       xup_clk_divider_1       |     0.024 |
+|       xup_clk_divider_1       |     0.019 |
 |       xup_clk_divider_10      |     0.022 |
 |       xup_clk_divider_11      |     0.019 |
 |       xup_clk_divider_12      |     0.019 |
-|       xup_clk_divider_13      |     0.022 |
+|       xup_clk_divider_13      |     0.019 |
 |       xup_clk_divider_14      |     0.019 |
-|       xup_clk_divider_15      |     0.022 |
-|       xup_clk_divider_16      |     0.019 |
-|       xup_clk_divider_17      |     0.022 |
-|       xup_clk_divider_18      |     0.020 |
-|       xup_clk_divider_19      |     0.026 |
-|       xup_clk_divider_2       |     0.022 |
-|       xup_clk_divider_20      |     0.023 |
-|       xup_clk_divider_21      |     0.022 |
-|       xup_clk_divider_22      |     0.022 |
-|       xup_clk_divider_3       |     0.037 |
-|       xup_clk_divider_4       |     0.021 |
-|       xup_clk_divider_5       |     0.022 |
-|       xup_clk_divider_6       |     0.022 |
-|       xup_clk_divider_7       |     0.022 |
-|       xup_clk_divider_8       |     0.020 |
-|       xup_clk_divider_9       |     0.020 |
-|     clk_divide_1Hz            |     0.600 |
-|       xup_clk_divider_0       |     0.032 |
-|       xup_clk_divider_1       |     0.022 |
-|       xup_clk_divider_10      |     0.022 |
-|       xup_clk_divider_11      |     0.019 |
-|       xup_clk_divider_12      |     0.022 |
-|       xup_clk_divider_13      |     0.021 |
-|       xup_clk_divider_14      |     0.022 |
-|       xup_clk_divider_15      |     0.029 |
-|       xup_clk_divider_16      |     0.019 |
-|       xup_clk_divider_17      |     0.025 |
+|       xup_clk_divider_15      |     0.019 |
+|       xup_clk_divider_16      |     0.022 |
+|       xup_clk_divider_17      |     0.019 |
 |       xup_clk_divider_18      |     0.019 |
-|       xup_clk_divider_19      |     0.023 |
-|       xup_clk_divider_2       |     0.023 |
+|       xup_clk_divider_19      |     0.019 |
+|       xup_clk_divider_2       |     0.022 |
 |       xup_clk_divider_20      |     0.022 |
-|       xup_clk_divider_21      |     0.020 |
-|       xup_clk_divider_22      |     0.022 |
-|       xup_clk_divider_23      |     0.022 |
-|       xup_clk_divider_24      |     0.022 |
-|       xup_clk_divider_25      |     0.020 |
-|       xup_clk_divider_26      |     0.026 |
-|       xup_clk_divider_3       |     0.022 |
+|       xup_clk_divider_21      |     0.019 |
+|       xup_clk_divider_22      |     0.020 |
+|       xup_clk_divider_3       |     0.020 |
 |       xup_clk_divider_4       |     0.022 |
 |       xup_clk_divider_5       |     0.019 |
-|       xup_clk_divider_6       |     0.019 |
+|       xup_clk_divider_6       |     0.022 |
 |       xup_clk_divider_7       |     0.023 |
 |       xup_clk_divider_8       |     0.022 |
-|       xup_clk_divider_9       |     0.022 |
-|     clk_divide_1kHz           |     0.397 |
-|       xup_clk_divider_0       |     0.031 |
-|       xup_clk_divider_1       |     0.034 |
+|       xup_clk_divider_9       |     0.020 |
+|     clk_divide_1Hz            |     0.579 |
+|       xup_clk_divider_0       |     0.029 |
+|       xup_clk_divider_1       |     0.020 |
 |       xup_clk_divider_10      |     0.020 |
 |       xup_clk_divider_11      |     0.022 |
-|       xup_clk_divider_12      |     0.020 |
-|       xup_clk_divider_13      |     0.023 |
+|       xup_clk_divider_12      |     0.019 |
+|       xup_clk_divider_13      |     0.029 |
+|       xup_clk_divider_14      |     0.022 |
+|       xup_clk_divider_15      |     0.019 |
+|       xup_clk_divider_16      |     0.022 |
+|       xup_clk_divider_17      |     0.024 |
+|       xup_clk_divider_18      |     0.020 |
+|       xup_clk_divider_19      |     0.019 |
+|       xup_clk_divider_2       |     0.022 |
+|       xup_clk_divider_20      |     0.022 |
+|       xup_clk_divider_21      |     0.019 |
+|       xup_clk_divider_22      |     0.020 |
+|       xup_clk_divider_23      |     0.019 |
+|       xup_clk_divider_24      |     0.022 |
+|       xup_clk_divider_25      |     0.023 |
+|       xup_clk_divider_26      |     0.024 |
+|       xup_clk_divider_3       |     0.019 |
+|       xup_clk_divider_4       |     0.022 |
+|       xup_clk_divider_5       |     0.019 |
+|       xup_clk_divider_6       |     0.022 |
+|       xup_clk_divider_7       |     0.022 |
+|       xup_clk_divider_8       |     0.019 |
+|       xup_clk_divider_9       |     0.022 |
+|     clk_divide_1kHz           |     0.400 |
+|       xup_clk_divider_0       |     0.031 |
+|       xup_clk_divider_1       |     0.034 |
+|       xup_clk_divider_10      |     0.025 |
+|       xup_clk_divider_11      |     0.032 |
+|       xup_clk_divider_12      |     0.022 |
+|       xup_clk_divider_13      |     0.019 |
 |       xup_clk_divider_14      |     0.019 |
 |       xup_clk_divider_15      |     0.022 |
 |       xup_clk_divider_16      |     0.019 |
 |       xup_clk_divider_2       |     0.032 |
-|       xup_clk_divider_3       |     0.032 |
+|       xup_clk_divider_3       |     0.022 |
+|       xup_clk_divider_4       |     0.019 |
+|       xup_clk_divider_5       |     0.022 |
+|       xup_clk_divider_6       |     0.020 |
+|       xup_clk_divider_7       |     0.022 |
+|       xup_clk_divider_8       |     0.021 |
+|       xup_clk_divider_9       |     0.019 |
+|     clk_divide_3Hz            |     0.520 |
+|       xup_clk_divider_0       |     0.019 |
+|       xup_clk_divider_1       |     0.022 |
+|       xup_clk_divider_10      |     0.022 |
+|       xup_clk_divider_11      |     0.022 |
+|       xup_clk_divider_12      |     0.022 |
+|       xup_clk_divider_13      |     0.019 |
+|       xup_clk_divider_14      |     0.022 |
+|       xup_clk_divider_15      |     0.019 |
+|       xup_clk_divider_16      |     0.025 |
+|       xup_clk_divider_17      |     0.019 |
+|       xup_clk_divider_18      |     0.019 |
+|       xup_clk_divider_19      |     0.020 |
+|       xup_clk_divider_2       |     0.022 |
+|       xup_clk_divider_20      |     0.019 |
+|       xup_clk_divider_21      |     0.019 |
+|       xup_clk_divider_22      |     0.019 |
+|       xup_clk_divider_23      |     0.019 |
+|       xup_clk_divider_24      |     0.019 |
+|       xup_clk_divider_3       |     0.019 |
 |       xup_clk_divider_4       |     0.022 |
 |       xup_clk_divider_5       |     0.019 |
-|       xup_clk_divider_6       |     0.019 |
-|       xup_clk_divider_7       |     0.023 |
-|       xup_clk_divider_8       |     0.022 |
-|       xup_clk_divider_9       |     0.020 |
-|     clk_divide_3Hz            |     0.549 |
-|       xup_clk_divider_0       |     0.024 |
-|       xup_clk_divider_1       |     0.019 |
-|       xup_clk_divider_10      |     0.021 |
-|       xup_clk_divider_11      |     0.022 |
-|       xup_clk_divider_12      |     0.019 |
-|       xup_clk_divider_13      |     0.022 |
-|       xup_clk_divider_14      |     0.025 |
-|       xup_clk_divider_15      |     0.022 |
-|       xup_clk_divider_16      |     0.019 |
-|       xup_clk_divider_17      |     0.019 |
-|       xup_clk_divider_18      |     0.022 |
-|       xup_clk_divider_19      |     0.023 |
-|       xup_clk_divider_2       |     0.019 |
-|       xup_clk_divider_20      |     0.022 |
-|       xup_clk_divider_21      |     0.022 |
-|       xup_clk_divider_22      |     0.022 |
-|       xup_clk_divider_23      |     0.023 |
-|       xup_clk_divider_24      |     0.029 |
-|       xup_clk_divider_3       |     0.022 |
-|       xup_clk_divider_4       |     0.022 |
-|       xup_clk_divider_5       |     0.020 |
 |       xup_clk_divider_6       |     0.023 |
-|       xup_clk_divider_7       |     0.023 |
-|       xup_clk_divider_8       |     0.026 |
-|       xup_clk_divider_9       |     0.022 |
-|     xup_4_to_1_mux_vector_0   |     0.052 |
-|       inst                    |     0.052 |
+|       xup_clk_divider_7       |     0.022 |
+|       xup_clk_divider_8       |     0.028 |
+|       xup_clk_divider_9       |     0.021 |
+|     xup_4_to_1_mux_vector_0   |     0.071 |
+|       inst                    |     0.071 |
 +-------------------------------+-----------+
 
 
