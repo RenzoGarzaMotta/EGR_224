@@ -1604,8 +1604,8 @@ proc create_root_design { parentCell } {
   # Create instance: xlslice_X1, and set properties
   set xlslice_X1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_X1 ]
   set_property -dict [ list \
-   CONFIG.DIN_FROM {0} \
-   CONFIG.DIN_TO {0} \
+   CONFIG.DIN_FROM {1} \
+   CONFIG.DIN_TO {1} \
    CONFIG.DIN_WIDTH {4} \
    CONFIG.DOUT_WIDTH {1} \
  ] $xlslice_X1
@@ -1613,8 +1613,8 @@ proc create_root_design { parentCell } {
   # Create instance: xlslice_X2, and set properties
   set xlslice_X2 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_X2 ]
   set_property -dict [ list \
-   CONFIG.DIN_FROM {0} \
-   CONFIG.DIN_TO {0} \
+   CONFIG.DIN_FROM {2} \
+   CONFIG.DIN_TO {2} \
    CONFIG.DIN_WIDTH {4} \
    CONFIG.DOUT_WIDTH {1} \
  ] $xlslice_X2
@@ -1622,8 +1622,8 @@ proc create_root_design { parentCell } {
   # Create instance: xlslice_X3, and set properties
   set xlslice_X3 [ create_bd_cell -type ip -vlnv xilinx.com:ip:xlslice:1.0 xlslice_X3 ]
   set_property -dict [ list \
-   CONFIG.DIN_FROM {0} \
-   CONFIG.DIN_TO {0} \
+   CONFIG.DIN_FROM {3} \
+   CONFIG.DIN_TO {3} \
    CONFIG.DIN_WIDTH {4} \
    CONFIG.DOUT_WIDTH {1} \
  ] $xlslice_X3

@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Feb 13 08:43:55 2020
-| Host         : B2-Digital running 64-bit major release  (build 9200)
+| Date         : Thu Feb 13 18:09:25 2020
+| Host         : B4-Digital running 64-bit major release  (build 9200)
 | Command      : report_methodology -file multiplexer_wrapper_methodology_drc_routed.rpt -pb multiplexer_wrapper_methodology_drc_routed.pb -rpx multiplexer_wrapper_methodology_drc_routed.rpx
 | Design       : multiplexer_wrapper
 | Device       : xc7a35tcpg236-1
@@ -35,7 +35,7 @@ Table of Contents
 -----------------
 CKLD-2#1 Warning
 Clock Net has IO Driver, not a Clock Buf, and/or non-Clock loads  
-Clock net clkin_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): multiplexer_i/clkin, clkin_IBUF_inst/O
+Clock net clkin_IBUF is directly driven by an IO rather than a Clock Buffer or may be an IO driving a mix of Clock Buffer and non-Clock loads. This connectivity should be reviewed and corrected as appropriate. Driver(s): clkin_IBUF_inst/O, multiplexer_i/clkin
 Related violations: <none>
 
 TIMING-17#1 Warning

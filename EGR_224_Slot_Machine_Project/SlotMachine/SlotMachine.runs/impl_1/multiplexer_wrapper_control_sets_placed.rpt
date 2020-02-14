@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Feb 13 08:43:23 2020
-| Host         : B2-Digital running 64-bit major release  (build 9200)
+| Date         : Thu Feb 13 18:08:55 2020
+| Host         : B4-Digital running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file multiplexer_wrapper_control_sets_placed.rpt
 | Design       : multiplexer_wrapper
 | Device       : xc7a35t
@@ -46,7 +46,7 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             107 |           94 |
+| No           | No                    | No                     |             107 |           93 |
 | No           | No                    | Yes                    |               0 |            0 |
 | No           | Yes                   | No                     |               0 |            0 |
 | Yes          | No                    | No                     |               0 |            0 |
@@ -61,99 +61,99 @@ Table of Contents
 +---------------------------------------------------------------+---------------+------------------+------------------+----------------+
 |                          Clock Signal                         | Enable Signal | Set/Reset Signal | Slice Load Count | Bel Load Count |
 +---------------------------------------------------------------+---------------+------------------+------------------+----------------+
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_17/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_19/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_18/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_2/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_21/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_22/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_20/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_4/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_23/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_3/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_19/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_5/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_6/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_7/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_8/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_9/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_1/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_3/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_2/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_7/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_4/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_5/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_6/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_8/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_0/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_9/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_10/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_12/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_11/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_1/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_15/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_13/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_14/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_16/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_8/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_6/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_25/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_0/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_5/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_8/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_2/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_10/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_14/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_12/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_21/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_14/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_3/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_23/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_16/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_10Hz/xup_clk_divider_6/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_18/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_15/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_12/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_0/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_11/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_10/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_14/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_16/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_15/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_13/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_19/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_17/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_18/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_10/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_11/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_13/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_12/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_10Hz/xup_clk_divider_7/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_20/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_12/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_2/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_21/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_13/inst/clkout |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_3/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_4/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_5/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_14/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_15/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_8/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_16/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_10Hz/xup_clk_divider_9/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_20/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_0/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_10/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_1/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_12/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_11/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_7/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_9/inst/clkout   |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_22/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_14/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_13/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_0/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_15/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_4/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_17/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_18/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_17/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_19/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_16/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_21/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_20/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_2/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_23/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_22/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_24/inst/clkout  |               |                  |                1 |              1 |
-|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_1/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_18/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_3/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_25/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_5/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_7/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_4/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_5/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_6/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_8/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_0/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_19/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1Hz/xup_clk_divider_9/inst/clkout   |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1kHz/xup_clk_divider_10/inst/clkout |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1kHz/xup_clk_divider_11/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_12/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_1/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_14/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_2/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_15/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_13/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_3/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_2/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_4/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_6/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_5/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_7/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_9/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_0/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_1/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_1kHz/xup_clk_divider_8/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_21/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_22/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_23/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_20/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_4/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_3/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_5/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_8/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_6/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_7/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_9/inst/clkout   |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_15/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_14/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_16/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_18/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_17/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_20/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_2/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_19/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_21/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_3/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_11/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_12/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_4/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_13/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_0/inst/clkout  |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_10/inst/clkout |               |                  |                1 |              1 |
+|  multiplexer_i/clk_divide_10Hz/xup_clk_divider_1/inst/clkout  |               |                  |                1 |              1 |
 |  multiplexer_i/clk_divide_1kHz/xup_clk_divider_16/inst/clkout |               |                  |                1 |              3 |
-|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_24/inst/clkout  |               |                  |                1 |              4 |
-|  clkin_IBUF                                                   |               |                  |                2 |              4 |
 |  multiplexer_i/clk_divide_1Hz/xup_clk_divider_26/inst/clkout  |               |                  |                1 |              4 |
+|  multiplexer_i/clk_divide_3Hz/xup_clk_divider_24/inst/clkout  |               |                  |                1 |              4 |
 |  multiplexer_i/clk_divide_10Hz/xup_clk_divider_22/inst/clkout |               |                  |                1 |              4 |
+|  clkin_IBUF                                                   |               |                  |                1 |              4 |
 +---------------------------------------------------------------+---------------+------------------+------------------+----------------+
 
 

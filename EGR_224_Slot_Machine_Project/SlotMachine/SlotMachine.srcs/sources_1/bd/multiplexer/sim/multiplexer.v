@@ -1,8 +1,8 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-//Date        : Thu Feb 13 08:35:26 2020
-//Host        : B2-Digital running 64-bit major release  (build 9200)
+//Date        : Thu Feb 13 18:06:37 2020
+//Host        : B4-Digital running 64-bit major release  (build 9200)
 //Command     : generate_target multiplexer.bd
 //Design      : multiplexer
 //Purpose     : IP block netlist
