@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "xlslice_v1_0_1_xlslice,Vivado 2018.3" *)
 (* CHECK_LICENSE_TYPE = "multiplexer_xlslice_0_3,xlslice_v1_0_1_xlslice,{}" *)
-(* CORE_GENERATION_INFO = "multiplexer_xlslice_0_3,xlslice_v1_0_1_xlslice,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=xlslice,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=VERILOG,DIN_WIDTH=4,DIN_FROM=0,DIN_TO=0}" *)
+(* CORE_GENERATION_INFO = "multiplexer_xlslice_0_3,xlslice_v1_0_1_xlslice,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=xlslice,x_ipVersion=1.0,x_ipCoreRevision=1,x_ipLanguage=VERILOG,x_ipSimLanguage=VERILOG,DIN_WIDTH=4,DIN_FROM=2,DIN_TO=2}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module multiplexer_xlslice_0_3 (
   Din,
@@ -64,8 +64,8 @@ output wire [0 : 0] Dout;
 
   xlslice_v1_0_1_xlslice #(
     .DIN_WIDTH(4),
-    .DIN_FROM(0),
-    .DIN_TO(0)
+    .DIN_FROM(2),
+    .DIN_TO(2)
   ) inst (
     .Din(Din),
     .Dout(Dout)

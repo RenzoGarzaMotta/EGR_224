@@ -1,12 +1,12 @@
 {
    "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS-threadsafe
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
 preplace port A -pg 1 -y 280 -defaultsOSRD
+preplace port clkin -pg 1 -y 260 -defaultsOSRD
 preplace port B -pg 1 -y 300 -defaultsOSRD
 preplace port C -pg 1 -y 320 -defaultsOSRD
 preplace port D -pg 1 -y 340 -defaultsOSRD
-preplace port clk_in -pg 1 -y 460 -defaultsOSRD
 preplace port E -pg 1 -y 360 -defaultsOSRD
 preplace port F -pg 1 -y 380 -defaultsOSRD
 preplace port G -pg 1 -y 400 -defaultsOSRD
@@ -37,28 +37,28 @@ preplace netloc clk_divide_1kHz_NEEDS_EDIT_clkout_0 1 1 1 NJ
 preplace netloc xup_or2_0_y3 1 6 1 NJ
 preplace netloc Enable_Mux_AN3 1 6 1 N
 preplace netloc xup_or3_0_y 1 6 1 NJ
-preplace netloc c_counter_binary_1_Q 1 3 1 590J
+preplace netloc c_counter_binary_1_Q 1 3 1 620J
 preplace netloc clk_divide_1Hz_clkout_0 1 2 1 NJ
-preplace netloc xlslice_X3_Dout 1 5 1 1040
-preplace netloc xlslice_X0_Dout 1 5 1 1030
+preplace netloc xlslice_X3_Dout 1 5 1 1070
+preplace netloc xlslice_X0_Dout 1 5 1 1060
 preplace netloc c_counter_binary_2_Q 1 3 1 NJ
 preplace netloc clk_divide_10Hz_NEEDS_EDIT_clkout_0 1 2 1 NJ
-preplace netloc clk_in_1 1 0 2 20 260 200
+preplace netloc clk_in_1 1 0 2 10 260 200
 preplace netloc xup_or2_0_y 1 6 1 NJ
-preplace netloc xup_4_to_1_mux_vector_0_y1 1 4 1 830
-preplace netloc xlconstant_0_dout 1 3 1 610J
-preplace netloc c_counter_binary_0_Q 1 3 1 610J
+preplace netloc xup_4_to_1_mux_vector_0_y1 1 4 1 860
+preplace netloc xlconstant_0_dout 1 3 1 640J
+preplace netloc c_counter_binary_0_Q 1 3 1 640J
 preplace netloc xlslice_X1_Dout 1 5 1 N
 preplace netloc c_counter_binary_3_Q 1 2 1 NJ
 preplace netloc xup_and3_0_y 1 6 1 NJ
-preplace netloc xlslice_X2_Dout 1 5 1 1030
+preplace netloc xlslice_X2_Dout 1 5 1 1060
 preplace netloc Enable_Mux_AN0 1 6 1 N
 preplace netloc xup_or2_0_y1 1 6 1 NJ
 preplace netloc xup_and2_0_y 1 6 1 NJ
 preplace netloc Enable_Mux_AN1 1 6 1 N
-preplace netloc xlslice_0_Dout 1 3 3 600 160 NJ 160 NJ
+preplace netloc xlslice_0_Dout 1 3 3 630 160 NJ 160 NJ
 preplace netloc xup_or2_0_y2 1 6 1 NJ
-levelinfo -pg 1 0 110 290 490 720 930 1140 1260 -top 0 -bot 590
+levelinfo -pg 1 -10 110 310 520 750 960 1170 1290 -top 0 -bot 590
 "
 }
-
+0

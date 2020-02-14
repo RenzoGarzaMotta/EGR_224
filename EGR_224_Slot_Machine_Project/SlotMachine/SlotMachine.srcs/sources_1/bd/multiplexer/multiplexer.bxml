@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="multiplexer" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1581600927"/>
-    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1581600927"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1581600927"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1581600927"/>
+    <Generation Name="SYNTHESIS" State="GENERATED" Timestamp="1581635197"/>
+    <Generation Name="IMPLEMENTATION" State="GENERATED" Timestamp="1581635197"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1581635197"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1581635197"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\multiplexer_xup_4_to_1_mux_vector_0_1\multiplexer_xup_4_to_1_mux_vector_0_1.xci" Type="IP">
         <Instance HierarchyPath="Enable_Mux/xup_4_to_1_mux_vector_1"/>
