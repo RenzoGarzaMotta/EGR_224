@@ -1,8 +1,8 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-// Date        : Wed Feb 12 23:15:12 2020
-// Host        : D1-Digital running 64-bit major release  (build 9200)
+// Date        : Thu Feb 13 21:31:14 2020
+// Host        : KEN344-03 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub -rename_top multiplexer_c_counter_binary_0_1 -prefix
 //               multiplexer_c_counter_binary_0_1_ multiplexer_c_counter_binary_1_0_stub.v
 // Design      : multiplexer_c_counter_binary_1_0

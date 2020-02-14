@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Feb 13 18:09:25 2020
-| Host         : B4-Digital running 64-bit major release  (build 9200)
+| Date         : Thu Feb 13 21:34:01 2020
+| Host         : KEN344-03 running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -max_paths 10 -file multiplexer_wrapper_timing_summary_routed.rpt -pb multiplexer_wrapper_timing_summary_routed.pb -rpx multiplexer_wrapper_timing_summary_routed.rpx -warn_on_violation
 | Design       : multiplexer_wrapper
 | Device       : 7a35t-cpg236
@@ -251,7 +251,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 107 pins that are not constrained for maximum delay. (HIGH)
+ There are 122 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 

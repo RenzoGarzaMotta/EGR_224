@@ -1,8 +1,8 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Thu Feb 13 18:07:33 2020
-| Host         : B4-Digital running 64-bit major release  (build 9200)
+| Date         : Thu Feb 13 21:32:27 2020
+| Host         : KEN344-03 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file multiplexer_wrapper_utilization_synth.rpt -pb multiplexer_wrapper_utilization_synth.pb
 | Design       : multiplexer_wrapper
 | Device       : 7a35tcpg236-1

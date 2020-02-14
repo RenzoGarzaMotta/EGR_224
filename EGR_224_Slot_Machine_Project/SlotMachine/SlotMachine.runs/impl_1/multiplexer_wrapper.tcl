@@ -66,7 +66,7 @@ set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
   open_checkpoint multiplexer_wrapper_routed.dcp
-  set_property webtalk.parent_dir C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.cache/wt [current_project]
+  set_property webtalk.parent_dir W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.cache/wt [current_project]
   catch { write_mem_info -force multiplexer_wrapper.mmi }
   write_bitstream -force multiplexer_wrapper.bit 
   catch { write_sysdef -hwdef multiplexer_wrapper.hwdef -bitfile multiplexer_wrapper.bit -meminfo multiplexer_wrapper.mmi -file multiplexer_wrapper.sysdef }
