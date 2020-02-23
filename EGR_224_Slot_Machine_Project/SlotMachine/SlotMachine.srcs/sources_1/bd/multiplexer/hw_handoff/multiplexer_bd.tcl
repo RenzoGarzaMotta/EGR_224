@@ -1540,29 +1540,39 @@ proc create_root_design { parentCell } {
   # Create instance: c_counter_binary_0, and set properties
   set c_counter_binary_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:c_counter_binary:12.0 c_counter_binary_0 ]
   set_property -dict [ list \
-   CONFIG.Increment_Value {9} \
+   CONFIG.Final_Count_Value {9} \
+   CONFIG.Increment_Value {1} \
    CONFIG.Output_Width {4} \
+   CONFIG.Restrict_Count {true} \
  ] $c_counter_binary_0
 
   # Create instance: c_counter_binary_1, and set properties
   set c_counter_binary_1 [ create_bd_cell -type ip -vlnv xilinx.com:ip:c_counter_binary:12.0 c_counter_binary_1 ]
   set_property -dict [ list \
-   CONFIG.Increment_Value {9} \
+   CONFIG.Final_Count_Value {9} \
+   CONFIG.Increment_Value {1} \
    CONFIG.Output_Width {4} \
+   CONFIG.Restrict_Count {true} \
  ] $c_counter_binary_1
 
   # Create instance: c_counter_binary_2, and set properties
   set c_counter_binary_2 [ create_bd_cell -type ip -vlnv xilinx.com:ip:c_counter_binary:12.0 c_counter_binary_2 ]
   set_property -dict [ list \
-   CONFIG.Increment_Value {9} \
+   CONFIG.Final_Count_Value {9} \
+   CONFIG.Increment_Value {1} \
    CONFIG.Output_Width {4} \
+   CONFIG.Restrict_Count {true} \
  ] $c_counter_binary_2
 
   # Create instance: c_counter_binary_3, and set properties
   set c_counter_binary_3 [ create_bd_cell -type ip -vlnv xilinx.com:ip:c_counter_binary:12.0 c_counter_binary_3 ]
   set_property -dict [ list \
-   CONFIG.Increment_Value {4} \
+   CONFIG.CE {false} \
+   CONFIG.Final_Count_Value {3} \
+   CONFIG.Increment_Value {1} \
    CONFIG.Output_Width {3} \
+   CONFIG.Restrict_Count {true} \
+   CONFIG.SCLR {false} \
  ] $c_counter_binary_3
 
   # Create instance: clk_divide_10Hz

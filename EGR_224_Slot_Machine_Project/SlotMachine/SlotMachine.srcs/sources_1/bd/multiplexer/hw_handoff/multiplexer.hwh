@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Feb 13 18:06:37 2020" VIVADOVERSION="2018.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Thu Feb 13 21:30:18 2020" VIVADOVERSION="2018.3">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="multiplexer" PACKAGE="cpg236" SPEEDGRADE="-1"/>
 
@@ -1216,9 +1216,9 @@
         <PARAMETER NAME="C_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
         <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
-        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
-        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
-        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1"/>
         <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
         <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
         <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
@@ -1235,9 +1235,9 @@
         <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_0_0"/>
         <PARAMETER NAME="Implementation" VALUE="Fabric"/>
         <PARAMETER NAME="Output_Width" VALUE="4"/>
-        <PARAMETER NAME="Increment_Value" VALUE="9"/>
-        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
-        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Increment_Value" VALUE="1"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="true"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="9"/>
         <PARAMETER NAME="Count_Mode" VALUE="UP"/>
         <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
         <PARAMETER NAME="Threshold_Value" VALUE="1"/>
@@ -1282,9 +1282,9 @@
         <PARAMETER NAME="C_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
         <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
-        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
-        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
-        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1"/>
         <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
         <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
         <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
@@ -1301,9 +1301,9 @@
         <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_0_1"/>
         <PARAMETER NAME="Implementation" VALUE="Fabric"/>
         <PARAMETER NAME="Output_Width" VALUE="4"/>
-        <PARAMETER NAME="Increment_Value" VALUE="9"/>
-        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
-        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Increment_Value" VALUE="1"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="true"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="9"/>
         <PARAMETER NAME="Count_Mode" VALUE="UP"/>
         <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
         <PARAMETER NAME="Threshold_Value" VALUE="1"/>
@@ -1348,9 +1348,9 @@
         <PARAMETER NAME="C_WIDTH" VALUE="4"/>
         <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
         <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
-        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
-        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
-        <PARAMETER NAME="C_COUNT_BY" VALUE="1001"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="1001"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1"/>
         <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
         <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
         <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
@@ -1367,9 +1367,9 @@
         <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_1_0"/>
         <PARAMETER NAME="Implementation" VALUE="Fabric"/>
         <PARAMETER NAME="Output_Width" VALUE="4"/>
-        <PARAMETER NAME="Increment_Value" VALUE="9"/>
-        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
-        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Increment_Value" VALUE="1"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="true"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="9"/>
         <PARAMETER NAME="Count_Mode" VALUE="UP"/>
         <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
         <PARAMETER NAME="Threshold_Value" VALUE="1"/>
@@ -1414,9 +1414,9 @@
         <PARAMETER NAME="C_WIDTH" VALUE="3"/>
         <PARAMETER NAME="C_HAS_CE" VALUE="0"/>
         <PARAMETER NAME="C_HAS_SCLR" VALUE="0"/>
-        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="0"/>
-        <PARAMETER NAME="C_COUNT_TO" VALUE="1"/>
-        <PARAMETER NAME="C_COUNT_BY" VALUE="100"/>
+        <PARAMETER NAME="C_RESTRICT_COUNT" VALUE="1"/>
+        <PARAMETER NAME="C_COUNT_TO" VALUE="11"/>
+        <PARAMETER NAME="C_COUNT_BY" VALUE="1"/>
         <PARAMETER NAME="C_COUNT_MODE" VALUE="0"/>
         <PARAMETER NAME="C_THRESH0_VALUE" VALUE="1"/>
         <PARAMETER NAME="C_CE_OVERRIDES_SYNC" VALUE="0"/>
@@ -1433,9 +1433,9 @@
         <PARAMETER NAME="Component_Name" VALUE="multiplexer_c_counter_binary_1_1"/>
         <PARAMETER NAME="Implementation" VALUE="Fabric"/>
         <PARAMETER NAME="Output_Width" VALUE="3"/>
-        <PARAMETER NAME="Increment_Value" VALUE="4"/>
-        <PARAMETER NAME="Restrict_Count" VALUE="false"/>
-        <PARAMETER NAME="Final_Count_Value" VALUE="1"/>
+        <PARAMETER NAME="Increment_Value" VALUE="1"/>
+        <PARAMETER NAME="Restrict_Count" VALUE="true"/>
+        <PARAMETER NAME="Final_Count_Value" VALUE="3"/>
         <PARAMETER NAME="Count_Mode" VALUE="UP"/>
         <PARAMETER NAME="Sync_Threshold_Output" VALUE="false"/>
         <PARAMETER NAME="Threshold_Value" VALUE="1"/>

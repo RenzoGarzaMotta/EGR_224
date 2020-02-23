@@ -1,0 +1,54 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu Feb 13 18:23:34 2020
+# Process ID: 9228
+# Current directory: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent776 W:\EGR_224\EGR_224\EGR_224_Lab5_Counter\counter\counter.xpr
+# Log file: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/vivado.log
+# Journal file: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'W:/../Xilinx/XUP_LIB'; using path 'C:/Xilinx/XUP_LIB' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:19 ; elapsed = 00:00:24 . Memory (MB): peak = 852.055 ; gain = 258.117
+update_compile_order -fileset sources_1
+open_bd_design {W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/counter/counter.bd}
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_15
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_2
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_16
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_3
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_17
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_4
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_18
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_5
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_19
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_6
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_7
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_20
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_8
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_21
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_9
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_22
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_10
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_23
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_11
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_24
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_12
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_25
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_13
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_0
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_26
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_14
+Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_1
+Successfully read diagram <counter> from BD file <W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/counter/counter.bd>
+open_bd_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:06 . Memory (MB): peak = 1592.695 ; gain = 47.891
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 13 20:34:33 2020...

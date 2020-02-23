@@ -1770,11 +1770,17 @@
         "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
         "xci_name": "multiplexer_c_counter_binary_0_0",
         "parameters": {
-          "Increment_Value": {
+          "Final_Count_Value": {
             "value": "9"
+          },
+          "Increment_Value": {
+            "value": "1"
           },
           "Output_Width": {
             "value": "4"
+          },
+          "Restrict_Count": {
+            "value": "true"
           }
         }
       },
@@ -1782,11 +1788,17 @@
         "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
         "xci_name": "multiplexer_c_counter_binary_0_1",
         "parameters": {
-          "Increment_Value": {
+          "Final_Count_Value": {
             "value": "9"
+          },
+          "Increment_Value": {
+            "value": "1"
           },
           "Output_Width": {
             "value": "4"
+          },
+          "Restrict_Count": {
+            "value": "true"
           }
         }
       },
@@ -1794,11 +1806,17 @@
         "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
         "xci_name": "multiplexer_c_counter_binary_1_0",
         "parameters": {
-          "Increment_Value": {
+          "Final_Count_Value": {
             "value": "9"
+          },
+          "Increment_Value": {
+            "value": "1"
           },
           "Output_Width": {
             "value": "4"
+          },
+          "Restrict_Count": {
+            "value": "true"
           }
         }
       },
@@ -1806,11 +1824,23 @@
         "vlnv": "xilinx.com:ip:c_counter_binary:12.0",
         "xci_name": "multiplexer_c_counter_binary_1_1",
         "parameters": {
+          "CE": {
+            "value": "false"
+          },
+          "Final_Count_Value": {
+            "value": "3"
+          },
           "Increment_Value": {
-            "value": "4"
+            "value": "1"
           },
           "Output_Width": {
             "value": "3"
+          },
+          "Restrict_Count": {
+            "value": "true"
+          },
+          "SCLR": {
+            "value": "false"
           }
         }
       },
@@ -2634,30 +2664,6 @@
           "xup_4_to_1_mux_vector_0/d"
         ]
       },
-      "xlslice_X0_Dout": {
-        "ports": [
-          "xlslice_X0/Dout",
-          "Seg_Decoder/X0"
-        ]
-      },
-      "xlslice_X1_Dout": {
-        "ports": [
-          "xlslice_X1/Dout",
-          "Seg_Decoder/X1"
-        ]
-      },
-      "xlslice_X2_Dout": {
-        "ports": [
-          "xlslice_X2/Dout",
-          "Seg_Decoder/X2"
-        ]
-      },
-      "xlslice_X3_Dout": {
-        "ports": [
-          "xlslice_X3/Dout",
-          "Seg_Decoder/X3"
-        ]
-      },
       "xlslice_0_Dout": {
         "ports": [
           "xlslice_0/Dout",
@@ -2705,6 +2711,30 @@
         "ports": [
           "Enable_Mux/AN3",
           "AN3_0"
+        ]
+      },
+      "xlslice_X0_Dout": {
+        "ports": [
+          "xlslice_X0/Dout",
+          "Seg_Decoder/X0"
+        ]
+      },
+      "xlslice_X1_Dout": {
+        "ports": [
+          "xlslice_X1/Dout",
+          "Seg_Decoder/X1"
+        ]
+      },
+      "xlslice_X2_Dout": {
+        "ports": [
+          "xlslice_X2/Dout",
+          "Seg_Decoder/X2"
+        ]
+      },
+      "xlslice_X3_Dout": {
+        "ports": [
+          "xlslice_X3/Dout",
+          "Seg_Decoder/X3"
         ]
       }
     }

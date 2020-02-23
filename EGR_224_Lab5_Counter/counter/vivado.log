@@ -2,23 +2,25 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Tue Feb 11 18:09:40 2020
-# Process ID: 8352
-# Current directory: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8424 C:\Users\garzamor\EGR224\EGR_224_Lab5_\counter\counter.xpr
-# Log file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/vivado.log
-# Journal file: C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter\vivado.jou
+# Start of session at: Thu Feb 13 21:09:13 2020
+# Process ID: 5832
+# Current directory: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5668 W:\EGR_224\EGR_224\EGR_224_Lab5_Counter\counter\counter.xpr
+# Log file: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/vivado.log
+# Journal file: W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.xpr
+open_project W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter' since last save.
 Scanning sources...
 Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'W:/../Xilinx/XUP_LIB'; using path 'C:/Xilinx/XUP_LIB' instead.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:21 . Memory (MB): peak = 921.414 ; gain = 245.852
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:28 . Memory (MB): peak = 894.621 ; gain = 67.180
 update_compile_order -fileset sources_1
-open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/counter/counter.bd}
+open_bd_design {W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/counter/counter.bd}
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_15
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_2
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_16
@@ -46,248 +48,9 @@ Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_0
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_26
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_14
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_1
-Successfully read diagram <counter> from BD file <C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/counter/counter.bd>
-open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1714.684 ; gain = 174.199
-regenerate_bd_layout
-regenerate_bd_layout
-open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/counter_2bit/counter_2bit.bd}
-Adding cell -- xilinx.com:xup:xup_dff_en_reset:1.0 - xup_dff_en_reset_0
-Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
-Adding cell -- xilinx.com:xup:xup_dff_en_reset:1.0 - xup_dff_en_reset_1
-Adding cell -- xilinx.com:xup:xup_xor2:1.0 - xup_xor2_0
-Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
-Successfully read diagram <counter_2bit> from BD file <C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/counter_2bit/counter_2bit.bd>
-current_bd_design [get_bd_designs counter]
-close_bd_design [get_bd_designs counter]
-close_bd_design [get_bd_designs counter_2bit]
-set_property top counter_2bit_tb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-update_compile_order -fileset sim_1
-set_property top counter_2bit_wrapper [current_fileset]
-update_compile_order -fileset sources_1
-launch_simulation
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'counter_2bit_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj counter_2bit_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ipshared/1046/xup_dff_en_reset.srcs/sources_1/new/xup_dff_en_reset.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module xup_dff_en_reset
-WARNING: [VRFC 10-3676] redeclaration of ansi port 'q' is not allowed [C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ipshared/1046/xup_dff_en_reset.srcs/sources_1/new/xup_dff_en_reset.v:12]
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ip/counter_2bit_xup_dff_en_reset_0_0/sim/counter_2bit_xup_dff_en_reset_0_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_xup_dff_en_reset_0_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ip/counter_2bit_xlconcat_0_0/sim/counter_2bit_xlconcat_0_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_xlconcat_0_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ip/counter_2bit_xup_dff_en_reset_0_1/sim/counter_2bit_xup_dff_en_reset_0_1.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_xup_dff_en_reset_0_1
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/sim/counter_2bit.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ipshared/7bd1/xup_xor2.srcs/sources_1/new/xup_xor2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module xup_xor2
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ip/counter_2bit_xup_xor2_0_0/sim/counter_2bit_xup_xor2_0_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_xup_xor2_0_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module xup_inv
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/counter_2bit/ip/counter_2bit_xup_inv_0_0/sim/counter_2bit_xup_inv_0_0.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_xup_inv_0_0
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/counter_2bit/hdl/counter_2bit_wrapper.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_wrapper
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sim_1/new/counter_2bit_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module counter_2bit_tb
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.3
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 497649024b814329b964f44ce35c896c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot counter_2bit_tb_behav xil_defaultlib.counter_2bit_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat_default
-Compiling module xil_defaultlib.counter_2bit_xlconcat_0_0
-Compiling module xil_defaultlib.xup_dff_en_reset
-Compiling module xil_defaultlib.counter_2bit_xup_dff_en_reset_0_...
-Compiling module xil_defaultlib.counter_2bit_xup_dff_en_reset_0_...
-Compiling module xil_defaultlib.xup_inv(DELAY=3)
-Compiling module xil_defaultlib.counter_2bit_xup_inv_0_0
-Compiling module xil_defaultlib.xup_xor2(DELAY=3)
-Compiling module xil_defaultlib.counter_2bit_xup_xor2_0_0
-Compiling module xil_defaultlib.counter_2bit
-Compiling module xil_defaultlib.counter_2bit_wrapper
-Compiling module xil_defaultlib.counter_2bit_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot counter_2bit_tb_behav
-
-****** Webtalk v2018.3 (64-bit)
-  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim/xsim.dir/counter_2bit_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim/xsim.dir/counter_2bit_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Feb 11 18:38:33 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Tue Feb 11 18:38:33 2020...
-INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "counter_2bit_tb_behav -key {Behavioral:sim_1:Functional:counter_2bit_tb} -tclbatch {counter_2bit_tb.tcl} -protoinst "protoinst_files/counter_2bit.protoinst" -protoinst "protoinst_files/One_Digit.protoinst" -protoinst "protoinst_files/Decade_counter.protoinst" -protoinst "protoinst_files/counter.protoinst" -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.3
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/counter_2bit.protoinst
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/One_Digit.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/One_Digit.protoinst for the following reason(s):
-There are no instances of module "One_Digit" in the design.
-
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Decade_counter.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/Decade_counter.protoinst for the following reason(s):
-There are no instances of module "Decade_counter" in the design.
-
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/counter.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/counter.protoinst for the following reason(s):
-There are no instances of module "counter" in the design.
-
-Time resolution is 1 ps
-source counter_2bit_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 500 ns : File "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sim_1/new/counter_2bit_tb.v" Line 30
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'counter_2bit_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1797.191 ; gain = 31.969
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-set_property top Decade_counter_wrapper [current_fileset]
-set_property top Decade_counter_tb [get_filesets sim_1]
-set_property top_lib xil_defaultlib [get_filesets sim_1]
-update_compile_order -fileset sources_1
-update_compile_order -fileset sim_1
-open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/Decade_counter/Decade_counter.bd}
-Adding cell -- xilinx.com:ip:c_counter_binary:12.0 - c_counter_binary_0
-Successfully read diagram <Decade_counter> from BD file <C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/Decade_counter/Decade_counter.bd>
-launch_simulation
-INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
-INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
-INFO: [SIM-utils-51] Simulation object is 'sim_1'
-INFO: [USF-XSim-7] Finding pre-compiled libraries...
-INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [SIM-utils-54] Inspecting design source files for 'Decade_counter_tb' in fileset 'sim_1'...
-INFO: [USF-XSim-97] Finding global include files...
-INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
-INFO: [USF-XSim-2] XSim::Compile design
-INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-"xvlog --incr --relax -prj Decade_counter_tb_vlog.prj"
-INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.ip_user_files/bd/Decade_counter/ip/Decade_counter_c_counter_binary_0_0/Decade_counter_c_counter_binary_0_0_sim_netlist.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_fabric_legacy
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_legacy
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_addsub_v12_0_12_lut6_legacy
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12_legacy
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_counter_binary_v12_0_12_viv
-INFO: [VRFC 10-311] analyzing module Decade_counter_c_counter_binary_0_0_c_reg_fd_v12_0_5_viv
-INFO: [VRFC 10-311] analyzing module glbl
-INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
-INFO: [USF-XSim-3] XSim::Elaborate design
-INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-Vivado Simulator 2018.3
-Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 497649024b814329b964f44ce35c896c --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Decade_counter_tb_behav xil_defaultlib.Decade_counter_tb xil_defaultlib.glbl -log elaborate.log 
-Using 2 slave threads.
-Starting static elaboration
-Completed static elaboration
-Starting simulation data flow analysis
-Completed simulation data flow analysis
-Time Resolution for simulation is 1ps
-Compiling module unisims_ver.VCC
-Compiling module unisims_ver.GND
-Compiling module unisims_ver.x_lut2_mux4
-Compiling module unisims_ver.LUT2
-Compiling module unisims_ver.FDRE_default
-Compiling module unisims_ver.x_lut1_mux2
-Compiling module unisims_ver.LUT1
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module unisims_ver.CARRY4
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter_c_counter_binary_...
-Compiling module xil_defaultlib.Decade_counter
-Compiling module xil_defaultlib.Decade_counter_wrapper
-Compiling module xil_defaultlib.Decade_counter_tb
-Compiling module xil_defaultlib.glbl
-Built simulation snapshot Decade_counter_tb_behav
-
-****** Webtalk v2018.3 (64-bit)
-  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
-  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
-
-source C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim/xsim.dir/Decade_counter_tb_behav/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-186] 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim/xsim.dir/Decade_counter_tb_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Feb 11 18:46:24 2020. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.3/doc/webtalk_introduction.html.
-INFO: [Common 17-206] Exiting Webtalk at Tue Feb 11 18:46:24 2020...
-INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
-INFO: [USF-XSim-4] XSim::Simulate design
-INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.sim/sim_1/behav/xsim'
-INFO: [USF-XSim-98] *** Running xsim
-   with args "Decade_counter_tb_behav -key {Behavioral:sim_1:Functional:Decade_counter_tb} -tclbatch {Decade_counter_tb.tcl} -protoinst "protoinst_files/Decade_counter.protoinst" -protoinst "protoinst_files/counter_2bit.protoinst" -protoinst "protoinst_files/One_Digit.protoinst" -protoinst "protoinst_files/counter.protoinst" -log {simulate.log}"
-INFO: [USF-XSim-8] Loading simulator feature
-Vivado Simulator 2018.3
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/Decade_counter.protoinst
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/counter_2bit.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/counter_2bit.protoinst for the following reason(s):
-There are no instances of module "counter_2bit" in the design.
-
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/One_Digit.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/One_Digit.protoinst for the following reason(s):
-There are no instances of module "One_Digit" in the design.
-
-INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/counter.protoinst
-WARNING: [Wavedata 42-558] Couldn't load one or more protocol instances from protoinst file protoinst_files/counter.protoinst for the following reason(s):
-There are no instances of module "counter" in the design.
-
-Time resolution is 1 ps
-source Decade_counter_tb.tcl
-# set curr_wave [current_wave_config]
-# if { [string length $curr_wave] == 0 } {
-#   if { [llength [get_objects]] > 0} {
-#     add_wave /
-#     set_property needs_save false [current_wave_config]
-#   } else {
-#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
-#   }
-# }
-# run 1000ns
-$finish called at time : 500 ns : File "C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sim_1/new/Decade_counter_tb.v" Line 20
-INFO: [USF-XSim-96] XSim completed. Design snapshot 'Decade_counter_tb_behav' loaded.
-INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:12 . Memory (MB): peak = 1991.262 ; gain = 194.070
-close_sim
-INFO: [Simtcl 6-16] Simulation closed
-open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/One_Digit.bd}
+Successfully read diagram <counter> from BD file <W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/counter/counter.bd>
+open_bd_design: Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 1528.703 ; gain = 32.594
+open_bd_design {W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/One_Digit/One_Digit.bd}
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_15
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_2
 Adding cell -- xilinx.com:xup:xup_clk_divider:1.0 - xup_clk_divider_16
@@ -357,4 +120,6 @@ Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_0
 Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_1
 Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_2
 Adding cell -- xilinx.com:ip:xlslice:1.0 - xlslice_3
-Successfully read diagram <One_Digit> from BD file <C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.srcs/sources_1/bd/One_Digit/One_Digit.bd>
+Successfully read diagram <One_Digit> from BD file <W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.srcs/sources_1/bd/One_Digit/One_Digit.bd>
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 13 21:38:12 2020...

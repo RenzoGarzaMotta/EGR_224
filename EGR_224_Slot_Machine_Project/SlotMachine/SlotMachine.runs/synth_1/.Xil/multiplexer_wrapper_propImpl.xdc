@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/constrs_1/new/top_pins.xdc rfile:../../../SlotMachine.srcs/constrs_1/new/top_pins.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/constrs_1/new/top_pins.xdc rfile:../../../SlotMachine.srcs/constrs_1/new/top_pins.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:1 export:INPUT save:INPUT read:READ} [current_design]
 set_property PACKAGE_PIN U2 [get_ports {AN0_0[0]}]
 set_property src_info {type:XDC file:1 line:2 export:INPUT save:INPUT read:READ} [current_design]
