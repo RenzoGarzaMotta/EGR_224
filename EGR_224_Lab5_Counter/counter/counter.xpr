@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="39" Path="C:/Users/garzamor/EGR224/EGR_224_Lab5_/counter/counter.xpr">
+<Project Version="7" Minor="39" Path="W:/EGR_224/EGR_224/EGR_224_Lab5_Counter/counter/counter.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="497649024b814329b964f44ce35c896c"/>
@@ -22,7 +22,7 @@
     <Option Name="ActiveSimSet" Val="sim_1"/>
     <Option Name="DefaultLib" Val="xil_defaultlib"/>
     <Option Name="ProjectType" Val="Default"/>
-    <Option Name="IPRepoPath" Val="$PPRDIR/../../../../../Xilinx/XUP_LIB"/>
+    <Option Name="IPRepoPath" Val="C:/Xilinx/XUP_LIB"/>
     <Option Name="IPOutputRepo" Val="$PCACHEDIR/ip"/>
     <Option Name="IPCachePermission" Val="read"/>
     <Option Name="IPCachePermission" Val="write"/>
@@ -34,7 +34,7 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="basys3"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="51"/>
+    <Option Name="WTXSimLaunchSim" Val="52"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -86,17 +86,17 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_dff_en_reset_0_0/counter_2bit_xup_dff_en_reset_0_0.xci">
-          <Proxy FileSetName="counter_2bit_xup_dff_en_reset_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_xor2_0_0/counter_2bit_xup_xor2_0_0.xci">
-          <Proxy FileSetName="counter_2bit_xup_xor2_0_0"/>
+        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_dff_en_reset_0_1/counter_2bit_xup_dff_en_reset_0_1.xci">
+          <Proxy FileSetName="counter_2bit_xup_dff_en_reset_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_inv_0_0/counter_2bit_xup_inv_0_0.xci">
           <Proxy FileSetName="counter_2bit_xup_inv_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_dff_en_reset_0_1/counter_2bit_xup_dff_en_reset_0_1.xci">
-          <Proxy FileSetName="counter_2bit_xup_dff_en_reset_0_1"/>
+        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_xor2_0_0/counter_2bit_xup_xor2_0_0.xci">
+          <Proxy FileSetName="counter_2bit_xup_xor2_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter_2bit.bd" FileRelPathName="ip/counter_2bit_xup_dff_en_reset_0_0/counter_2bit_xup_dff_en_reset_0_0.xci">
+          <Proxy FileSetName="counter_2bit_xup_dff_en_reset_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/counter_2bit/hdl/counter_2bit_wrapper.v">
@@ -114,59 +114,104 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_1/One_Digit_xup_inv_2_1.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_2_1"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_1/One_Digit_xup_and3_0_1.xci">
+          <Proxy FileSetName="One_Digit_xup_and3_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0.xci">
+          <Proxy FileSetName="One_Digit_xup_xor2_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_1/One_Digit_xup_and2_0_1.xci">
           <Proxy FileSetName="One_Digit_xup_and2_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_1.xci">
-          <Proxy FileSetName="One_Digit_xup_or2_0_1"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_3/One_Digit_xup_and2_0_3.xci">
+          <Proxy FileSetName="One_Digit_xup_and2_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_2/One_Digit_xup_inv_2_2.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_2_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_2_0/One_Digit_xup_and2_2_0.xci">
           <Proxy FileSetName="One_Digit_xup_and2_2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_0.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_0_0"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_0/One_Digit_xup_and3_0_0.xci">
+          <Proxy FileSetName="One_Digit_xup_and3_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_1/One_Digit_xup_and3_0_1.xci">
-          <Proxy FileSetName="One_Digit_xup_and3_0_1"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_1.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_3/One_Digit_xup_inv_1_3.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_1_3"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_1/One_Digit_xup_inv_2_1.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_2_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_0_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_3.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_2/One_Digit_xup_and3_0_2.xci">
-          <Proxy FileSetName="One_Digit_xup_and3_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0.xci">
-          <Proxy FileSetName="One_Digit_xup_and4_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_1.xci">
-          <Proxy FileSetName="One_Digit_xup_and4_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0.xci">
-          <Proxy FileSetName="One_Digit_xup_and3_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_0/One_Digit_xup_inv_2_0.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_2_0"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_0/One_Digit_xup_inv_1_0.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_1_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_0/One_Digit_xup_or2_0_0.xci">
           <Proxy FileSetName="One_Digit_xup_or2_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_2/One_Digit_xup_inv_1_2.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_1_2"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_1/One_Digit_xup_or2_0_1.xci">
+          <Proxy FileSetName="One_Digit_xup_or2_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_2/One_Digit_xup_and2_0_2.xci">
+          <Proxy FileSetName="One_Digit_xup_and2_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_2.xci">
+          <Proxy FileSetName="One_Digit_xup_or2_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_1_0/One_Digit_xup_and2_1_0.xci">
+          <Proxy FileSetName="One_Digit_xup_and2_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_3.xci">
+          <Proxy FileSetName="One_Digit_xup_or2_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_2/One_Digit_xup_and3_0_2.xci">
+          <Proxy FileSetName="One_Digit_xup_and3_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_3/One_Digit_xup_inv_1_3.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_1_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_1_0/One_Digit_xup_or2_1_0.xci">
           <Proxy FileSetName="One_Digit_xup_or2_1_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and4_0_1/One_Digit_xup_and4_0_1.xci">
+          <Proxy FileSetName="One_Digit_xup_and4_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_2/One_Digit_xup_inv_1_2.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_1_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4.xci">
+          <Proxy FileSetName="One_Digit_xup_or2_0_4"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_0/One_Digit_xup_inv_2_0.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_3/One_Digit_xup_inv_0_3.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_0/One_Digit_xup_inv_0_0.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_3_0/One_Digit_xup_inv_3_0.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_0/One_Digit_xup_and2_0_0.xci">
+          <Proxy FileSetName="One_Digit_xup_and2_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_1_0/One_Digit_xup_and3_1_0.xci">
+          <Proxy FileSetName="One_Digit_xup_and3_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and4_0_0/One_Digit_xup_and4_0_0.xci">
+          <Proxy FileSetName="One_Digit_xup_and4_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_4_0/One_Digit_xup_inv_4_0.xci">
           <Proxy FileSetName="One_Digit_xup_inv_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_1/One_Digit_xup_inv_1_1.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_1_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_1.xci">
+          <Proxy FileSetName="One_Digit_xup_xor2_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_5.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_0_5"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_3/One_Digit_xup_inv_2_3.xci">
           <Proxy FileSetName="One_Digit_xup_inv_2_3"/>
@@ -174,56 +219,11 @@
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_2/One_Digit_xup_inv_0_2.xci">
           <Proxy FileSetName="One_Digit_xup_inv_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_3/One_Digit_xup_or2_0_3.xci">
-          <Proxy FileSetName="One_Digit_xup_or2_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_1/One_Digit_xup_inv_0_1.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_2/One_Digit_xup_or2_0_2.xci">
-          <Proxy FileSetName="One_Digit_xup_or2_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_3/One_Digit_xup_and2_0_3.xci">
-          <Proxy FileSetName="One_Digit_xup_and2_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_or2_0_4/One_Digit_xup_or2_0_4.xci">
-          <Proxy FileSetName="One_Digit_xup_or2_0_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_5/One_Digit_xup_inv_0_5.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_0_5"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_3_0/One_Digit_xup_inv_3_0.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_1/One_Digit_xup_inv_1_1.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and3_0_0/One_Digit_xup_and3_0_0.xci">
-          <Proxy FileSetName="One_Digit_xup_and3_0_0"/>
+        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_0_4/One_Digit_xup_inv_0_4.xci">
+          <Proxy FileSetName="One_Digit_xup_inv_0_4"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_3_1/One_Digit_xup_inv_3_1.xci">
           <Proxy FileSetName="One_Digit_xup_inv_3_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_2/One_Digit_xup_and2_0_2.xci">
-          <Proxy FileSetName="One_Digit_xup_and2_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_1_0/One_Digit_xup_and2_1_0.xci">
-          <Proxy FileSetName="One_Digit_xup_and2_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_xor2_0_1/One_Digit_xup_xor2_0_1.xci">
-          <Proxy FileSetName="One_Digit_xup_xor2_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_2_2/One_Digit_xup_inv_2_2.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_2_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_and2_0_0/One_Digit_xup_and2_0_0.xci">
-          <Proxy FileSetName="One_Digit_xup_and2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_xor2_0_0/One_Digit_xup_xor2_0_0.xci">
-          <Proxy FileSetName="One_Digit_xup_xor2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="One_Digit.bd" FileRelPathName="ip/One_Digit_xup_inv_1_0/One_Digit_xup_inv_1_0.xci">
-          <Proxy FileSetName="One_Digit_xup_inv_1_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/One_Digit/hdl/One_Digit_wrapper.v">
@@ -241,56 +241,11 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_1/counter_xup_clk_divider_2_1.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_2_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_3/counter_xup_clk_divider_3_3.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_3_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_0/counter_xup_clk_divider_4_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_4_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_1/counter_xup_clk_divider_1_1.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_1/counter_xup_clk_divider_0_1.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_0/counter_xup_clk_divider_3_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_3_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_3/counter_xup_clk_divider_2_3.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_2_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_8/counter_xup_clk_divider_0_8.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_8"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_1/counter_xup_clk_divider_3_1.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_3_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_3/counter_xup_clk_divider_4_3.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_4_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_0/counter_xup_clk_divider_2_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_6_0/counter_xup_clk_divider_6_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_6_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_0/counter_xup_clk_divider_0_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_3/counter_xup_clk_divider_1_3.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_1_3"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_1/counter_xup_clk_divider_4_1.xci">
           <Proxy FileSetName="counter_xup_clk_divider_4_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_6/counter_xup_clk_divider_0_6.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_6"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_5_0/counter_xup_clk_divider_5_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_5_0"/>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_3/counter_xup_clk_divider_0_3.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_2/counter_xup_clk_divider_0_2.xci">
           <Proxy FileSetName="counter_xup_clk_divider_0_2"/>
@@ -298,29 +253,74 @@
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_2/counter_xup_clk_divider_1_2.xci">
           <Proxy FileSetName="counter_xup_clk_divider_1_2"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_0/counter_xup_clk_divider_3_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_3_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_1/counter_xup_clk_divider_3_1.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_3_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_1/counter_xup_clk_divider_0_1.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_6/counter_xup_clk_divider_0_6.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_6"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_5/counter_xup_clk_divider_0_5.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_0/counter_xup_clk_divider_0_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_3/counter_xup_clk_divider_3_3.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_3_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_0/counter_xup_clk_divider_4_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_5_0/counter_xup_clk_divider_5_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_5_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_7/counter_xup_clk_divider_0_7.xci">
           <Proxy FileSetName="counter_xup_clk_divider_0_7"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_2/counter_xup_clk_divider_2_2.xci">
           <Proxy FileSetName="counter_xup_clk_divider_2_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_4/counter_xup_clk_divider_0_4.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_5/counter_xup_clk_divider_0_5.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_5"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_0/counter_xup_clk_divider_1_0.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_1_0"/>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_3/counter_xup_clk_divider_4_3.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_4_3"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_3_2/counter_xup_clk_divider_3_2.xci">
           <Proxy FileSetName="counter_xup_clk_divider_3_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_3/counter_xup_clk_divider_0_3.xci">
-          <Proxy FileSetName="counter_xup_clk_divider_0_3"/>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_0/counter_xup_clk_divider_2_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_2_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_3/counter_xup_clk_divider_2_3.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_2_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_4/counter_xup_clk_divider_0_4.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_4"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_4_2/counter_xup_clk_divider_4_2.xci">
           <Proxy FileSetName="counter_xup_clk_divider_4_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_0/counter_xup_clk_divider_1_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_0_8/counter_xup_clk_divider_0_8.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_0_8"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_6_0/counter_xup_clk_divider_6_0.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_6_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_3/counter_xup_clk_divider_1_3.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_1_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_2_1/counter_xup_clk_divider_2_1.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="counter.bd" FileRelPathName="ip/counter_xup_clk_divider_1_1/counter_xup_clk_divider_1_1.xci">
+          <Proxy FileSetName="counter_xup_clk_divider_1_1"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/counter/hdl/counter_wrapper.v">

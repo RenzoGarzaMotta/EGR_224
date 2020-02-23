@@ -1,42 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1581647563">
   <File Type="BITSTR-BMM" Name="multiplexer_wrapper_bd.bmm"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="multiplexer_wrapper_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="multiplexer_wrapper_timing_summary_init.rpt"/>
   <File Type="ROUTE-PWR" Name="multiplexer_wrapper_power_routed.rpt"/>
   <File Type="PA-TCL" Name="multiplexer_wrapper.tcl"/>
-  <File Type="OPT-TIMING" Name="multiplexer_wrapper_timing_summary_opted.rpt"/>
   <File Type="OPT-DCP" Name="multiplexer_wrapper_opt.dcp"/>
   <File Type="ROUTE-PWR-SUM" Name="multiplexer_wrapper_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="multiplexer_wrapper_reports.tcl"/>
   <File Type="OPT-DRC" Name="multiplexer_wrapper_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="multiplexer_wrapper.hwdef"/>
   <File Type="PWROPT-DCP" Name="multiplexer_wrapper_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="multiplexer_wrapper_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="multiplexer_wrapper_timing_summary_pwropted.rpt"/>
   <File Type="PLACE-DCP" Name="multiplexer_wrapper_placed.dcp"/>
   <File Type="PLACE-IO" Name="multiplexer_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="multiplexer_wrapper_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="multiplexer_wrapper_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="multiplexer_wrapper_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="multiplexer_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="multiplexer_wrapper_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="multiplexer_wrapper_incremental_reuse_pre_placed.rpt"/>
   <File Type="BG-BGN" Name="multiplexer_wrapper.bgn"/>
-  <File Type="PLACE-TIMING" Name="multiplexer_wrapper_timing_summary_placed.rpt"/>
   <File Type="POSTPLACE-PWROPT-DCP" Name="multiplexer_wrapper_postplace_pwropt.dcp"/>
   <File Type="BG-BIN" Name="multiplexer_wrapper.bin"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="multiplexer_wrapper_timing_summary_postplace_pwropted.rpt"/>
   <File Type="PHYSOPT-DCP" Name="multiplexer_wrapper_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="multiplexer_wrapper_drc_physopted.rpt"/>
   <File Type="BITSTR-MSK" Name="multiplexer_wrapper.msk"/>
-  <File Type="PHYSOPT-TIMING" Name="multiplexer_wrapper_timing_summary_physopted.rpt"/>
   <File Type="ROUTE-ERROR-DCP" Name="multiplexer_wrapper_routed_error.dcp"/>
   <File Type="ROUTE-DCP" Name="multiplexer_wrapper_routed.dcp"/>
   <File Type="ROUTE-BLACKBOX-DCP" Name="multiplexer_wrapper_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="multiplexer_wrapper_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="multiplexer_wrapper_drc_routed.pb"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
   <File Type="BITSTR-LTX" Name="multiplexer_wrapper.ltx"/>
   <File Type="ROUTE-DRC-RPX" Name="multiplexer_wrapper_drc_routed.rpx"/>
   <File Type="BITSTR-MMI" Name="multiplexer_wrapper.mmi"/>
@@ -50,24 +38,17 @@
   <File Type="ROUTE-TIMINGSUMMARY" Name="multiplexer_wrapper_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="multiplexer_wrapper_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="multiplexer_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="multiplexer_wrapper_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="multiplexer_wrapper.vdi"/>
   <File Type="ROUTE-CLK" Name="multiplexer_wrapper_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="multiplexer_wrapper_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="multiplexer_wrapper_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="multiplexer_wrapper_bus_skew_routed.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="multiplexer_wrapper_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="multiplexer_wrapper_postroute_physopt_bb.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="multiplexer_wrapper_timing_summary_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="multiplexer_wrapper_timing_summary_postroute_physopted.pb"/>
-  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="multiplexer_wrapper_timing_summary_postroute_physopted.rpx"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="multiplexer_wrapper_bus_skew_postroute_physopted.rpt"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="multiplexer_wrapper_bus_skew_postroute_physopted.pb"/>
   <File Type="BG-BIT" Name="multiplexer_wrapper.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="multiplexer_wrapper_bus_skew_postroute_physopted.rpx"/>
   <File Type="BITSTR-RBT" Name="multiplexer_wrapper.rbt"/>
   <File Type="BITSTR-NKY" Name="multiplexer_wrapper.nky"/>
   <File Type="BG-DRC" Name="multiplexer_wrapper.drc"/>
-  <File Type="RDI-RDI" Name="multiplexer_wrapper.vdi"/>
   <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
