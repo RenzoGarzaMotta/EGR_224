@@ -3,8 +3,6 @@
   <File Type="PA-TCL" Name="One_Digit_wrapper.tcl"/>
   <File Type="REPORTS-TCL" Name="One_Digit_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="One_Digit_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="One_Digit_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="One_Digit_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="One_Digit_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -114,73 +112,73 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_1"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_3"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_5_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_4"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_3"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_6_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_4"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_2"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_6"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_6_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_7"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_2_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_8"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and4_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and3_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_7"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_4_3"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_xup_clk_divider_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_2bit_xup_xor2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_2bit_xup_inv_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_2bit_xup_dff_en_reset_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="counter_2bit_xup_dff_en_reset_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="Decade_counter_c_counter_binary_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_4"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_0"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_4"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_3_1"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_4"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_4_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_3_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_2"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_3_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_5"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_2_1"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_inv_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_xor2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_xor2_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and4_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_and2_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="One_Digit_xup_or2_1_0"/>
 </GenRun>
