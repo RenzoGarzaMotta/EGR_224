@@ -1,1 +1,0 @@
--wto "b11d4a6a366d4735a28063a04a888126" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "xlconcat_v2_1_1" -L "unisims_ver" -L "unimacro_ver" -L "secureip" -L "xpm" --snapshot "State_machine_tb_behav" "xil_defaultlib.State_machine_tb" "xil_defaultlib.glbl" -log "elaborate.log" 
