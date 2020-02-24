@@ -122,16 +122,14 @@ if { $nRet != 0 } {
 ##################################################################
 
 
-
-# Procedure to create entire design; Provide argument to make
-# procedure reusable. If parentCell is "", will use root.
-proc create_root_design { parentCell } {
+# Hierarchical cell: BTN_debounce
+proc create_hier_cell_BTN_debounce { parentCell nameHier } {
 
   variable script_folder
-  variable design_name
 
-  if { $parentCell eq "" } {
-     set parentCell [get_bd_cells /]
+  if { $parentCell eq "" || $nameHier eq "" } {
+     catch {common::send_msg_id "BD_TCL-102" "ERROR" "create_hier_cell_BTN_debounce() - Empty argument(s)!"}
+     return
   }
 
   # Get object for parentCell
@@ -154,13 +152,16 @@ proc create_root_design { parentCell } {
   # Set parent object as current
   current_bd_instance $parentObj
 
+  # Create cell and set as current instance
+  set hier_obj [create_bd_cell -type hier $nameHier]
+  current_bd_instance $hier_obj
 
-  # Create interface ports
+  # Create interface pins
 
-  # Create ports
-  set BTN [ create_bd_port -dir I BTN ]
-  set clk [ create_bd_port -dir I -type clk clk ]
-  set pressed [ create_bd_port -dir O -type data pressed ]
+  # Create pins
+  create_bd_pin -dir I BTN
+  create_bd_pin -dir I clk
+  create_bd_pin -dir O pressed
 
   # Create instance: xup_and2_0, and set properties
   set xup_and2_0 [ create_bd_cell -type ip -vlnv xilinx.com:xup:xup_and2:1.0 xup_and2_0 ]
@@ -238,12 +239,12 @@ proc create_root_design { parentCell } {
  ] $xup_or2_1
 
   # Create port connections
-  connect_bd_net -net BTN_1 [get_bd_ports BTN] [get_bd_pins xup_inv_0/a] [get_bd_pins xup_or2_0/b]
-  connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins xup_dff_0/clk] [get_bd_pins xup_dff_1/clk] [get_bd_pins xup_dff_2/clk] [get_bd_pins xup_dff_3/clk] [get_bd_pins xup_dff_4/clk]
+  connect_bd_net -net BTN_1 [get_bd_pins BTN] [get_bd_pins xup_inv_0/a] [get_bd_pins xup_or2_0/b]
+  connect_bd_net -net clk_1 [get_bd_pins clk] [get_bd_pins xup_dff_0/clk] [get_bd_pins xup_dff_1/clk] [get_bd_pins xup_dff_2/clk] [get_bd_pins xup_dff_3/clk] [get_bd_pins xup_dff_4/clk]
   connect_bd_net -net xup_and2_0_y [get_bd_pins xup_and2_0/y] [get_bd_pins xup_dff_1/d]
   connect_bd_net -net xup_and2_1_y [get_bd_pins xup_and2_1/y] [get_bd_pins xup_dff_2/d]
   connect_bd_net -net xup_and2_2_y [get_bd_pins xup_and2_2/y] [get_bd_pins xup_dff_3/d]
-  connect_bd_net -net xup_and2_3_y [get_bd_ports pressed] [get_bd_pins xup_and2_3/y] [get_bd_pins xup_dff_4/d]
+  connect_bd_net -net xup_and2_3_y [get_bd_pins pressed] [get_bd_pins xup_and2_3/y] [get_bd_pins xup_dff_4/d]
   connect_bd_net -net xup_dff_0_q [get_bd_pins xup_and2_0/b] [get_bd_pins xup_dff_0/q] [get_bd_pins xup_nor5_0/d]
   connect_bd_net -net xup_dff_1_q [get_bd_pins xup_and2_1/b] [get_bd_pins xup_dff_1/q] [get_bd_pins xup_nor5_0/c]
   connect_bd_net -net xup_dff_2_q [get_bd_pins xup_and2_2/b] [get_bd_pins xup_dff_2/q] [get_bd_pins xup_nor5_0/b]
@@ -253,6 +254,58 @@ proc create_root_design { parentCell } {
   connect_bd_net -net xup_nor5_0_y [get_bd_pins xup_nor5_0/y] [get_bd_pins xup_or2_0/a]
   connect_bd_net -net xup_or2_0_y [get_bd_pins xup_dff_0/d] [get_bd_pins xup_or2_0/y]
   connect_bd_net -net xup_or2_1_y [get_bd_pins xup_and2_3/b] [get_bd_pins xup_or2_1/y]
+
+  # Restore current instance
+  current_bd_instance $oldCurInst
+}
+
+
+# Procedure to create entire design; Provide argument to make
+# procedure reusable. If parentCell is "", will use root.
+proc create_root_design { parentCell } {
+
+  variable script_folder
+  variable design_name
+
+  if { $parentCell eq "" } {
+     set parentCell [get_bd_cells /]
+  }
+
+  # Get object for parentCell
+  set parentObj [get_bd_cells $parentCell]
+  if { $parentObj == "" } {
+     catch {common::send_msg_id "BD_TCL-100" "ERROR" "Unable to find parent cell <$parentCell>!"}
+     return
+  }
+
+  # Make sure parentObj is hier blk
+  set parentType [get_property TYPE $parentObj]
+  if { $parentType ne "hier" } {
+     catch {common::send_msg_id "BD_TCL-101" "ERROR" "Parent <$parentObj> has TYPE = <$parentType>. Expected to be <hier>."}
+     return
+  }
+
+  # Save current instance; Restore later
+  set oldCurInst [current_bd_instance .]
+
+  # Set parent object as current
+  current_bd_instance $parentObj
+
+
+  # Create interface ports
+
+  # Create ports
+  set BTN [ create_bd_port -dir I BTN ]
+  set clk [ create_bd_port -dir I -type clk clk ]
+  set pressed [ create_bd_port -dir O -type data pressed ]
+
+  # Create instance: BTN_debounce
+  create_hier_cell_BTN_debounce [current_bd_instance .] BTN_debounce
+
+  # Create port connections
+  connect_bd_net -net BTN_1 [get_bd_ports BTN] [get_bd_pins BTN_debounce/BTN]
+  connect_bd_net -net clk_1 [get_bd_ports clk] [get_bd_pins BTN_debounce/clk]
+  connect_bd_net -net xup_and2_3_y [get_bd_ports pressed] [get_bd_pins BTN_debounce/pressed]
 
   # Create address segments
 

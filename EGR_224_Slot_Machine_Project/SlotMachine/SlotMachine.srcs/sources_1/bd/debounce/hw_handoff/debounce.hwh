@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sat Feb 22 22:07:09 2020" VIVADOVERSION="2018.3">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Feb 23 18:53:24 2020" VIVADOVERSION="2018.3">
 
   <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="debounce" PACKAGE="cpg236" SPEEDGRADE="-1"/>
 
   <EXTERNALPORTS>
     <PORT DIR="I" NAME="BTN" SIGIS="undef" SIGNAME="External_Ports_BTN">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="xup_inv_0" PORT="a"/>
-        <CONNECTION INSTANCE="xup_or2_0" PORT="b"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_or2_0" PORT="b"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_inv_0" PORT="a"/>
       </CONNECTIONS>
     </PORT>
     <PORT CLKFREQUENCY="100000000" DIR="I" NAME="clk" SIGIS="clk" SIGNAME="External_Ports_clk">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="xup_dff_1" PORT="clk"/>
-        <CONNECTION INSTANCE="xup_dff_2" PORT="clk"/>
-        <CONNECTION INSTANCE="xup_dff_3" PORT="clk"/>
-        <CONNECTION INSTANCE="xup_dff_4" PORT="clk"/>
-        <CONNECTION INSTANCE="xup_dff_0" PORT="clk"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_dff_2" PORT="clk"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_dff_3" PORT="clk"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_dff_4" PORT="clk"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_dff_0" PORT="clk"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_dff_1" PORT="clk"/>
       </CONNECTIONS>
     </PORT>
-    <PORT DIR="O" NAME="pressed" SIGIS="data" SIGNAME="xup_and2_3_y">
+    <PORT DIR="O" NAME="pressed" SIGIS="data" SIGNAME="BTN_debounce_xup_and2_3_y">
       <CONNECTIONS>
-        <CONNECTION INSTANCE="xup_and2_3" PORT="y"/>
+        <CONNECTION INSTANCE="BTN_debounce_xup_and2_3" PORT="y"/>
       </CONNECTIONS>
     </PORT>
   </EXTERNALPORTS>
@@ -29,7 +29,7 @@
   <EXTERNALINTERFACES/>
 
   <MODULES>
-    <MODULE COREREVISION="1" FULLNAME="/xup_and2_0" HWVERSION="1.0" INSTANCE="xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_and2_0" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_and2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -37,25 +37,25 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_inv_0_y">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_inv_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_inv_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_dff_0_q">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_0_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_0" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_0" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_0_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_1" PORT="d"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_1" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_and2_1" HWVERSION="1.0" INSTANCE="xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_and2_1" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_and2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -63,25 +63,25 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_inv_0_y">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_inv_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_inv_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_dff_1_q">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_1_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_1" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_1" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_1_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_2" PORT="d"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_2" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_and2_2" HWVERSION="1.0" INSTANCE="xup_and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_and2_2" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_and2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -89,25 +89,25 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_inv_0_y">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_inv_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_inv_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_dff_2_q">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_2_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_2" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_2" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_2_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_2_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_3" PORT="d"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_3" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_and2_3" HWVERSION="1.0" INSTANCE="xup_and2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_and2_3" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_and2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and2" VLNV="xilinx.com:xup:xup_and2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -115,26 +115,26 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_inv_0_y">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_inv_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_inv_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_inv_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_or2_1_y">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_or2_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_or2_1" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_or2_1" PORT="y"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_and2_3_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_3_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_4" PORT="d"/>
             <CONNECTION INSTANCE="External_Ports" PORT="pressed"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_4" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_dff_0" HWVERSION="1.0" INSTANCE="xup_dff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_dff_0" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_dff_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -142,9 +142,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_or2_0_y">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_or2_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_or2_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_or2_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -152,16 +152,16 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_0_q">
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_0_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_0" PORT="b"/>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="d"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_0" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_dff_1" HWVERSION="1.0" INSTANCE="xup_dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_dff_1" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_dff_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -169,9 +169,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_0_y">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -179,16 +179,16 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_1_q">
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_1_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_1" PORT="b"/>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="c"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_1" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="c"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_dff_2" HWVERSION="1.0" INSTANCE="xup_dff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_dff_2" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_dff_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -196,9 +196,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_1_y">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_1" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_1" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -206,16 +206,16 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_2_q">
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_2_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_2" PORT="b"/>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_2" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="b"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_dff_3" HWVERSION="1.0" INSTANCE="xup_dff_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_dff_3" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_dff_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -223,9 +223,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_2_y">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_2_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_2" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_2" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -233,16 +233,16 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_3_q">
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_3_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_or2_1" PORT="b"/>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_or2_1" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="a"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_dff_4" HWVERSION="1.0" INSTANCE="xup_dff_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_dff_4" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_dff_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff" VLNV="xilinx.com:xup:xup_dff:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -250,9 +250,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_and2_3_y">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_and2_3_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_3" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_3" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="External_Ports_clk">
@@ -260,16 +260,16 @@
             <CONNECTION INSTANCE="External_Ports" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="xup_dff_4_q">
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_4_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_or2_1" PORT="a"/>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="e"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_or2_1" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="e"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_inv_0" HWVERSION="1.0" INSTANCE="xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_inv_0" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="3"/>
@@ -282,18 +282,18 @@
             <CONNECTION INSTANCE="External_Ports" PORT="BTN"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_inv_0_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_inv_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_0" PORT="a"/>
-            <CONNECTION INSTANCE="xup_and2_2" PORT="a"/>
-            <CONNECTION INSTANCE="xup_and2_1" PORT="a"/>
-            <CONNECTION INSTANCE="xup_and2_3" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_0" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_2" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_1" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_3" PORT="a"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_nor5_0" HWVERSION="1.0" INSTANCE="xup_nor5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor5" VLNV="xilinx.com:xup:xup_nor5:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_nor5_0" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_nor5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_nor5" VLNV="xilinx.com:xup:xup_nor5:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -301,40 +301,40 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_dff_3_q">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_3_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_3" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_3" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_dff_2_q">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_2_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_2" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_2" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="xup_dff_1_q">
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_1_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_1" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_1" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="xup_dff_0_q">
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_0_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_0" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_0" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="xup_dff_4_q">
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_4_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_4" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_4" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_nor5_0_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_nor5_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_or2_0" PORT="a"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_or2_0" PORT="a"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_or2_0" HWVERSION="1.0" INSTANCE="xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_or2_0" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -342,9 +342,9 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_nor5_0_y">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_nor5_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_nor5_0" PORT="y"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_nor5_0" PORT="y"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_BTN">
@@ -352,15 +352,15 @@
             <CONNECTION INSTANCE="External_Ports" PORT="BTN"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_0_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_or2_0_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_0" PORT="d"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_0" PORT="d"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>
       <BUSINTERFACES/>
     </MODULE>
-    <MODULE COREREVISION="1" FULLNAME="/xup_or2_1" HWVERSION="1.0" INSTANCE="xup_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+    <MODULE COREREVISION="1" FULLNAME="/BTN_debounce/xup_or2_1" HWVERSION="1.0" INSTANCE="BTN_debounce_xup_or2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
       <DOCUMENTS/>
       <PARAMETERS>
         <PARAMETER NAME="DELAY" VALUE="0"/>
@@ -368,19 +368,19 @@
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
       </PARAMETERS>
       <PORTS>
-        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="xup_dff_4_q">
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_4_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_4" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_4" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="xup_dff_3_q">
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="BTN_debounce_xup_dff_3_q">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_dff_3" PORT="q"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_dff_3" PORT="q"/>
           </CONNECTIONS>
         </PORT>
-        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="xup_or2_1_y">
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="BTN_debounce_xup_or2_1_y">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="xup_and2_3" PORT="b"/>
+            <CONNECTION INSTANCE="BTN_debounce_xup_and2_3" PORT="b"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

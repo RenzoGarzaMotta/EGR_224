@@ -1,22 +1,21 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-//Date        : Sat Feb 22 22:07:08 2020
-//Host        : B4-Digital running 64-bit major release  (build 9200)
+//Date        : Sun Feb 23 18:51:41 2020
+//Host        : B3-Digital running 64-bit major release  (build 9200)
 //Command     : generate_target debounce.bd
 //Design      : debounce
 //Purpose     : IP block netlist
 //--------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CORE_GENERATION_INFO = "debounce,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=debounce,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=13,numReposBlks=13,numNonXlnxBlks=0,numHierBlks=0,maxHierDepth=0,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "debounce.hwdef" *) 
-module debounce
+module BTN_debounce_imp_2PCRSE
    (BTN,
     clk,
     pressed);
   input BTN;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK, CLK_DOMAIN debounce_clk, FREQ_HZ 100000000, INSERT_VIP 0, PHASE 0.000" *) input clk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PRESSED DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PRESSED, LAYERED_METADATA undef" *) output pressed;
+  input clk;
+  output pressed;
 
   wire BTN_1;
   wire clk_1;
@@ -91,4 +90,26 @@ module debounce
        (.a(xup_dff_4_q),
         .b(xup_dff_3_q),
         .y(xup_or2_1_y));
+endmodule
+
+(* CORE_GENERATION_INFO = "debounce,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=debounce,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=14,numReposBlks=13,numNonXlnxBlks=0,numHierBlks=1,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "debounce.hwdef" *) 
+module debounce
+   (BTN,
+    clk,
+    pressed);
+  input BTN;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.CLK CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.CLK, CLK_DOMAIN debounce_clk, FREQ_HZ 100000000, INSERT_VIP 0, PHASE 0.000" *) input clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:data:1.0 DATA.PRESSED DATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME DATA.PRESSED, LAYERED_METADATA undef" *) output pressed;
+
+  wire BTN_1;
+  wire clk_1;
+  wire xup_and2_3_y;
+
+  assign BTN_1 = BTN;
+  assign clk_1 = clk;
+  assign pressed = xup_and2_3_y;
+  BTN_debounce_imp_2PCRSE BTN_debounce
+       (.BTN(BTN_1),
+        .clk(clk_1),
+        .pressed(xup_and2_3_y));
 endmodule

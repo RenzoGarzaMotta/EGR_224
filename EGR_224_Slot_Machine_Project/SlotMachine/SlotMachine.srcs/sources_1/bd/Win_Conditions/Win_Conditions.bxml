@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="Win_Conditions" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1582516697"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1582516697"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1582516698"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1582516698"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\Win_Conditions_xup_or5_0_0\Win_Conditions_xup_or5_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xup_or5_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or5_0_1\Win_Conditions_xup_or5_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xup_or5_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or5_0_2\Win_Conditions_xup_or5_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xup_or5_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or5_0_3\Win_Conditions_xup_or5_0_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xup_or5_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or4_0_0\Win_Conditions_xup_or4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xup_or4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_27\Win_Conditions_xup_and4_0_27.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_11\Win_Conditions_xup_or3_0_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_22\Win_Conditions_xup_and4_1_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_10\Win_Conditions_xup_and4_3_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_12\Win_Conditions_xup_and2_0_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_11\Win_Conditions_xup_and2_1_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_10\Win_Conditions_xup_and2_2_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_17\Win_Conditions_xup_inv_0_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_1\Win_Conditions_xup_inv_5_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_1\Win_Conditions_xup_inv_3_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_5\Win_Conditions_xup_inv_7_5.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_1\Win_Conditions_xup_inv_4_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_1\Win_Conditions_xup_inv_1_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_5\Win_Conditions_xup_inv_8_5.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_2\Win_Conditions_xup_inv_9_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_1\Win_Conditions_xup_inv_11_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_2/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_42\Win_Conditions_xup_and4_0_42.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_37\Win_Conditions_xup_and4_1_37.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_15\Win_Conditions_xup_and4_2_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_16\Win_Conditions_xup_and3_0_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_17\Win_Conditions_xup_inv_2_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_17\Win_Conditions_xup_inv_3_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_17\Win_Conditions_xup_inv_6_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_21\Win_Conditions_xup_inv_7_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_18\Win_Conditions_xup_inv_10_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_17\Win_Conditions_xup_inv_11_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_3/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_28\Win_Conditions_xup_and4_0_28.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_12\Win_Conditions_xup_or3_0_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_23\Win_Conditions_xup_and4_1_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_11\Win_Conditions_xup_and4_3_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_13\Win_Conditions_xup_and2_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_12\Win_Conditions_xup_and2_1_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_11\Win_Conditions_xup_and2_2_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_18\Win_Conditions_xup_inv_0_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_2\Win_Conditions_xup_inv_5_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_2\Win_Conditions_xup_inv_4_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_2\Win_Conditions_xup_inv_1_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_6\Win_Conditions_xup_inv_8_6.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_3\Win_Conditions_xup_inv_9_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_3/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_43\Win_Conditions_xup_and4_0_43.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_38\Win_Conditions_xup_and4_1_38.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_16\Win_Conditions_xup_and4_2_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_17\Win_Conditions_xup_and3_0_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_36\Win_Conditions_xup_inv_0_36.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_18\Win_Conditions_xup_inv_1_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_18\Win_Conditions_xup_inv_3_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_18\Win_Conditions_xup_inv_4_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_18\Win_Conditions_xup_inv_5_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_22\Win_Conditions_xup_inv_7_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_22\Win_Conditions_xup_inv_8_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_19\Win_Conditions_xup_inv_9_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_18\Win_Conditions_xup_inv_11_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_4/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_29\Win_Conditions_xup_and4_0_29.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_13\Win_Conditions_xup_or3_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_24\Win_Conditions_xup_and4_1_24.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_12\Win_Conditions_xup_and4_3_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_14\Win_Conditions_xup_and2_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_13\Win_Conditions_xup_and2_1_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_12\Win_Conditions_xup_and2_2_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_19\Win_Conditions_xup_inv_0_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_3\Win_Conditions_xup_inv_3_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_7\Win_Conditions_xup_inv_7_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_3\Win_Conditions_xup_inv_4_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_3\Win_Conditions_xup_inv_6_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_3\Win_Conditions_xup_inv_2_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_7\Win_Conditions_xup_inv_8_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_3\Win_Conditions_xup_inv_10_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_3\Win_Conditions_xup_inv_11_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_4/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_44\Win_Conditions_xup_and4_0_44.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_39\Win_Conditions_xup_and4_1_39.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_17\Win_Conditions_xup_and4_2_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_18\Win_Conditions_xup_and3_0_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_19\Win_Conditions_xup_inv_1_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_19\Win_Conditions_xup_inv_3_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_19\Win_Conditions_xup_inv_5_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_23\Win_Conditions_xup_inv_7_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_20\Win_Conditions_xup_inv_9_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_19\Win_Conditions_xup_inv_11_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_5/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_30\Win_Conditions_xup_and4_0_30.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_14\Win_Conditions_xup_or3_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_25\Win_Conditions_xup_and4_1_25.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_13\Win_Conditions_xup_and4_3_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_15\Win_Conditions_xup_and2_0_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_14\Win_Conditions_xup_and2_1_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_13\Win_Conditions_xup_and2_2_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_20\Win_Conditions_xup_inv_0_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_4\Win_Conditions_xup_inv_4_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_4\Win_Conditions_xup_inv_6_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_4\Win_Conditions_xup_inv_2_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_8\Win_Conditions_xup_inv_8_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_4\Win_Conditions_xup_inv_10_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_5/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_45\Win_Conditions_xup_and4_0_45.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_40\Win_Conditions_xup_and4_1_40.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_18\Win_Conditions_xup_and4_2_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_19\Win_Conditions_xup_and3_0_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_38\Win_Conditions_xup_inv_0_38.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_20\Win_Conditions_xup_inv_3_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_20\Win_Conditions_xup_inv_4_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_24\Win_Conditions_xup_inv_7_24.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_24\Win_Conditions_xup_inv_8_24.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_20\Win_Conditions_xup_inv_11_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_6/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_31\Win_Conditions_xup_and4_0_31.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_15\Win_Conditions_xup_or3_0_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_26\Win_Conditions_xup_and4_1_26.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_14\Win_Conditions_xup_and4_3_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_16\Win_Conditions_xup_and2_0_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_15\Win_Conditions_xup_and2_1_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_14\Win_Conditions_xup_and2_2_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_21\Win_Conditions_xup_inv_0_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_5\Win_Conditions_xup_inv_3_5.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_9\Win_Conditions_xup_inv_7_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_5\Win_Conditions_xup_inv_4_5.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_9\Win_Conditions_xup_inv_8_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_5\Win_Conditions_xup_inv_11_5.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_6/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_46\Win_Conditions_xup_and4_0_46.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_41\Win_Conditions_xup_and4_1_41.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_19\Win_Conditions_xup_and4_2_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_20\Win_Conditions_xup_and3_0_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_21\Win_Conditions_xup_inv_3_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_25\Win_Conditions_xup_inv_7_25.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_21\Win_Conditions_xup_inv_11_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_7/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_32\Win_Conditions_xup_and4_0_32.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_16\Win_Conditions_xup_or3_0_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_27\Win_Conditions_xup_and4_1_27.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_15\Win_Conditions_xup_and4_3_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_17\Win_Conditions_xup_and2_0_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_16\Win_Conditions_xup_and2_1_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_15\Win_Conditions_xup_and2_2_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_22\Win_Conditions_xup_inv_0_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_6\Win_Conditions_xup_inv_4_6.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_10\Win_Conditions_xup_inv_8_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_7/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_47\Win_Conditions_xup_and4_0_47.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_42\Win_Conditions_xup_and4_1_42.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_20\Win_Conditions_xup_and4_2_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_21\Win_Conditions_xup_and3_0_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_23\Win_Conditions_xup_inv_10_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_26\Win_Conditions_xup_inv_8_26.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_22\Win_Conditions_xup_inv_6_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_22\Win_Conditions_xup_inv_5_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_22\Win_Conditions_xup_inv_4_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_22\Win_Conditions_xup_inv_2_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_22\Win_Conditions_xup_inv_1_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_40\Win_Conditions_xup_inv_0_40.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_23\Win_Conditions_xup_inv_9_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_8/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_33\Win_Conditions_xup_and4_0_33.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_17\Win_Conditions_xup_or3_0_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_28\Win_Conditions_xup_and4_1_28.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_16\Win_Conditions_xup_and4_3_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_18\Win_Conditions_xup_and2_0_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_17\Win_Conditions_xup_and2_1_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_16\Win_Conditions_xup_and2_2_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_7\Win_Conditions_xup_inv_5_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_7\Win_Conditions_xup_inv_3_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_11\Win_Conditions_xup_inv_7_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_7\Win_Conditions_xup_inv_6_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_7\Win_Conditions_xup_inv_1_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_7\Win_Conditions_xup_inv_2_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_7\Win_Conditions_xup_inv_10_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_8\Win_Conditions_xup_inv_9_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_7\Win_Conditions_xup_inv_11_7.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_8/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_48\Win_Conditions_xup_and4_0_48.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_43\Win_Conditions_xup_and4_1_43.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_21\Win_Conditions_xup_and4_2_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_22\Win_Conditions_xup_and3_0_22.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_23\Win_Conditions_xup_inv_1_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_23\Win_Conditions_xup_inv_2_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_23\Win_Conditions_xup_inv_5_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_23\Win_Conditions_xup_inv_6_23.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_24\Win_Conditions_xup_inv_9_24.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_24\Win_Conditions_xup_inv_10_24.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_9/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_34\Win_Conditions_xup_and4_0_34.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_18\Win_Conditions_xup_or3_0_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_29\Win_Conditions_xup_and4_1_29.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_17\Win_Conditions_xup_and4_3_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_19\Win_Conditions_xup_and2_0_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_18\Win_Conditions_xup_and2_1_18.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_17\Win_Conditions_xup_and2_2_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_8\Win_Conditions_xup_inv_5_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_8\Win_Conditions_xup_inv_6_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_8\Win_Conditions_xup_inv_1_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_8\Win_Conditions_xup_inv_2_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_8\Win_Conditions_xup_inv_10_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_9\Win_Conditions_xup_inv_9_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_9/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_4\Win_Conditions_xup_and4_0_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_1\Win_Conditions_xup_and4_1_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_1\Win_Conditions_xup_and4_2_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_2\Win_Conditions_xup_and3_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_27\Win_Conditions_xup_inv_0_27.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_11\Win_Conditions_xup_inv_1_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_11\Win_Conditions_xup_inv_2_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_11\Win_Conditions_xup_inv_3_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_11\Win_Conditions_xup_inv_4_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_11\Win_Conditions_xup_inv_5_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_11\Win_Conditions_xup_inv_6_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_15\Win_Conditions_xup_inv_7_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_15\Win_Conditions_xup_inv_8_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_12\Win_Conditions_xup_inv_9_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_11\Win_Conditions_xup_inv_10_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_11\Win_Conditions_xup_inv_11_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_0/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_13\Win_Conditions_xup_and4_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_0\Win_Conditions_xup_or3_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_14\Win_Conditions_xup_and4_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_10\Win_Conditions_xup_and4_1_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_0\Win_Conditions_xup_and2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_1\Win_Conditions_xup_and2_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_0\Win_Conditions_xup_and2_1_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_8\Win_Conditions_xup_inv_0_8.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_13\Win_Conditions_xup_inv_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_11\Win_Conditions_xup_inv_0_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_15\Win_Conditions_xup_inv_0_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_12\Win_Conditions_xup_inv_0_12.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_14\Win_Conditions_xup_inv_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_9\Win_Conditions_xup_inv_0_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_10\Win_Conditions_xup_inv_0_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_0\Win_Conditions_xup_inv_8_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_2\Win_Conditions_xup_inv_8_2.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_3\Win_Conditions_xup_inv_8_3.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_0\Win_Conditions_xup_inv_9_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_0/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_40\Win_Conditions_xup_and4_0_40.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_35\Win_Conditions_xup_and4_1_35.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_13\Win_Conditions_xup_and4_2_13.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_14\Win_Conditions_xup_and3_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_15\Win_Conditions_xup_inv_1_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_15\Win_Conditions_xup_inv_2_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_15\Win_Conditions_xup_inv_3_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_15\Win_Conditions_xup_inv_5_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_15\Win_Conditions_xup_inv_6_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_19\Win_Conditions_xup_inv_7_19.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_16\Win_Conditions_xup_inv_9_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_16\Win_Conditions_xup_inv_10_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_15\Win_Conditions_xup_inv_11_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_1/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_26\Win_Conditions_xup_and4_0_26.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or3_0_10\Win_Conditions_xup_or3_0_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_or3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_21\Win_Conditions_xup_and4_1_21.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_3_9\Win_Conditions_xup_and4_3_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and4_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_0_11\Win_Conditions_xup_and2_0_11.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_1_10\Win_Conditions_xup_and2_1_10.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and2_2_9\Win_Conditions_xup_and2_2_9.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_and2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_16\Win_Conditions_xup_inv_0_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_5_0\Win_Conditions_xup_inv_5_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_0\Win_Conditions_xup_inv_4_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_0\Win_Conditions_xup_inv_6_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_0\Win_Conditions_xup_inv_1_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_0\Win_Conditions_xup_inv_2_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_4\Win_Conditions_xup_inv_8_4.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_0\Win_Conditions_xup_inv_10_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_9_1\Win_Conditions_xup_inv_9_1.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/DOUBLE/DOUBLE_1/xup_inv_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_41\Win_Conditions_xup_and4_0_41.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_1_36\Win_Conditions_xup_and4_1_36.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_and4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_2_14\Win_Conditions_xup_and4_2_14.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_and4_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_15\Win_Conditions_xup_and3_0_15.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_34\Win_Conditions_xup_inv_0_34.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_16\Win_Conditions_xup_inv_2_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_16\Win_Conditions_xup_inv_3_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_16\Win_Conditions_xup_inv_4_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_6_16\Win_Conditions_xup_inv_6_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_7_20\Win_Conditions_xup_inv_7_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_8_20\Win_Conditions_xup_inv_8_20.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_10_17\Win_Conditions_xup_inv_10_17.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_11_16\Win_Conditions_xup_inv_11_16.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/TRIPLE/TRIPLE_2/xup_inv_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\Win_Conditions.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\Win_Conditions.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xlconcat_0_0\Win_Conditions_xlconcat_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xlconcat_1_0\Win_Conditions_xlconcat_1_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xlconcat_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xlconcat_2_0\Win_Conditions_xlconcat_2_0.xci" Type="IP">
+        <Instance HierarchyPath="Regular_Credit/xlconcat_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="Win_Conditions_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\Win_Conditions.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\Win_Conditions_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\Win_Conditions.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="sim\Win_Conditions.protoinst">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

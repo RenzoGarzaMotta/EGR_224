@@ -2,10 +2,10 @@
 <Root MajorVersion="0" MinorVersion="36">
   <CompositeFile CompositeFileTopName="debounce" CanBeSetAsTop="false" CanDisplayChildGraph="true">
     <Description>Composite Fileset</Description>
-    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1582427228"/>
-    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1582427228"/>
-    <Generation Name="SIMULATION" State="STALE" Timestamp="1582428707"/>
-    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1582428707"/>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1582502004"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1582502004"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1582502006"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1582502006"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\debounce_xup_dff_0_0\debounce_xup_dff_0_0.xci" Type="IP">
         <Instance HierarchyPath="BTN_debounce/xup_dff_0"/>
