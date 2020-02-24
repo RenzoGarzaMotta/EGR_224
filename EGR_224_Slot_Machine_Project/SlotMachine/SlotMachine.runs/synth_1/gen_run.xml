@@ -3,8 +3,6 @@
   <File Type="PA-TCL" Name="multiplexer_wrapper.tcl"/>
   <File Type="REPORTS-TCL" Name="multiplexer_wrapper_reports.tcl"/>
   <File Type="RDS-RDS" Name="multiplexer_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="multiplexer_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="multiplexer_wrapper_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="multiplexer_wrapper.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
@@ -67,78 +65,78 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_xor2_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_xor2_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and3_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and4_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and3_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_2_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and4_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_18_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and3_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_3_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_4_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_4"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_3_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_xor2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_or2_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and3_0_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and4_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and3_0_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_2_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_1_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_and2_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_2_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_0_5"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_inv_2_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_20_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_21_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_10_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_11_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_1_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_2_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_22_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_1_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_11_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_10_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_12_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_3_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_23_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_12_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_2_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_14_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_13_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_5_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_25_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_13_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_14_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_6_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_16_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_6_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_13_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_24_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_13_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_8_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_17_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_8_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_18_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_9_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_15_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_6_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_26_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_15_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_9_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_19_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_c_counter_binary_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_11_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_12_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_c_counter_binary_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_4_to_1_mux_vector_0_8"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_c_counter_binary_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_14_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_7_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_8_1"/>
@@ -146,31 +144,31 @@
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_c_counter_binary_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_3_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_5_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_21_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_1_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_22_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_21_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_2_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_23_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_22_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_3_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_23_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_15_1"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_16_1"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_20_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_2"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_20_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_14_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_16_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_24_2"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_21_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_2"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_1_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_21_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_6_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_15_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_8_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_13_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_20_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_0_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_5_3"/>
-  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_22_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_2_3"/>
+  <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_22_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_9_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_4_3"/>
   <BlockFileSet Type="BlockSrcs" Name="multiplexer_xup_clk_divider_7_3"/>

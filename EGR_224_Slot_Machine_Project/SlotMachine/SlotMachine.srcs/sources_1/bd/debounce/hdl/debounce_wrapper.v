@@ -1,8 +1,8 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-//Date        : Sat Feb 22 22:07:08 2020
-//Host        : B4-Digital running 64-bit major release  (build 9200)
+//Date        : Sun Feb 23 18:53:24 2020
+//Host        : B3-Digital running 64-bit major release  (build 9200)
 //Command     : generate_target debounce_wrapper.bd
 //Design      : debounce_wrapper
 //Purpose     : IP block netlist
