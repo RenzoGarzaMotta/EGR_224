@@ -1,0 +1,54 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto b11d4a6a366d4735a28063a04a888126 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xlconcat_v2_1_1 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot State_machine_tb_behav xil_defaultlib.State_machine_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.xup_and5(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_and5_0_1
+Compiling module xil_defaultlib.State_machine_xup_and5_4_0
+Compiling module xil_defaultlib.State_machine_xup_and5_4_1
+Compiling module xil_defaultlib.State_machine_xup_and5_4_2
+Compiling module xil_defaultlib.xup_and6(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_and6_0_1
+Compiling module xil_defaultlib.xup_inv(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_inv_0_5
+Compiling module xil_defaultlib.State_machine_xup_inv_5_0
+Compiling module xil_defaultlib.State_machine_xup_inv_5_1
+Compiling module xil_defaultlib.State_machine_xup_inv_5_2
+Compiling module xil_defaultlib.State_machine_xup_inv_5_3
+Compiling module xil_defaultlib.xup_or2(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_or2_0_2
+Compiling module xil_defaultlib.State_machine_xup_or2_0_3
+Compiling module xil_defaultlib.xup_or5(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_or5_0_2
+Compiling module xil_defaultlib.xup_xor2(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_xor2_0_4
+Compiling module xil_defaultlib.N0_imp_67HP8B
+Compiling module xil_defaultlib.State_machine_xup_and5_0_0
+Compiling module xil_defaultlib.State_machine_xup_and5_1_0
+Compiling module xil_defaultlib.State_machine_xup_and5_2_0
+Compiling module xil_defaultlib.State_machine_xup_and5_1_1
+Compiling module xil_defaultlib.State_machine_xup_and6_0_0
+Compiling module xil_defaultlib.State_machine_xup_inv_0_1
+Compiling module xil_defaultlib.State_machine_xup_inv_0_2
+Compiling module xil_defaultlib.State_machine_xup_inv_0_3
+Compiling module xil_defaultlib.State_machine_xup_inv_0_4
+Compiling module xil_defaultlib.State_machine_xup_inv_1_0
+Compiling module xil_defaultlib.State_machine_xup_or5_0_1
+Compiling module xil_defaultlib.State_machine_xup_xor2_0_2
+Compiling module xil_defaultlib.State_machine_xup_xor2_0_3
+Compiling module xil_defaultlib.N1_imp_12NK8ZX
+Compiling module xlconcat_v2_1_1.xlconcat_v2_1_1_xlconcat_default
+Compiling module xil_defaultlib.State_machine_xlconcat_0_0
+Compiling module xil_defaultlib.xup_dff_en_reset(DELAY=0)
+Compiling module xil_defaultlib.State_machine_xup_dff_en_reset_0...
+Compiling module xil_defaultlib.State_machine_xup_dff_en_reset_0...
+Compiling module xil_defaultlib.State_machine
+Compiling module xil_defaultlib.State_machine_wrapper
+Compiling module xil_defaultlib.State_machine_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot State_machine_tb_behav
