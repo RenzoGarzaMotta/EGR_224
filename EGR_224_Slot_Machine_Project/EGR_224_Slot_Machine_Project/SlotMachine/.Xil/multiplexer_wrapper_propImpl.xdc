@@ -1,5 +1,0 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/constrs_1/new/top_pins.xdc rfile:../SlotMachine.srcs/constrs_1/new/top_pins.xdc id:1} [current_design]
-set_property src_info {type:XDC file:1 line:18 export:INPUT save:INPUT read:READ} [current_design]
-set_property IOSTANDARD LVCMOS33 [get_ports clk_in]
-set_property src_info {type:XDC file:1 line:25 export:INPUT save:INPUT read:READ} [current_design]
-set_property PACKAGE_PIN W5 [get_ports clk_in]
