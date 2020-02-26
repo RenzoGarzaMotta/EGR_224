@@ -1,0 +1,300 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 24 00:47:56 2020
+# Process ID: 5288
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1244 C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.xpr
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/vivado.log
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'State_machine.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+State_machine_xup_dff_en_reset_0_0
+State_machine_xup_or4_0_0
+State_machine_xup_dff_en_reset_0_1
+State_machine_xup_and2_0_0
+
+open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:25 . Memory (MB): peak = 986.789 ; gain = 324.234
+update_compile_order -fileset sources_1
+eopen_bd_design {C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd}
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_1
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_2
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_3
+Adding cell -- xilinx.com:xup:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Successfully read diagram <Win_Conditions> from BD file <C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd>
+open_bd_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 1833.074 ; gain = 61.566
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 00:52:33 2020...

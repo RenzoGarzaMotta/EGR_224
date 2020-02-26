@@ -6,7 +6,7 @@ Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
-Time Resolution for simulation is 1fs
+Time Resolution for simulation is 1ps
 Compiling module xil_defaultlib.xup_and2(DELAY=0)
 Compiling module xil_defaultlib.Win_Conditions_xup_and2_0_0
 Compiling module xil_defaultlib.Win_Conditions_xup_and2_0_1

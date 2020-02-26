@@ -2,40 +2,41 @@
    "ExpandedHierarchyInLayout":"",
    "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
 #  -string -flagsOSRD
-preplace port R1 -pg 1 -y 260 -defaultsOSRD
-preplace port R2 -pg 1 -y 240 -defaultsOSRD
-preplace port R3 -pg 1 -y 220 -defaultsOSRD
-preplace port L0 -pg 1 -y 120 -defaultsOSRD
-preplace port C0 -pg 1 -y 200 -defaultsOSRD
-preplace port L1 -pg 1 -y 100 -defaultsOSRD
-preplace port C1 -pg 1 -y 180 -defaultsOSRD
-preplace port L2 -pg 1 -y 80 -defaultsOSRD
-preplace port C2 -pg 1 -y 160 -defaultsOSRD
-preplace port L3 -pg 1 -y 60 -defaultsOSRD
-preplace port Victory -pg 1 -y 140 -defaultsOSRD
-preplace port C3 -pg 1 -y 140 -defaultsOSRD
-preplace port R0 -pg 1 -y 280 -defaultsOSRD
-preplace portBus C -pg 1 -y 180 -defaultsOSRD
-preplace portBus R -pg 1 -y 200 -defaultsOSRD
-preplace portBus L -pg 1 -y 160 -defaultsOSRD
-preplace inst Regular_Credit -pg 1 -lvl 1 -y 170 -defaultsOSRD
-preplace netloc a_0_1 1 0 1 NJ
-preplace netloc a_0_2 1 0 1 NJ
-preplace netloc a_0_3 1 0 1 NJ
+preplace port R1 -pg 1 -y 240 -defaultsOSRD
+preplace port R2 -pg 1 -y 260 -defaultsOSRD
+preplace port R3 -pg 1 -y 280 -defaultsOSRD
+preplace port L0 -pg 1 -y 60 -defaultsOSRD
+preplace port C0 -pg 1 -y 140 -defaultsOSRD
+preplace port L1 -pg 1 -y 80 -defaultsOSRD
+preplace port C1 -pg 1 -y 160 -defaultsOSRD
+preplace port L2 -pg 1 -y 100 -defaultsOSRD
+preplace port C2 -pg 1 -y 180 -defaultsOSRD
+preplace port L3 -pg 1 -y 120 -defaultsOSRD
+preplace port Victory -pg 1 -y 450 -defaultsOSRD
+preplace port C3 -pg 1 -y 200 -defaultsOSRD
+preplace port R0 -pg 1 -y 220 -defaultsOSRD
+preplace portBus C -pg 1 -y 490 -defaultsOSRD
+preplace portBus R -pg 1 -y 510 -defaultsOSRD
+preplace portBus L -pg 1 -y 470 -defaultsOSRD
+preplace inst Regular_Credit -pg 1 -lvl 1 -y 480 -defaultsOSRD
+preplace inst F_FLUSH -pg 1 -lvl 1 -y 162 -defaultsOSRD
+preplace netloc a_0_3 1 0 1 130
+preplace netloc c_0_1 1 0 1 50
+preplace netloc c_0_2 1 0 1 60
 preplace netloc Regular_Credit_C 1 1 1 NJ
-preplace netloc Regular_Credit_L 1 1 1 NJ
-preplace netloc b_0_1 1 0 1 NJ
-preplace netloc b_0_2 1 0 1 NJ
-preplace netloc b_0_3 1 0 1 NJ
-preplace netloc Regular_Credit_R 1 1 1 NJ
-preplace netloc c_0_1 1 0 1 NJ
-preplace netloc c_0_2 1 0 1 NJ
-preplace netloc c_0_3 1 0 1 NJ
-preplace netloc d_0_1 1 0 1 NJ
-preplace netloc d_0_2 1 0 1 NJ
-preplace netloc d_0_3 1 0 1 NJ
+preplace netloc c_0_3 1 0 1 70
 preplace netloc xup_or4_0_y 1 1 1 NJ
-levelinfo -pg 1 0 100 200 -top 0 -bot 330
+preplace netloc Regular_Credit_R 1 1 1 NJ
+preplace netloc d_0_1 1 0 1 20
+preplace netloc d_0_2 1 0 1 30
+preplace netloc b_0_1 1 0 1 80
+preplace netloc d_0_3 1 0 1 40
+preplace netloc b_0_2 1 0 1 90
+preplace netloc Regular_Credit_L 1 1 1 NJ
+preplace netloc b_0_3 1 0 1 100
+preplace netloc a_0_1 1 0 1 110
+preplace netloc a_0_2 1 0 1 120
+levelinfo -pg 1 0 210 310 -top -10 -bot 2870
 "
 }
 0
