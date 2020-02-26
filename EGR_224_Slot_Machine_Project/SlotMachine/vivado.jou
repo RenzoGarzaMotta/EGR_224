@@ -10,7 +10,7 @@
 # Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
+open_project W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
 update_compile_order -fileset sources_1
 open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd}
 regenerate_bd_layout
