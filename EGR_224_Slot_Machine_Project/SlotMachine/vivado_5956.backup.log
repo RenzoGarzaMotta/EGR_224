@@ -1,0 +1,936 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 24 14:09:37 2020
+# Process ID: 5956
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5468 C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.xpr
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/vivado.log
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Win_Conditions.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Win_Conditions_xup_or5_0_0
+Win_Conditions_xup_and4_3_10
+Win_Conditions_xup_inv_1_1
+Win_Conditions_xup_or5_0_1
+Win_Conditions_xup_inv_4_16
+Win_Conditions_xup_or3_0_11
+Win_Conditions_xup_and4_2_18
+Win_Conditions_xup_and2_0_14
+Win_Conditions_xup_and2_1_15
+Win_Conditions_xup_and4_0_27
+Win_Conditions_xup_inv_7_22
+Win_Conditions_xup_inv_1_2
+Win_Conditions_xup_or5_0_2
+Win_Conditions_xup_inv_3_1
+Win_Conditions_xup_or5_0_3
+Win_Conditions_xup_or4_0_0
+Win_Conditions_xup_and4_0_43
+Win_Conditions_xup_and3_0_20
+Win_Conditions_xup_and4_1_22
+Win_Conditions_xup_and2_2_10
+Win_Conditions_xup_inv_7_20
+Win_Conditions_xup_and4_3_17
+Win_Conditions_xup_and2_1_13
+Win_Conditions_xup_and2_0_12
+Win_Conditions_xup_and4_2_16
+Win_Conditions_xup_and4_1_37
+Win_Conditions_xup_and3_0_22
+Win_Conditions_xup_and4_1_24
+Win_Conditions_xup_and2_2_12
+Win_Conditions_xup_and4_3_15
+Win_Conditions_xup_and2_1_11
+Win_Conditions_xup_inv_1_18
+Win_Conditions_xup_inv_0_17
+Win_Conditions_xup_inv_4_2
+Win_Conditions_xup_inv_5_1
+Win_Conditions_xup_inv_5_7
+Win_Conditions_xup_inv_9_3
+Win_Conditions_xup_inv_7_5
+Win_Conditions_xup_inv_4_1
+Win_Conditions_xup_inv_11_1
+Win_Conditions_xup_inv_8_5
+Win_Conditions_xup_inv_9_2
+Win_Conditions_xup_and4_3_12
+Win_Conditions_xup_and4_1_10
+Win_Conditions_xup_and4_0_42
+Win_Conditions_xup_and4_3_16
+Win_Conditions_xup_and2_1_12
+Win_Conditions_xup_and2_0_11
+Win_Conditions_xup_and4_2_15
+Win_Conditions_xup_and2_1_16
+Win_Conditions_xup_inv_7_23
+Win_Conditions_xup_and4_0_28
+Win_Conditions_xup_inv_6_11
+Win_Conditions_xup_inv_11_17
+Win_Conditions_xup_and3_0_16
+Win_Conditions_xup_inv_3_18
+Win_Conditions_xup_inv_2_17
+Win_Conditions_xup_inv_4_18
+Win_Conditions_xup_or3_0_13
+Win_Conditions_xup_inv_0_36
+Win_Conditions_xup_inv_3_17
+Win_Conditions_xup_inv_6_17
+Win_Conditions_xup_and2_2_15
+Win_Conditions_xup_and4_1_27
+Win_Conditions_xup_inv_8_22
+Win_Conditions_xup_inv_11_15
+Win_Conditions_xup_and4_1_38
+Win_Conditions_xup_inv_9_12
+Win_Conditions_xup_and4_2_17
+Win_Conditions_xup_and2_0_13
+Win_Conditions_xup_and4_0_26
+Win_Conditions_xup_and2_1_14
+Win_Conditions_xup_inv_7_21
+Win_Conditions_xup_inv_10_18
+Win_Conditions_xup_inv_5_18
+Win_Conditions_xup_or3_0_12
+Win_Conditions_xup_and3_0_21
+Win_Conditions_xup_and4_1_23
+Win_Conditions_xup_and2_2_11
+Win_Conditions_xup_and4_3_11
+Win_Conditions_xup_inv_0_18
+Win_Conditions_xup_inv_5_2
+Win_Conditions_xup_inv_8_6
+Win_Conditions_xup_and2_1_17
+Win_Conditions_xup_inv_7_24
+Win_Conditions_xup_and4_0_29
+Win_Conditions_xup_inv_3_20
+Win_Conditions_xup_inv_11_18
+Win_Conditions_xup_inv_5_22
+Win_Conditions_xup_and3_0_17
+Win_Conditions_xup_inv_1_11
+Win_Conditions_xup_inv_9_19
+Win_Conditions_xup_inv_0_19
+Win_Conditions_xup_inv_3_3
+Win_Conditions_xup_inv_7_7
+Win_Conditions_xup_inv_4_3
+Win_Conditions_xup_inv_2_7
+Win_Conditions_xup_inv_6_3
+Win_Conditions_xup_inv_2_3
+Win_Conditions_xup_inv_8_7
+Win_Conditions_xup_inv_6_8
+Win_Conditions_xup_inv_10_3
+Win_Conditions_xup_inv_11_3
+Win_Conditions_xup_and4_0_44
+Win_Conditions_xup_inv_11_16
+Win_Conditions_xup_and4_1_39
+Win_Conditions_xup_inv_8_15
+Win_Conditions_xup_inv_5_23
+Win_Conditions_xup_and3_0_18
+Win_Conditions_xup_inv_1_19
+Win_Conditions_xup_inv_0_27
+Win_Conditions_xup_inv_3_19
+Win_Conditions_xup_inv_5_19
+Win_Conditions_xup_inv_9_20
+Win_Conditions_xup_inv_3_21
+Win_Conditions_xup_inv_11_19
+Win_Conditions_xup_and4_0_30
+Win_Conditions_xup_or3_0_14
+Win_Conditions_xup_inv_8_20
+Win_Conditions_xup_and2_2_13
+Win_Conditions_xup_and4_1_25
+Win_Conditions_xup_and4_3_13
+Win_Conditions_xup_inv_6_22
+Win_Conditions_xup_and4_2_19
+Win_Conditions_xup_and2_0_15
+Win_Conditions_xup_inv_0_20
+Win_Conditions_xup_inv_8_0
+Win_Conditions_xup_inv_0_8
+Win_Conditions_xup_inv_4_4
+Win_Conditions_xup_inv_2_8
+Win_Conditions_xup_inv_6_4
+Win_Conditions_xup_inv_6_0
+Win_Conditions_xup_inv_2_4
+Win_Conditions_xup_inv_8_8
+Win_Conditions_xup_inv_10_4
+Win_Conditions_xup_and4_0_45
+Win_Conditions_xup_and4_1_40
+Win_Conditions_xup_and3_0_19
+Win_Conditions_xup_inv_0_38
+Win_Conditions_xup_inv_4_20
+Win_Conditions_xup_and2_2_17
+Win_Conditions_xup_and4_1_29
+Win_Conditions_xup_inv_8_24
+Win_Conditions_xup_and4_1_43
+Win_Conditions_xup_inv_11_20
+Win_Conditions_xup_and4_0_31
+Win_Conditions_xup_or3_0_15
+Win_Conditions_xup_and2_2_14
+Win_Conditions_xup_and4_1_26
+Win_Conditions_xup_and2_1_10
+Win_Conditions_xup_and4_3_14
+Win_Conditions_xup_inv_6_23
+Win_Conditions_xup_and2_0_16
+Win_Conditions_xup_inv_0_21
+Win_Conditions_xup_inv_3_5
+Win_Conditions_xup_inv_7_9
+Win_Conditions_xup_inv_0_9
+Win_Conditions_xup_inv_4_5
+Win_Conditions_xup_inv_8_9
+Win_Conditions_xup_inv_11_5
+Win_Conditions_xup_inv_10_23
+Win_Conditions_xup_and4_0_46
+Win_Conditions_xup_and4_1_41
+Win_Conditions_xup_and2_1_18
+Win_Conditions_xup_inv_7_25
+Win_Conditions_xup_inv_11_21
+Win_Conditions_xup_and4_0_32
+Win_Conditions_xup_or3_0_16
+Win_Conditions_xup_inv_9_16
+Win_Conditions_xup_inv_0_40
+Win_Conditions_xup_and2_0_17
+Win_Conditions_xup_inv_0_22
+Win_Conditions_xup_inv_8_2
+Win_Conditions_xup_inv_4_6
+Win_Conditions_xup_inv_10_24
+Win_Conditions_xup_and4_0_47
+Win_Conditions_xup_inv_8_10
+Win_Conditions_xup_and4_1_42
+Win_Conditions_xup_and4_2_20
+Win_Conditions_xup_inv_8_26
+Win_Conditions_xup_inv_4_22
+Win_Conditions_xup_inv_2_22
+Win_Conditions_xup_inv_1_22
+Win_Conditions_xup_inv_9_23
+Win_Conditions_xup_and4_0_33
+Win_Conditions_xup_or3_0_17
+Win_Conditions_xup_and2_2_16
+Win_Conditions_xup_and4_1_28
+Win_Conditions_xup_and2_0_18
+Win_Conditions_xup_inv_3_7
+Win_Conditions_xup_inv_7_11
+Win_Conditions_xup_inv_6_7
+Win_Conditions_xup_inv_1_7
+Win_Conditions_xup_inv_10_7
+Win_Conditions_xup_inv_9_8
+Win_Conditions_xup_inv_11_7
+Win_Conditions_xup_and3_0_14
+Win_Conditions_xup_and4_0_48
+Win_Conditions_xup_and4_2_21
+Win_Conditions_xup_or3_0_10
+Win_Conditions_xup_inv_1_23
+Win_Conditions_xup_inv_5_15
+Win_Conditions_xup_inv_2_23
+Win_Conditions_xup_inv_9_24
+Win_Conditions_xup_inv_10_11
+Win_Conditions_xup_and4_0_34
+Win_Conditions_xup_or3_0_18
+Win_Conditions_xup_and2_0_19
+Win_Conditions_xup_inv_5_8
+Win_Conditions_xup_inv_9_0
+Win_Conditions_xup_inv_1_8
+Win_Conditions_xup_inv_10_8
+Win_Conditions_xup_inv_9_9
+Win_Conditions_xup_and4_0_4
+Win_Conditions_xup_and4_1_1
+Win_Conditions_xup_and4_2_1
+Win_Conditions_xup_and3_0_2
+Win_Conditions_xup_inv_2_11
+Win_Conditions_xup_inv_3_11
+Win_Conditions_xup_inv_4_11
+Win_Conditions_xup_inv_10_17
+Win_Conditions_xup_inv_5_11
+Win_Conditions_xup_inv_7_15
+Win_Conditions_xup_inv_11_11
+Win_Conditions_xup_and4_0_13
+Win_Conditions_xup_or3_0_0
+Win_Conditions_xup_and4_0_14
+Win_Conditions_xup_and2_0_0
+Win_Conditions_xup_and2_0_1
+Win_Conditions_xup_and2_1_0
+Win_Conditions_xup_inv_0_13
+Win_Conditions_xup_inv_0_11
+Win_Conditions_xup_inv_0_15
+Win_Conditions_xup_inv_0_12
+Win_Conditions_xup_inv_0_14
+Win_Conditions_xup_inv_0_10
+Win_Conditions_xup_inv_8_3
+Win_Conditions_xup_and4_0_40
+Win_Conditions_xup_and4_1_35
+Win_Conditions_xup_and4_2_13
+Win_Conditions_xup_inv_1_15
+Win_Conditions_xup_inv_2_15
+Win_Conditions_xup_inv_3_15
+Win_Conditions_xup_inv_6_15
+Win_Conditions_xup_inv_7_19
+Win_Conditions_xup_inv_10_16
+Win_Conditions_xup_and4_1_21
+Win_Conditions_xup_and4_3_9
+Win_Conditions_xup_and2_2_9
+Win_Conditions_xup_inv_0_16
+Win_Conditions_xup_inv_5_0
+Win_Conditions_xup_inv_4_0
+Win_Conditions_xup_inv_1_0
+Win_Conditions_xup_inv_2_0
+Win_Conditions_xup_inv_8_4
+Win_Conditions_xup_inv_10_0
+Win_Conditions_xup_inv_9_1
+Win_Conditions_xup_and4_0_41
+Win_Conditions_xup_and4_1_36
+Win_Conditions_xup_and4_2_14
+Win_Conditions_xup_and3_0_15
+Win_Conditions_xup_inv_0_34
+Win_Conditions_xup_inv_2_16
+Win_Conditions_xup_inv_3_16
+Win_Conditions_xup_inv_6_16
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'debounce.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+debounce_xup_dff_0_0
+debounce_xup_dff_0_1
+debounce_xup_dff_0_2
+debounce_xup_and2_0_0
+debounce_xup_dff_0_3
+debounce_xup_and2_0_1
+debounce_xup_and2_1_0
+debounce_xup_dff_0_4
+debounce_xup_and2_1_1
+debounce_xup_inv_0_0
+debounce_xup_or2_0_0
+debounce_xup_nor5_0_0
+debounce_xup_or2_0_1
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'multiplexer.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+multiplexer_xup_or2_0_3
+multiplexer_xup_inv_0_1
+multiplexer_xup_inv_1_0
+multiplexer_xup_4_to_1_mux_vector_0_1
+multiplexer_xup_or2_0_4
+multiplexer_xup_inv_0_2
+multiplexer_xup_inv_1_1
+multiplexer_xup_inv_2_0
+multiplexer_xup_4_to_1_mux_vector_0_2
+multiplexer_xup_4_to_1_mux_vector_0_3
+multiplexer_xup_or2_0_2
+multiplexer_xup_inv_0_0
+multiplexer_xup_clk_divider_19_3
+multiplexer_xup_and3_1_0
+multiplexer_xup_and3_0_1
+multiplexer_xup_and2_2_0
+multiplexer_xup_and4_0_0
+multiplexer_xup_and2_0_2
+multiplexer_xup_4_to_1_mux_vector_0_0
+multiplexer_xup_and2_1_0
+multiplexer_xup_and2_0_1
+multiplexer_xup_clk_divider_18_3
+multiplexer_xup_and3_0_0
+multiplexer_xup_inv_0_3
+multiplexer_xup_inv_2_1
+multiplexer_xup_inv_1_2
+multiplexer_xup_inv_3_0
+multiplexer_xup_inv_1_3
+multiplexer_xup_inv_2_2
+multiplexer_xup_inv_4_0
+multiplexer_xup_inv_0_4
+multiplexer_xup_inv_3_1
+multiplexer_xup_or2_0_0
+multiplexer_xup_and2_0_0
+multiplexer_xup_xor2_0_0
+multiplexer_xup_and3_0_2
+multiplexer_xup_and4_0_1
+multiplexer_xup_and2_0_3
+multiplexer_xup_or2_1_0
+multiplexer_xup_or2_0_1
+multiplexer_xup_xor2_0_1
+multiplexer_xup_inv_2_3
+multiplexer_xup_inv_0_5
+multiplexer_xup_clk_divider_0_0
+multiplexer_xup_clk_divider_20_0
+multiplexer_xup_clk_divider_1_0
+multiplexer_xup_clk_divider_21_0
+multiplexer_xup_clk_divider_10_0
+multiplexer_xup_clk_divider_2_0
+multiplexer_xup_clk_divider_22_0
+multiplexer_xup_clk_divider_11_0
+multiplexer_xup_clk_divider_3_0
+multiplexer_xup_clk_divider_23_0
+multiplexer_xup_clk_divider_12_0
+multiplexer_xup_clk_divider_13_0
+multiplexer_xup_clk_divider_24_0
+multiplexer_xup_clk_divider_4_0
+multiplexer_xup_clk_divider_14_0
+multiplexer_xup_clk_divider_25_0
+multiplexer_xup_clk_divider_5_0
+multiplexer_xup_clk_divider_15_0
+multiplexer_xup_clk_divider_26_0
+multiplexer_xup_clk_divider_6_0
+multiplexer_xup_clk_divider_16_0
+multiplexer_xup_clk_divider_7_0
+multiplexer_xup_clk_divider_17_0
+multiplexer_xup_clk_divider_8_0
+multiplexer_xup_clk_divider_18_0
+multiplexer_xup_clk_divider_9_0
+multiplexer_xup_clk_divider_19_0
+multiplexer_xup_4_to_1_mux_vector_0_8
+multiplexer_xup_clk_divider_0_1
+multiplexer_xup_clk_divider_1_1
+multiplexer_xup_clk_divider_2_1
+multiplexer_xup_clk_divider_3_1
+multiplexer_xup_clk_divider_4_1
+multiplexer_xup_clk_divider_5_1
+multiplexer_xup_clk_divider_6_1
+multiplexer_xup_clk_divider_7_1
+multiplexer_xup_clk_divider_8_1
+multiplexer_xup_clk_divider_9_1
+multiplexer_xup_clk_divider_10_1
+multiplexer_xup_clk_divider_11_1
+multiplexer_xup_clk_divider_12_1
+multiplexer_xup_clk_divider_13_1
+multiplexer_xup_clk_divider_14_1
+multiplexer_xup_clk_divider_15_1
+multiplexer_xup_clk_divider_16_1
+multiplexer_xup_clk_divider_20_2
+multiplexer_xup_clk_divider_0_2
+multiplexer_xup_clk_divider_21_2
+multiplexer_xup_clk_divider_1_2
+multiplexer_xup_clk_divider_22_2
+multiplexer_xup_clk_divider_2_2
+multiplexer_xup_clk_divider_23_2
+multiplexer_xup_clk_divider_3_2
+multiplexer_xup_clk_divider_24_2
+multiplexer_xup_clk_divider_4_2
+multiplexer_xup_clk_divider_5_2
+multiplexer_xup_clk_divider_6_2
+multiplexer_xup_clk_divider_7_2
+multiplexer_xup_clk_divider_8_2
+multiplexer_xup_clk_divider_9_2
+multiplexer_xup_clk_divider_10_2
+multiplexer_xup_clk_divider_11_2
+multiplexer_xup_clk_divider_12_2
+multiplexer_xup_clk_divider_13_2
+multiplexer_xup_clk_divider_14_2
+multiplexer_xup_clk_divider_15_2
+multiplexer_xup_clk_divider_16_2
+multiplexer_xup_clk_divider_17_2
+multiplexer_xup_clk_divider_18_2
+multiplexer_xup_clk_divider_19_2
+multiplexer_xup_clk_divider_20_3
+multiplexer_xup_clk_divider_0_3
+multiplexer_xup_clk_divider_21_3
+multiplexer_xup_clk_divider_1_3
+multiplexer_xup_clk_divider_22_3
+multiplexer_xup_clk_divider_2_3
+multiplexer_xup_clk_divider_3_3
+multiplexer_xup_clk_divider_4_3
+multiplexer_xup_clk_divider_5_3
+multiplexer_xup_clk_divider_6_3
+multiplexer_xup_clk_divider_7_3
+multiplexer_xup_clk_divider_8_3
+multiplexer_xup_clk_divider_9_3
+multiplexer_xup_clk_divider_10_3
+multiplexer_xup_clk_divider_11_3
+multiplexer_xup_clk_divider_12_3
+multiplexer_xup_clk_divider_13_3
+multiplexer_xup_clk_divider_14_3
+multiplexer_xup_clk_divider_15_3
+multiplexer_xup_clk_divider_16_3
+multiplexer_xup_clk_divider_17_3
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'counter.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+counter_xup_clk_divider_8_0
+counter_xup_clk_divider_0_0
+counter_xup_clk_divider_1_0
+counter_xup_clk_divider_2_0
+counter_xup_clk_divider_3_0
+counter_xup_clk_divider_4_0
+counter_xup_clk_divider_5_0
+counter_xup_clk_divider_6_0
+counter_xup_clk_divider_7_0
+counter_xup_clk_divider_9_0
+counter_xup_clk_divider_21_0
+counter_xup_clk_divider_10_0
+counter_xup_clk_divider_22_0
+counter_xup_clk_divider_11_0
+counter_xup_clk_divider_23_0
+counter_xup_clk_divider_12_0
+counter_xup_clk_divider_24_0
+counter_xup_clk_divider_13_0
+counter_xup_clk_divider_25_0
+counter_xup_clk_divider_14_0
+counter_xup_clk_divider_26_0
+counter_xup_clk_divider_15_0
+counter_xup_clk_divider_16_0
+counter_xup_clk_divider_17_0
+counter_xup_clk_divider_18_0
+counter_xup_clk_divider_19_0
+counter_xup_clk_divider_20_0
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Seg_Decoder.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Seg_Decoder_xup_and2_1_0
+Seg_Decoder_xup_and2_0_1
+Seg_Decoder_xup_and3_0_0
+Seg_Decoder_xup_or2_0_0
+Seg_Decoder_xup_and3_1_0
+Seg_Decoder_xup_and2_2_0
+Seg_Decoder_xup_and2_0_2
+Seg_Decoder_xup_and3_0_1
+Seg_Decoder_xup_and4_0_0
+Seg_Decoder_xup_or2_0_2
+Seg_Decoder_xup_inv_0_0
+Seg_Decoder_xup_or2_0_3
+Seg_Decoder_xup_inv_0_1
+Seg_Decoder_xup_inv_1_0
+Seg_Decoder_xup_or2_0_4
+Seg_Decoder_xup_inv_0_2
+Seg_Decoder_xup_inv_1_1
+Seg_Decoder_xup_inv_2_0
+Seg_Decoder_xup_inv_0_3
+Seg_Decoder_xup_inv_2_1
+Seg_Decoder_xup_inv_1_2
+Seg_Decoder_xup_inv_3_0
+Seg_Decoder_xup_and2_0_0
+Seg_Decoder_xup_inv_1_3
+Seg_Decoder_xup_inv_2_2
+Seg_Decoder_xup_inv_0_4
+Seg_Decoder_xup_inv_3_1
+Seg_Decoder_xup_inv_4_0
+Seg_Decoder_xup_xor2_0_0
+Seg_Decoder_xup_and3_0_2
+Seg_Decoder_xup_and2_0_3
+Seg_Decoder_xup_and4_0_1
+Seg_Decoder_xup_or2_1_0
+Seg_Decoder_xup_or2_0_1
+Seg_Decoder_xup_xor2_0_1
+Seg_Decoder_xup_inv_2_3
+Seg_Decoder_xup_inv_0_5
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'clk_divider_800Hz.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+clk_divider_800Hz_xup_clk_divider_0_2
+clk_divider_800Hz_xup_clk_divider_0_8
+clk_divider_800Hz_xup_clk_divider_0_0
+clk_divider_800Hz_xup_clk_divider_0_15
+clk_divider_800Hz_xup_clk_divider_0_3
+clk_divider_800Hz_xup_clk_divider_0_1
+clk_divider_800Hz_xup_clk_divider_0_16
+clk_divider_800Hz_xup_clk_divider_0_4
+clk_divider_800Hz_xup_clk_divider_0_5
+clk_divider_800Hz_xup_clk_divider_0_6
+clk_divider_800Hz_xup_clk_divider_0_7
+clk_divider_800Hz_xup_clk_divider_0_9
+clk_divider_800Hz_xup_clk_divider_0_10
+clk_divider_800Hz_xup_clk_divider_0_11
+clk_divider_800Hz_xup_clk_divider_0_12
+clk_divider_800Hz_xup_clk_divider_0_13
+clk_divider_800Hz_xup_clk_divider_0_14
+
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'Value_Grabber.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+Value_Grabber_xup_dff_en_reset_0_0
+Value_Grabber_xup_dff_en_reset_0_1
+Value_Grabber_xup_dff_en_reset_2_0
+Value_Grabber_xup_dff_en_reset_0_2
+
+open_project: Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 992.254 ; gain = 333.578
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd}
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_1
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_2
+Adding cell -- xilinx.com:xup:xup_or5:1.0 - xup_or5_3
+Adding cell -- xilinx.com:xup:xup_or4:1.0 - xup_or4_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_1
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_2
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_or3:1.0 - xup_or3_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_3
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_0
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_1
+Adding cell -- xilinx.com:xup:xup_and2:1.0 - xup_and2_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_11
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_0
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_1
+Adding cell -- xilinx.com:xup:xup_and4:1.0 - xup_and4_2
+Adding cell -- xilinx.com:xup:xup_and3:1.0 - xup_and3_0
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:xup:xup_inv:1.0 - xup_inv_10
+Successfully read diagram <Win_Conditions> from BD file <C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd>
+open_bd_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:12 . Memory (MB): peak = 1949.949 ; gain = 155.262
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_inv_0]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and6:1.0 xup_and6_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_and6_0]
+copy_bd_objs /  [get_bd_cells {xup_and6_0}]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and6_0/a]
+connect_bd_net [get_bd_pins xup_inv_1/y] [get_bd_pins xup_and6_0/b]
+connect_bd_net [get_bd_pins xup_inv_2/y] [get_bd_pins xup_and6_0/c]
+connect_bd_net [get_bd_pins xup_inv_3/y] [get_bd_pins xup_and6_0/d]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and6_0/e]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and6_0/f]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+startgroup
+copy_bd_objs /  [get_bd_cells {xup_inv_6}]
+set_property location {3 674 495} [get_bd_cells xup_inv_12]
+endgroup
+delete_bd_objs [get_bd_cells xup_inv_11] [get_bd_cells xup_inv_7] [get_bd_cells xup_inv_12] [get_bd_cells xup_inv_9] [get_bd_cells xup_and6_1] [get_bd_cells xup_inv_6] [get_bd_cells xup_inv_10] [get_bd_cells xup_inv_8]
+delete_bd_objs [get_bd_nets xup_inv_5_y] [get_bd_cells xup_inv_5]
+delete_bd_objs [get_bd_nets xup_inv_4_y] [get_bd_cells xup_inv_4]
+delete_bd_objs [get_bd_nets xup_inv_3_y] [get_bd_nets xup_inv_0_y] [get_bd_nets xup_inv_1_y] [get_bd_nets xup_inv_2_y] [get_bd_cells xup_and6_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and4:1.0 xup_and4_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_and4_0]
+set_property location {3 654 627} [get_bd_cells xup_and4_0]
+connect_bd_net [get_bd_pins xup_inv_1/y] [get_bd_pins xup_and4_0/b]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and4_0/a]
+connect_bd_net [get_bd_pins xup_inv_2/y] [get_bd_pins xup_and4_0/c]
+connect_bd_net [get_bd_pins xup_inv_3/y] [get_bd_pins xup_and4_0/d]
+create_bd_port -dir I IN0
+create_bd_port -dir I IN1
+create_bd_port -dir I IN2
+create_bd_port -dir I IN3
+connect_bd_net [get_bd_ports IN0] [get_bd_pins xup_inv_0/a]
+connect_bd_net [get_bd_ports IN1] [get_bd_pins xup_inv_1/a]
+connect_bd_net [get_bd_ports IN2] [get_bd_pins xup_inv_2/a]
+connect_bd_net [get_bd_ports IN3] [get_bd_pins xup_inv_3/a]
+create_bd_port -dir O OUTTIE
+startgroup
+connect_bd_net [get_bd_ports OUTTIE] [get_bd_pins xup_and4_0/y]
+endgroup
+group_bd_cells ZERO [get_bd_cells xup_inv_0] [get_bd_cells xup_inv_1] [get_bd_cells xup_inv_2] [get_bd_cells xup_inv_3] [get_bd_cells xup_and4_0]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {ZERO}]
+set_property name ONE [get_bd_cells ZERO1]
+delete_bd_objs [get_bd_nets ONE/IN0_1] [get_bd_nets ONE/xup_inv_0_y] [get_bd_cells ONE/xup_inv_0]
+connect_bd_net [get_bd_pins ONE/IN0] [get_bd_pins ONE/xup_and4_0/a]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+regenerate_bd_layout
+set_property name TWO [get_bd_cells ONE1]
+delete_bd_objs [get_bd_nets TWO/IN0_1]
+delete_bd_objs [get_bd_nets TWO/IN1_1]
+delete_bd_objs [get_bd_nets TWO/xup_inv_1_y]
+connect_bd_net [get_bd_pins TWO/IN0] [get_bd_pins TWO/xup_inv_1/a]
+startgroup
+connect_bd_net [get_bd_pins TWO/xup_inv_1/y] [get_bd_pins TWO/xup_and4_0/a]
+endgroup
+connect_bd_net [get_bd_pins TWO/IN1] [get_bd_pins TWO/xup_and4_0/b]
+regenerate_bd_layout
+set_property name THREE [get_bd_cells ONE2]
+delete_bd_objs [get_bd_nets THREE/IN1_1] [get_bd_nets THREE/xup_inv_1_y] [get_bd_cells THREE/xup_inv_1]
+connect_bd_net [get_bd_pins THREE/IN1] [get_bd_pins THREE/xup_and4_0/b]
+regenerate_bd_layout
+set_property name FOUR [get_bd_cells ONE3]
+delete_bd_objs [get_bd_nets FOUR/IN0_1]
+copy_bd_objs /  [get_bd_cells {FOUR/xup_inv_1}]
+move_bd_cells [get_bd_cells FOUR] [get_bd_cells xup_inv_1]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins FOUR/IN0] [get_bd_pins FOUR/xup_inv_4/a]
+connect_bd_net [get_bd_pins FOUR/xup_inv_4/y] [get_bd_pins FOUR/xup_and4_0/a]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets FOUR/IN2_1] [get_bd_nets FOUR/xup_inv_2_y] [get_bd_cells FOUR/xup_inv_2]
+connect_bd_net [get_bd_pins FOUR/IN2] [get_bd_pins FOUR/xup_and4_0/c]
+regenerate_bd_layout
+set_property name FIVE [get_bd_cells ONE5]
+delete_bd_objs [get_bd_nets FIVE/IN2_1] [get_bd_nets FIVE/xup_inv_2_y] [get_bd_cells FIVE/xup_inv_2]
+connect_bd_net [get_bd_pins FIVE/IN2] [get_bd_pins FIVE/xup_and4_0/c]
+regenerate_bd_layout
+regenerate_bd_layout
+set_property name SIX [get_bd_cells ONE6]
+delete_bd_objs [get_bd_nets SIX/IN0_1]
+delete_bd_objs [get_bd_nets SIX/IN1_1]
+connect_bd_net [get_bd_pins SIX/IN0] [get_bd_pins SIX/xup_inv_1/a]
+delete_bd_objs [get_bd_nets SIX/xup_inv_1_y]
+connect_bd_net [get_bd_pins SIX/xup_inv_1/y] [get_bd_pins SIX/xup_and4_0/a]
+connect_bd_net [get_bd_pins SIX/IN1] [get_bd_pins SIX/xup_and4_0/b]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets SIX/IN2_1] [get_bd_nets SIX/xup_inv_2_y] [get_bd_cells SIX/xup_inv_2]
+connect_bd_net [get_bd_pins SIX/IN2] [get_bd_pins SIX/xup_and4_0/c]
+regenerate_bd_layout
+set_property name s [get_bd_cells ONE4]
+set_property name SEVEN [get_bd_cells s]
+delete_bd_objs [get_bd_nets SEVEN/IN1_1] [get_bd_nets SEVEN/xup_inv_1_y] [get_bd_cells SEVEN/xup_inv_1]
+delete_bd_objs [get_bd_nets SEVEN/xup_inv_2_y] [get_bd_nets SEVEN/IN2_1] [get_bd_cells SEVEN/xup_inv_2]
+connect_bd_net [get_bd_pins SEVEN/IN1] [get_bd_pins SEVEN/xup_and4_0/b]
+connect_bd_net [get_bd_pins SEVEN/IN2] [get_bd_pins SEVEN/xup_and4_0/c]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design
+Wrote  : <C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.srcs\sources_1\bd\Win_Conditions\Win_Conditions.bd> 
+Wrote  : <C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/ui/bd_a24df47b.ui> 
+save_bd_design: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1967.211 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 24 14:39:18 2020...
