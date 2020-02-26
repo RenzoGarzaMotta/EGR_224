@@ -34,7 +34,7 @@
     <Option Name="DSAVendor" Val="xilinx"/>
     <Option Name="DSABoardId" Val="basys3"/>
     <Option Name="DSANumComputeUnits" Val="60"/>
-    <Option Name="WTXSimLaunchSim" Val="38"/>
+    <Option Name="WTXSimLaunchSim" Val="39"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -99,155 +99,62 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_3/multiplexer_xup_4_to_1_mux_vector_0_3.xci">
-          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and3_0_1/multiplexer_xup_and3_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_and3_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_0_1/multiplexer_xup_and2_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_and2_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_3_1/multiplexer_xup_inv_3_1.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_3_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_2/multiplexer_xup_4_to_1_mux_vector_0_2.xci">
-          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_0/multiplexer_xup_or2_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_or2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_1/multiplexer_xup_or2_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_or2_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_0/multiplexer_xup_inv_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_2/multiplexer_xup_or2_0_2.xci">
-          <Proxy FileSetName="multiplexer_xup_or2_0_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_0_0/multiplexer_xup_and2_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_and2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_xor2_0_0/multiplexer_xup_xor2_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_xor2_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_1/multiplexer_xup_inv_1_1.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and4_0_1/multiplexer_xup_and4_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_and4_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_2/multiplexer_xup_inv_1_2.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_1_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_0/multiplexer_xup_inv_1_0.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_0/multiplexer_xup_4_to_1_mux_vector_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_0"/>
-        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_1/multiplexer_xup_4_to_1_mux_vector_0_1.xci">
           <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_4_0/multiplexer_xup_inv_4_0.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_4_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_1/multiplexer_xup_inv_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and4_0_0/multiplexer_xup_and4_0_0.xci">
-          <Proxy FileSetName="multiplexer_xup_and4_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_2_1/multiplexer_xup_inv_2_1.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_2_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_xor2_0_1/multiplexer_xup_xor2_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_xor2_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_3/multiplexer_xup_inv_0_3.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_0/multiplexer_xup_clk_divider_11_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_11_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_0/multiplexer_xup_clk_divider_10_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_4/multiplexer_xup_inv_0_4.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_0_4"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_3_0/multiplexer_xup_clk_divider_3_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_3_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_0_3/multiplexer_xup_and2_0_3.xci">
           <Proxy FileSetName="multiplexer_xup_and2_0_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_23_0/multiplexer_xup_clk_divider_23_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_23_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_xor2_0_0/multiplexer_xup_xor2_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_xor2_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_24_0/multiplexer_xup_clk_divider_24_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_24_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_0/multiplexer_xup_or2_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_or2_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_25_0/multiplexer_xup_clk_divider_25_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_25_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and3_0_2/multiplexer_xup_and3_0_2.xci">
+          <Proxy FileSetName="multiplexer_xup_and3_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_26_0/multiplexer_xup_clk_divider_26_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_26_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and4_0_1/multiplexer_xup_and4_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_and4_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_0_0/multiplexer_c_counter_binary_0_0.xci">
-          <Proxy FileSetName="multiplexer_c_counter_binary_0_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_0/multiplexer_xup_inv_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_8/multiplexer_xup_4_to_1_mux_vector_0_8.xci">
-          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_8"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_2_0/multiplexer_xup_and2_2_0.xci">
+          <Proxy FileSetName="multiplexer_xup_and2_2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_1/multiplexer_xup_clk_divider_1_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_1_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_xor2_0_1/multiplexer_xup_xor2_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_xor2_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_3_1/multiplexer_xup_clk_divider_3_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_3_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_0/multiplexer_xup_clk_divider_5_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_5_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_0/multiplexer_xup_clk_divider_21_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_21_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_0/multiplexer_xup_clk_divider_8_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_8_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_1/multiplexer_xup_clk_divider_4_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_4_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_0/multiplexer_xup_clk_divider_10_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_10_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_1/multiplexer_xup_clk_divider_8_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_8_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_0/multiplexer_xup_clk_divider_1_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_1_1/multiplexer_c_counter_binary_1_1.xci">
-          <Proxy FileSetName="multiplexer_c_counter_binary_1_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_3/multiplexer_xup_or2_0_3.xci">
-          <Proxy FileSetName="multiplexer_xup_or2_0_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_1/multiplexer_xup_clk_divider_0_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_0_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_1/multiplexer_xup_inv_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_13_0/multiplexer_xup_clk_divider_13_0.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_13_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_1/multiplexer_xup_clk_divider_9_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_9_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_4/multiplexer_xup_inv_0_4.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_0_4"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_1/multiplexer_xup_clk_divider_10_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_10_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_0/multiplexer_xup_clk_divider_16_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_16_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_1/multiplexer_xup_clk_divider_11_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_11_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_3/multiplexer_xup_4_to_1_mux_vector_0_3.xci">
+          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_3_0/multiplexer_xup_clk_divider_3_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_3_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_1_0/multiplexer_xup_or2_1_0.xci">
           <Proxy FileSetName="multiplexer_xup_or2_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_12_1/multiplexer_xup_clk_divider_12_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_12_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and3_0_2/multiplexer_xup_and3_0_2.xci">
-          <Proxy FileSetName="multiplexer_xup_and3_0_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_17_0/multiplexer_xup_clk_divider_17_0.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_17_0"/>
@@ -255,113 +162,140 @@
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_18_0/multiplexer_xup_clk_divider_18_0.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_18_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_0/multiplexer_xup_clk_divider_8_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_8_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_0/multiplexer_xup_clk_divider_5_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_5_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_0/multiplexer_xup_clk_divider_14_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_14_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_2_0/multiplexer_xup_and2_2_0.xci">
-          <Proxy FileSetName="multiplexer_xup_and2_2_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_0/multiplexer_xup_clk_divider_19_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_19_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_0/multiplexer_xup_clk_divider_6_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_6_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_0/multiplexer_xup_clk_divider_15_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_15_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_20_0/multiplexer_xup_clk_divider_20_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_20_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_0/multiplexer_xup_clk_divider_9_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_9_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_0/multiplexer_xup_clk_divider_4_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_4_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_5/multiplexer_xup_inv_0_5.xci">
-          <Proxy FileSetName="multiplexer_xup_inv_0_5"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_1_0/multiplexer_c_counter_binary_1_0.xci">
-          <Proxy FileSetName="multiplexer_c_counter_binary_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_1/multiplexer_xup_clk_divider_6_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_6_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_1/multiplexer_xup_clk_divider_7_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_7_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_1/multiplexer_xup_or2_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_or2_0_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_0/multiplexer_xup_clk_divider_0_0.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_0/multiplexer_xup_clk_divider_9_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_9_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and4_0_0/multiplexer_xup_and4_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_and4_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_0/multiplexer_xup_clk_divider_21_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_21_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_5/multiplexer_xup_inv_0_5.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_0_5"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_2/multiplexer_xup_inv_1_2.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_1_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_0/multiplexer_xup_clk_divider_4_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_4_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_0/multiplexer_xup_clk_divider_11_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_11_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_3_1/multiplexer_xup_inv_3_1.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_3_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_1/multiplexer_xup_inv_1_1.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_1_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_3/multiplexer_xup_or2_0_3.xci">
+          <Proxy FileSetName="multiplexer_xup_or2_0_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_2/multiplexer_xup_4_to_1_mux_vector_0_2.xci">
+          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_0/multiplexer_xup_clk_divider_1_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_0/multiplexer_xup_clk_divider_14_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_14_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_2_1/multiplexer_xup_inv_2_1.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_0_3/multiplexer_xup_inv_0_3.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_0_3"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_2_3/multiplexer_xup_inv_2_3.xci">
           <Proxy FileSetName="multiplexer_xup_inv_2_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_0/multiplexer_xup_clk_divider_16_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_16_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_4_0/multiplexer_xup_inv_4_0.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_4_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_1/multiplexer_xup_clk_divider_2_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_2_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_or2_0_2/multiplexer_xup_or2_0_2.xci">
+          <Proxy FileSetName="multiplexer_xup_or2_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_1/multiplexer_xup_clk_divider_5_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_5_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_0/multiplexer_xup_clk_divider_15_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_15_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_0/multiplexer_xup_clk_divider_2_0.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_2_0"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_0/multiplexer_xup_clk_divider_19_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_19_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_0/multiplexer_xup_4_to_1_mux_vector_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_20_0/multiplexer_xup_clk_divider_20_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_20_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_22_0/multiplexer_xup_clk_divider_22_0.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_22_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_2/multiplexer_xup_clk_divider_16_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_16_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_23_0/multiplexer_xup_clk_divider_23_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_23_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_17_2/multiplexer_xup_clk_divider_17_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_17_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_0/multiplexer_xup_clk_divider_2_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_2_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_2/multiplexer_xup_clk_divider_6_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_6_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_0/multiplexer_xup_clk_divider_6_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_6_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_24_2/multiplexer_xup_clk_divider_24_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_24_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_inv_1_0/multiplexer_xup_inv_1_0.xci">
+          <Proxy FileSetName="multiplexer_xup_inv_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_3/multiplexer_xup_clk_divider_4_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_4_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_0_0/multiplexer_xup_and2_0_0.xci">
+          <Proxy FileSetName="multiplexer_xup_and2_0_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_3/multiplexer_xup_clk_divider_10_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_10_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and3_0_1/multiplexer_xup_and3_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_and3_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_18_3/multiplexer_xup_clk_divider_18_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_18_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_and2_0_1/multiplexer_xup_and2_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_and2_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_2/multiplexer_xup_clk_divider_19_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_19_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_3/multiplexer_xup_clk_divider_5_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_5_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_22_3/multiplexer_xup_clk_divider_22_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_22_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_1/multiplexer_xup_clk_divider_5_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_5_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_3/multiplexer_xup_clk_divider_14_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_14_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_17_3/multiplexer_xup_clk_divider_17_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_17_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_2/multiplexer_xup_clk_divider_7_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_7_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_2/multiplexer_xup_clk_divider_11_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_11_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_3/multiplexer_xup_clk_divider_6_3.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_6_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_3/multiplexer_xup_clk_divider_8_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_8_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_3/multiplexer_xup_clk_divider_7_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_7_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_3/multiplexer_xup_clk_divider_19_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_19_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_1/multiplexer_xup_clk_divider_8_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_8_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_1/multiplexer_xup_clk_divider_2_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_18_2/multiplexer_xup_clk_divider_18_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_18_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_24_2/multiplexer_xup_clk_divider_24_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_24_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_1/multiplexer_xup_clk_divider_6_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_6_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_1/multiplexer_xup_clk_divider_14_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_14_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_2/multiplexer_xup_clk_divider_7_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_7_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_25_0/multiplexer_xup_clk_divider_25_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_25_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_3_2/multiplexer_xup_clk_divider_3_2.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_3_2"/>
@@ -369,101 +303,167 @@
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_2/multiplexer_xup_clk_divider_8_2.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_8_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_2/multiplexer_xup_clk_divider_1_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_1_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_3_1/multiplexer_xup_clk_divider_3_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_3_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_3/multiplexer_xup_clk_divider_9_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_9_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_3/multiplexer_xup_clk_divider_2_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_2_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_1/multiplexer_xup_clk_divider_4_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_4_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_2/multiplexer_xup_clk_divider_4_2.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_4_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_2/multiplexer_xup_clk_divider_0_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_0_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_4_to_1_mux_vector_0_8/multiplexer_xup_4_to_1_mux_vector_0_8.xci">
+          <Proxy FileSetName="multiplexer_xup_4_to_1_mux_vector_0_8"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_2/multiplexer_xup_clk_divider_14_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_14_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_2/multiplexer_xup_clk_divider_9_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_9_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_3/multiplexer_xup_clk_divider_16_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_16_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_3/multiplexer_xup_clk_divider_7_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_7_3"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_2/multiplexer_xup_clk_divider_15_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_15_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_1/multiplexer_xup_clk_divider_1_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_1_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_13_1/multiplexer_xup_clk_divider_13_1.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_13_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_23_2/multiplexer_xup_clk_divider_23_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_23_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_2/multiplexer_xup_clk_divider_0_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_0_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_3/multiplexer_xup_clk_divider_5_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_5_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_2/multiplexer_xup_clk_divider_10_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_10_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_22_2/multiplexer_xup_clk_divider_22_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_22_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_2/multiplexer_xup_clk_divider_21_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_21_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_7_1/multiplexer_xup_clk_divider_7_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_7_1"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_12_2/multiplexer_xup_clk_divider_12_2.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_12_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_1/multiplexer_xup_clk_divider_14_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_14_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_2/multiplexer_xup_clk_divider_15_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_15_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_13_2/multiplexer_xup_clk_divider_13_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_13_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_1_0/multiplexer_c_counter_binary_1_0.xci">
+          <Proxy FileSetName="multiplexer_c_counter_binary_1_0"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_1/multiplexer_xup_clk_divider_15_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_15_1"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_1/multiplexer_xup_clk_divider_0_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_0_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_3/multiplexer_xup_clk_divider_11_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_11_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_2/multiplexer_xup_clk_divider_16_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_16_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_18_2/multiplexer_xup_clk_divider_18_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_18_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_17_2/multiplexer_xup_clk_divider_17_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_17_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_3/multiplexer_xup_clk_divider_15_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_15_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_2/multiplexer_xup_clk_divider_9_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_9_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_3/multiplexer_xup_clk_divider_21_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_21_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_2/multiplexer_xup_clk_divider_19_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_19_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_2/multiplexer_xup_clk_divider_5_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_5_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_1_1/multiplexer_c_counter_binary_1_1.xci">
+          <Proxy FileSetName="multiplexer_c_counter_binary_1_1"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_20_2/multiplexer_xup_clk_divider_20_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_20_2"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_1/multiplexer_xup_clk_divider_16_1.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_16_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_3/multiplexer_xup_clk_divider_1_3.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_1_3"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_2/multiplexer_xup_clk_divider_21_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_21_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_2/multiplexer_xup_clk_divider_2_2.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_2_2"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_2/multiplexer_xup_clk_divider_11_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_11_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_20_2/multiplexer_xup_clk_divider_20_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_20_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_23_2/multiplexer_xup_clk_divider_23_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_23_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_1/multiplexer_xup_clk_divider_10_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_10_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_2/multiplexer_xup_clk_divider_14_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_14_2"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_0_3/multiplexer_xup_clk_divider_0_3.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_0_3"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_3/multiplexer_xup_clk_divider_1_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_1_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_24_0/multiplexer_xup_clk_divider_24_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_24_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_1/multiplexer_xup_clk_divider_9_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_9_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_13_2/multiplexer_xup_clk_divider_13_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_13_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_12_1/multiplexer_xup_clk_divider_12_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_12_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_26_0/multiplexer_xup_clk_divider_26_0.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_26_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_c_counter_binary_0_0/multiplexer_c_counter_binary_0_0.xci">
+          <Proxy FileSetName="multiplexer_c_counter_binary_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_22_2/multiplexer_xup_clk_divider_22_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_22_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_2_3/multiplexer_xup_clk_divider_2_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_2_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_1/multiplexer_xup_clk_divider_11_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_11_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_1/multiplexer_xup_clk_divider_15_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_15_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_1/multiplexer_xup_clk_divider_16_1.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_16_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_1_2/multiplexer_xup_clk_divider_1_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_1_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_5_2/multiplexer_xup_clk_divider_5_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_5_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_6_2/multiplexer_xup_clk_divider_6_2.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_6_2"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_4_3/multiplexer_xup_clk_divider_4_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_4_3"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_12_3/multiplexer_xup_clk_divider_12_3.xci">
           <Proxy FileSetName="multiplexer_xup_clk_divider_12_3"/>
         </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_2/multiplexer_xup_clk_divider_10_2.xci">
-          <Proxy FileSetName="multiplexer_xup_clk_divider_10_2"/>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_17_3/multiplexer_xup_clk_divider_17_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_17_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_22_3/multiplexer_xup_clk_divider_22_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_22_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_18_3/multiplexer_xup_clk_divider_18_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_18_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_15_3/multiplexer_xup_clk_divider_15_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_15_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_8_3/multiplexer_xup_clk_divider_8_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_8_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_21_3/multiplexer_xup_clk_divider_21_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_21_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_19_3/multiplexer_xup_clk_divider_19_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_19_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_14_3/multiplexer_xup_clk_divider_14_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_14_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_16_3/multiplexer_xup_clk_divider_16_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_16_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_11_3/multiplexer_xup_clk_divider_11_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_11_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_10_3/multiplexer_xup_clk_divider_10_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_10_3"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="multiplexer.bd" FileRelPathName="ip/multiplexer_xup_clk_divider_9_3/multiplexer_xup_clk_divider_9_3.xci">
+          <Proxy FileSetName="multiplexer_xup_clk_divider_9_3"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/bd/multiplexer/hdl/multiplexer_wrapper.v">
@@ -514,6 +514,14 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
+      <File Path="$PSRCDIR/sources_1/bd/Value_Grabber/hdl/Value_Grabber_wrapper.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
       <Config>
         <Option Name="DesignMode" Val="RTL"/>
         <Option Name="TopModule" Val="Win_Conditions_wrapper"/>
@@ -542,6 +550,14 @@
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sim_1/new/debounce_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sim_1/new/Value_Grabber_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>

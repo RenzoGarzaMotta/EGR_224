@@ -1,0 +1,137 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 24 14:09:37 2020
+# Process ID: 5956
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5468 C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.xpr
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/vivado.log
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.srcs/sources_1/bd/Win_Conditions/Win_Conditions.bd}
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_inv:1.0 xup_inv_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_inv_0]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+copy_bd_objs /  [get_bd_cells {xup_inv_0}]
+regenerate_bd_layout
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and6:1.0 xup_and6_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_and6_0]
+copy_bd_objs /  [get_bd_cells {xup_and6_0}]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and6_0/a]
+connect_bd_net [get_bd_pins xup_inv_1/y] [get_bd_pins xup_and6_0/b]
+connect_bd_net [get_bd_pins xup_inv_2/y] [get_bd_pins xup_and6_0/c]
+connect_bd_net [get_bd_pins xup_inv_3/y] [get_bd_pins xup_and6_0/d]
+connect_bd_net [get_bd_pins xup_inv_4/y] [get_bd_pins xup_and6_0/e]
+connect_bd_net [get_bd_pins xup_inv_5/y] [get_bd_pins xup_and6_0/f]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+copy_bd_objs /  [get_bd_cells {xup_inv_8}]
+startgroup
+copy_bd_objs /  [get_bd_cells {xup_inv_6}]
+set_property location {3 674 495} [get_bd_cells xup_inv_12]
+endgroup
+delete_bd_objs [get_bd_cells xup_inv_11] [get_bd_cells xup_inv_7] [get_bd_cells xup_inv_12] [get_bd_cells xup_inv_9] [get_bd_cells xup_and6_1] [get_bd_cells xup_inv_6] [get_bd_cells xup_inv_10] [get_bd_cells xup_inv_8]
+delete_bd_objs [get_bd_nets xup_inv_5_y] [get_bd_cells xup_inv_5]
+delete_bd_objs [get_bd_nets xup_inv_4_y] [get_bd_cells xup_inv_4]
+delete_bd_objs [get_bd_nets xup_inv_3_y] [get_bd_nets xup_inv_0_y] [get_bd_nets xup_inv_1_y] [get_bd_nets xup_inv_2_y] [get_bd_cells xup_and6_0]
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:XUP:xup_and4:1.0 xup_and4_0
+endgroup
+set_property -dict [list CONFIG.DELAY {0}] [get_bd_cells xup_and4_0]
+set_property location {3 654 627} [get_bd_cells xup_and4_0]
+connect_bd_net [get_bd_pins xup_inv_1/y] [get_bd_pins xup_and4_0/b]
+connect_bd_net [get_bd_pins xup_inv_0/y] [get_bd_pins xup_and4_0/a]
+connect_bd_net [get_bd_pins xup_inv_2/y] [get_bd_pins xup_and4_0/c]
+connect_bd_net [get_bd_pins xup_inv_3/y] [get_bd_pins xup_and4_0/d]
+create_bd_port -dir I IN0
+create_bd_port -dir I IN1
+create_bd_port -dir I IN2
+create_bd_port -dir I IN3
+connect_bd_net [get_bd_ports IN0] [get_bd_pins xup_inv_0/a]
+connect_bd_net [get_bd_ports IN1] [get_bd_pins xup_inv_1/a]
+connect_bd_net [get_bd_ports IN2] [get_bd_pins xup_inv_2/a]
+connect_bd_net [get_bd_ports IN3] [get_bd_pins xup_inv_3/a]
+create_bd_port -dir O OUTTIE
+startgroup
+connect_bd_net [get_bd_ports OUTTIE] [get_bd_pins xup_and4_0/y]
+endgroup
+group_bd_cells ZERO [get_bd_cells xup_inv_0] [get_bd_cells xup_inv_1] [get_bd_cells xup_inv_2] [get_bd_cells xup_inv_3] [get_bd_cells xup_and4_0]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {ZERO}]
+set_property name ONE [get_bd_cells ZERO1]
+delete_bd_objs [get_bd_nets ONE/IN0_1] [get_bd_nets ONE/xup_inv_0_y] [get_bd_cells ONE/xup_inv_0]
+connect_bd_net [get_bd_pins ONE/IN0] [get_bd_pins ONE/xup_and4_0/a]
+regenerate_bd_layout
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+copy_bd_objs /  [get_bd_cells {ONE}]
+regenerate_bd_layout
+set_property name TWO [get_bd_cells ONE1]
+delete_bd_objs [get_bd_nets TWO/IN0_1]
+delete_bd_objs [get_bd_nets TWO/IN1_1]
+delete_bd_objs [get_bd_nets TWO/xup_inv_1_y]
+connect_bd_net [get_bd_pins TWO/IN0] [get_bd_pins TWO/xup_inv_1/a]
+startgroup
+connect_bd_net [get_bd_pins TWO/xup_inv_1/y] [get_bd_pins TWO/xup_and4_0/a]
+endgroup
+connect_bd_net [get_bd_pins TWO/IN1] [get_bd_pins TWO/xup_and4_0/b]
+regenerate_bd_layout
+set_property name THREE [get_bd_cells ONE2]
+delete_bd_objs [get_bd_nets THREE/IN1_1] [get_bd_nets THREE/xup_inv_1_y] [get_bd_cells THREE/xup_inv_1]
+connect_bd_net [get_bd_pins THREE/IN1] [get_bd_pins THREE/xup_and4_0/b]
+regenerate_bd_layout
+set_property name FOUR [get_bd_cells ONE3]
+delete_bd_objs [get_bd_nets FOUR/IN0_1]
+copy_bd_objs /  [get_bd_cells {FOUR/xup_inv_1}]
+move_bd_cells [get_bd_cells FOUR] [get_bd_cells xup_inv_1]
+regenerate_bd_layout
+connect_bd_net [get_bd_pins FOUR/IN0] [get_bd_pins FOUR/xup_inv_4/a]
+connect_bd_net [get_bd_pins FOUR/xup_inv_4/y] [get_bd_pins FOUR/xup_and4_0/a]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets FOUR/IN2_1] [get_bd_nets FOUR/xup_inv_2_y] [get_bd_cells FOUR/xup_inv_2]
+connect_bd_net [get_bd_pins FOUR/IN2] [get_bd_pins FOUR/xup_and4_0/c]
+regenerate_bd_layout
+set_property name FIVE [get_bd_cells ONE5]
+delete_bd_objs [get_bd_nets FIVE/IN2_1] [get_bd_nets FIVE/xup_inv_2_y] [get_bd_cells FIVE/xup_inv_2]
+connect_bd_net [get_bd_pins FIVE/IN2] [get_bd_pins FIVE/xup_and4_0/c]
+regenerate_bd_layout
+regenerate_bd_layout
+set_property name SIX [get_bd_cells ONE6]
+delete_bd_objs [get_bd_nets SIX/IN0_1]
+delete_bd_objs [get_bd_nets SIX/IN1_1]
+connect_bd_net [get_bd_pins SIX/IN0] [get_bd_pins SIX/xup_inv_1/a]
+delete_bd_objs [get_bd_nets SIX/xup_inv_1_y]
+connect_bd_net [get_bd_pins SIX/xup_inv_1/y] [get_bd_pins SIX/xup_and4_0/a]
+connect_bd_net [get_bd_pins SIX/IN1] [get_bd_pins SIX/xup_and4_0/b]
+regenerate_bd_layout
+delete_bd_objs [get_bd_nets SIX/IN2_1] [get_bd_nets SIX/xup_inv_2_y] [get_bd_cells SIX/xup_inv_2]
+connect_bd_net [get_bd_pins SIX/IN2] [get_bd_pins SIX/xup_and4_0/c]
+regenerate_bd_layout
+set_property name s [get_bd_cells ONE4]
+set_property name SEVEN [get_bd_cells s]
+delete_bd_objs [get_bd_nets SEVEN/IN1_1] [get_bd_nets SEVEN/xup_inv_1_y] [get_bd_cells SEVEN/xup_inv_1]
+delete_bd_objs [get_bd_nets SEVEN/xup_inv_2_y] [get_bd_nets SEVEN/IN2_1] [get_bd_cells SEVEN/xup_inv_2]
+connect_bd_net [get_bd_pins SEVEN/IN1] [get_bd_pins SEVEN/xup_and4_0/b]
+connect_bd_net [get_bd_pins SEVEN/IN2] [get_bd_pins SEVEN/xup_and4_0/c]
+regenerate_bd_layout
+regenerate_bd_layout
+save_bd_design

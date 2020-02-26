@@ -4,8 +4,8 @@
     <Description>Composite Fileset</Description>
     <Generation Name="SYNTHESIS" State="STALE" Timestamp="1582516697"/>
     <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1582516697"/>
-    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1582516698"/>
-    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1582516698"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1582571620"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1582571620"/>
     <FileCollection Name="SOURCES" Type="SOURCES">
       <File Name="ip\Win_Conditions_xup_or5_0_0\Win_Conditions_xup_or5_0_0.xci" Type="IP">
         <Instance HierarchyPath="Regular_Credit/xup_or5_0"/>
@@ -2187,6 +2187,742 @@
       <File Name="sim\Win_Conditions.protoinst">
         <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
         <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_0\Win_Conditions_xup_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ZERO/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_1\Win_Conditions_xup_inv_0_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ZERO/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_2\Win_Conditions_xup_inv_0_2.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ZERO/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_3\Win_Conditions_xup_inv_0_3.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ZERO/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_0\Win_Conditions_xup_and4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ZERO/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_3\Win_Conditions_xup_inv_1_3.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ONE/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_1\Win_Conditions_xup_inv_2_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ONE/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_0\Win_Conditions_xup_inv_3_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ONE/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_1\Win_Conditions_xup_and4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/ONE/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_4\Win_Conditions_xup_inv_1_4.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/TWO/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_2\Win_Conditions_xup_inv_2_2.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/TWO/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_2\Win_Conditions_xup_inv_3_2.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/TWO/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_2\Win_Conditions_xup_and4_0_2.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/TWO/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_5\Win_Conditions_xup_inv_2_5.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/THREE/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_4\Win_Conditions_xup_inv_3_4.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/THREE/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_3\Win_Conditions_xup_and4_0_3.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/THREE/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_6\Win_Conditions_xup_inv_1_6.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/FOUR/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_6\Win_Conditions_xup_inv_3_6.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/FOUR/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_5\Win_Conditions_xup_and4_0_5.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/FOUR/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_13\Win_Conditions_xup_inv_1_13.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/FOUR/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_8\Win_Conditions_xup_inv_3_8.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/SEVEN/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_6\Win_Conditions_xup_and4_0_6.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/SEVEN/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_10\Win_Conditions_xup_inv_1_10.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FIVE/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_9\Win_Conditions_xup_inv_3_9.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FIVE/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_7\Win_Conditions_xup_and4_0_7.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FIVE/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_12\Win_Conditions_xup_inv_1_12.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/SIX/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_10\Win_Conditions_xup_inv_3_10.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/SIX/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_8\Win_Conditions_xup_and4_0_8.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/SIX/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_9\Win_Conditions_xup_and4_0_9.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/EIGHT/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_4\Win_Conditions_xup_inv_0_4.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/EIGHT/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_6\Win_Conditions_xup_inv_2_6.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/EIGHT/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_5\Win_Conditions_xup_inv_1_5.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/EIGHT/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_9\Win_Conditions_xup_inv_1_9.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/NINE/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_9\Win_Conditions_xup_inv_2_9.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/NINE/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_10\Win_Conditions_xup_and4_0_10.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/NINE/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or4_0_1\Win_Conditions_xup_or4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/xup_or4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or4_0_2\Win_Conditions_xup_or4_0_2.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/xup_or4_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_or2_0_0\Win_Conditions_xup_or2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/xup_or2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_3\Win_Conditions_xup_and3_0_3.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/xup_and3_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_24\Win_Conditions_xup_inv_1_24.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FOUR1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_26\Win_Conditions_xup_inv_3_26.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FOUR1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_20\Win_Conditions_xup_and4_0_20.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FOUR1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_7\Win_Conditions_xup_inv_4_7.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FOUR1/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_26\Win_Conditions_xup_inv_1_26.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FIVE1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_28\Win_Conditions_xup_inv_3_28.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FIVE1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_22\Win_Conditions_xup_and4_0_22.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/FIVE1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_20\Win_Conditions_xup_inv_2_20.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/THREE2/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_25\Win_Conditions_xup_inv_3_25.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/THREE2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_19\Win_Conditions_xup_and4_0_19.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_3/THREE2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_1_0\Win_Conditions_xup_and3_1_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/xup_and3_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_25\Win_Conditions_xup_inv_1_25.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FOUR2/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_27\Win_Conditions_xup_inv_3_27.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FOUR2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_21\Win_Conditions_xup_and4_0_21.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FOUR2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_4_8\Win_Conditions_xup_inv_4_8.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_4/FOUR2/xup_inv_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_2_0\Win_Conditions_xup_and3_2_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/xup_and3_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_27\Win_Conditions_xup_inv_1_27.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/FIVE2/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_29\Win_Conditions_xup_inv_3_29.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/FIVE2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_23\Win_Conditions_xup_and4_0_23.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/FIVE2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_29\Win_Conditions_xup_inv_1_29.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/SIX2/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_31\Win_Conditions_xup_inv_3_31.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/SIX2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_25\Win_Conditions_xup_and4_0_25.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/SIX2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_32\Win_Conditions_xup_inv_3_32.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/SEVEN1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_35\Win_Conditions_xup_and4_0_35.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_5/SEVEN1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_5\Win_Conditions_xup_and3_0_5.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/xup_and3_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_28\Win_Conditions_xup_inv_1_28.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/SIX1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_30\Win_Conditions_xup_inv_3_30.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/SIX1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_24\Win_Conditions_xup_and4_0_24.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_6/SIX1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_1\Win_Conditions_xup_and3_0_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/xup_and3_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_33\Win_Conditions_xup_inv_3_33.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/SEVEN2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_36\Win_Conditions_xup_and4_0_36.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/SEVEN2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_37\Win_Conditions_xup_and4_0_37.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/EIGHT1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_0_5\Win_Conditions_xup_inv_0_5.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/EIGHT1/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_21\Win_Conditions_xup_inv_2_21.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/EIGHT1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_30\Win_Conditions_xup_inv_1_30.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_7/EIGHT1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_4\Win_Conditions_xup_and3_0_4.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_0/xup_and3_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_1_1\Win_Conditions_xup_and3_1_1.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/xup_and3_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_16\Win_Conditions_xup_inv_1_16.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/TWO1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_12\Win_Conditions_xup_inv_2_12.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/TWO1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_13\Win_Conditions_xup_inv_3_13.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/TWO1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_12\Win_Conditions_xup_and4_0_12.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/TWO1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_19\Win_Conditions_xup_inv_2_19.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/THREE1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_24\Win_Conditions_xup_inv_3_24.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/THREE1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_18\Win_Conditions_xup_and4_0_18.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/THREE1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_14\Win_Conditions_xup_inv_1_14.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/ONE1/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_10\Win_Conditions_xup_inv_2_10.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/ONE1/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_12\Win_Conditions_xup_inv_3_12.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/ONE1/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_11\Win_Conditions_xup_and4_0_11.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_1/ONE1/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and3_0_0\Win_Conditions_xup_and3_0_0.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/xup_and3_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_1_17\Win_Conditions_xup_inv_1_17.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/TWO2/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_2_13\Win_Conditions_xup_inv_2_13.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/TWO2/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_inv_3_14\Win_Conditions_xup_inv_3_14.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/TWO2/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Win_Conditions_xup_and4_0_15\Win_Conditions_xup_and4_0_15.xci" Type="IP">
+        <Instance HierarchyPath="F_FLUSH/F_FLUSH_2/TWO2/xup_and4_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
         <UsedIn Val="SIMULATION"/>
       </File>
     </FileCollection>

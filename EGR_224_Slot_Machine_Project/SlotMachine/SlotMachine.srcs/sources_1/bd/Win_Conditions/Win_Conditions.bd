@@ -5,8 +5,7 @@
       "device": "xc7a35tcpg236-1",
       "name": "Win_Conditions",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2018.3",
-      "validated": "true"
+      "tool_version": "2018.3"
     },
     "design_tree": {
       "Regular_Credit": {
@@ -322,6 +321,164 @@
             "xup_inv_10": ""
           }
         }
+      },
+      "F_FLUSH": {
+        "xup_or4_0": "",
+        "xup_or4_1": "",
+        "xup_or2_0": "",
+        "F_FLUSH_3": {
+          "xup_and3_2": "",
+          "FOUR1": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": "",
+            "xup_inv_4": ""
+          },
+          "FIVE1": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "THREE2": {
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_4": {
+          "xup_and3_4": "",
+          "FIVE": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "FOUR2": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": "",
+            "xup_inv_4": ""
+          },
+          "SIX": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_5": {
+          "xup_and3_5": "",
+          "FIVE2": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "SIX2": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "SEVEN1": {
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_6": {
+          "xup_and3_6": "",
+          "SEVEN": {
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "SIX1": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "EIGHT": {
+            "xup_and4_0": "",
+            "xup_inv_0": "",
+            "xup_inv_2": "",
+            "xup_inv_1": ""
+          }
+        },
+        "F_FLUSH_7": {
+          "xup_and3_1": "",
+          "SEVEN2": {
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "EIGHT1": {
+            "xup_and4_0": "",
+            "xup_inv_0": "",
+            "xup_inv_2": "",
+            "xup_inv_1": ""
+          },
+          "NINE": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_0": {
+          "xup_and3_3": "",
+          "ONE": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "ZERO": {
+            "xup_inv_0": "",
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "TWO": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_1": {
+          "xup_and3_7": "",
+          "TWO1": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "THREE1": {
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "ONE1": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        },
+        "F_FLUSH_2": {
+          "xup_and3_0": "",
+          "FOUR": {
+            "xup_inv_1": "",
+            "xup_inv_3": "",
+            "xup_and4_0": "",
+            "xup_inv_4": ""
+          },
+          "TWO2": {
+            "xup_inv_1": "",
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          },
+          "THREE": {
+            "xup_inv_2": "",
+            "xup_inv_3": "",
+            "xup_and4_0": ""
+          }
+        }
       }
     },
     "ports": {
@@ -367,35 +524,17 @@
       "L": {
         "direction": "O",
         "left": "3",
-        "right": "0",
-        "parameters": {
-          "PortWidth": {
-            "value": "4",
-            "value_src": "ip_prop"
-          }
-        }
+        "right": "0"
       },
       "C": {
         "direction": "O",
         "left": "3",
-        "right": "0",
-        "parameters": {
-          "PortWidth": {
-            "value": "4",
-            "value_src": "ip_prop"
-          }
-        }
+        "right": "0"
       },
       "R": {
         "direction": "O",
         "left": "3",
-        "right": "0",
-        "parameters": {
-          "PortWidth": {
-            "value": "4",
-            "value_src": "ip_prop"
-          }
-        }
+        "right": "0"
       }
     },
     "components": {
@@ -7734,79 +7873,3902 @@
             ]
           }
         }
+      },
+      "F_FLUSH": {
+        "ports": {
+          "L0": {
+            "direction": "I"
+          },
+          "L1": {
+            "direction": "I"
+          },
+          "L2": {
+            "direction": "I"
+          },
+          "L3": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "C1": {
+            "direction": "I"
+          },
+          "C2": {
+            "direction": "I"
+          },
+          "C3": {
+            "direction": "I"
+          },
+          "R0": {
+            "direction": "I"
+          },
+          "R1": {
+            "direction": "I"
+          },
+          "R2": {
+            "direction": "I"
+          },
+          "R3": {
+            "direction": "I"
+          }
+        },
+        "components": {
+          "xup_or4_0": {
+            "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+            "xci_name": "Win_Conditions_xup_or4_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_or4_1": {
+            "vlnv": "xilinx.com:XUP:xup_or4:1.0",
+            "xci_name": "Win_Conditions_xup_or4_0_2",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_or2_0": {
+            "vlnv": "xilinx.com:XUP:xup_or2:1.0",
+            "xci_name": "Win_Conditions_xup_or2_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "F_FLUSH_3": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_2": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_0_3"
+              },
+              "FOUR1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_24",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_26",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_20",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_4": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_4_7",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_4/a"
+                    ]
+                  },
+                  "xup_inv_4_y": {
+                    "ports": [
+                      "xup_inv_4/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "FIVE1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_26",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_28",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_22",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "THREE2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_20",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_25",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_19",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "THREE2_OUTTIE": {
+                "ports": [
+                  "THREE2/OUTTIE",
+                  "xup_and3_2/a"
+                ]
+              },
+              "FOUR1_OUTTIE": {
+                "ports": [
+                  "FOUR1/OUTTIE",
+                  "xup_and3_2/b"
+                ]
+              },
+              "FIVE1_OUTTIE": {
+                "ports": [
+                  "FIVE1/OUTTIE",
+                  "xup_and3_2/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "THREE2/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "THREE2/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "THREE2/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "THREE2/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "FOUR1/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "FOUR1/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "FOUR1/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "FOUR1/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "FIVE1/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "FIVE1/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "FIVE1/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "FIVE1/IN3"
+                ]
+              },
+              "xup_and3_2_y": {
+                "ports": [
+                  "xup_and3_2/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_4": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_4": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_1_0"
+              },
+              "FIVE": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_10",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_9",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_7",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "FOUR2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_25",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_27",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_21",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_4": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_4_8",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_4/a"
+                    ]
+                  },
+                  "xup_inv_4_y": {
+                    "ports": [
+                      "xup_inv_4/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "SIX": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_12",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_10",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_8",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "FOUR2_OUTTIE": {
+                "ports": [
+                  "FOUR2/OUTTIE",
+                  "xup_and3_4/a"
+                ]
+              },
+              "FIVE_OUTTIE": {
+                "ports": [
+                  "FIVE/OUTTIE",
+                  "xup_and3_4/b"
+                ]
+              },
+              "SIX_OUTTIE": {
+                "ports": [
+                  "SIX/OUTTIE",
+                  "xup_and3_4/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "FOUR2/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "FOUR2/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "FOUR2/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "FOUR2/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "FIVE/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "FIVE/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "FIVE/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "FIVE/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "SIX/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "SIX/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "SIX/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "SIX/IN3"
+                ]
+              },
+              "xup_and3_4_y": {
+                "ports": [
+                  "xup_and3_4/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_5": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_5": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_2_0"
+              },
+              "FIVE2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_27",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_29",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_23",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "SIX2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_29",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_31",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_25",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "SEVEN1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_32",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_35",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "FIVE2_OUTTIE": {
+                "ports": [
+                  "FIVE2/OUTTIE",
+                  "xup_and3_5/a"
+                ]
+              },
+              "SIX2_OUTTIE": {
+                "ports": [
+                  "SIX2/OUTTIE",
+                  "xup_and3_5/b"
+                ]
+              },
+              "SEVEN1_OUTTIE": {
+                "ports": [
+                  "SEVEN1/OUTTIE",
+                  "xup_and3_5/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "FIVE2/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "FIVE2/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "FIVE2/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "FIVE2/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "SIX2/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "SIX2/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "SIX2/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "SIX2/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "SEVEN1/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "SEVEN1/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "SEVEN1/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "SEVEN1/IN3"
+                ]
+              },
+              "xup_and3_5_y": {
+                "ports": [
+                  "xup_and3_5/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_6": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_6": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_0_5"
+              },
+              "SEVEN": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_8",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_6",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "SIX1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_28",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_30",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_24",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "EIGHT": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_9",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_0": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_4",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_6",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_5",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "xup_inv_0_y": {
+                    "ports": [
+                      "xup_inv_0/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_0/a"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_and4_0/d"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "SIX1_OUTTIE": {
+                "ports": [
+                  "SIX1/OUTTIE",
+                  "xup_and3_6/a"
+                ]
+              },
+              "SEVEN_OUTTIE": {
+                "ports": [
+                  "SEVEN/OUTTIE",
+                  "xup_and3_6/b"
+                ]
+              },
+              "EIGHT_OUTTIE": {
+                "ports": [
+                  "EIGHT/OUTTIE",
+                  "xup_and3_6/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "SIX1/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "SIX1/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "SIX1/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "SIX1/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "SEVEN/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "SEVEN/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "SEVEN/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "SEVEN/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "EIGHT/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "EIGHT/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "EIGHT/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "EIGHT/IN3"
+                ]
+              },
+              "xup_and3_6_y": {
+                "ports": [
+                  "xup_and3_6/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_7": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_1": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_0_1"
+              },
+              "SEVEN2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_33",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_36",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "EIGHT1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_37",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_0": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_5",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_21",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_30",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "xup_inv_0_y": {
+                    "ports": [
+                      "xup_inv_0/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_0/a"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_and4_0/d"
+                    ]
+                  }
+                }
+              },
+              "NINE": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_9",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_9",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_10",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_and4_0/d"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "SEVEN2_OUTTIE": {
+                "ports": [
+                  "SEVEN2/OUTTIE",
+                  "xup_and3_1/a"
+                ]
+              },
+              "EIGHT1_OUTTIE": {
+                "ports": [
+                  "EIGHT1/OUTTIE",
+                  "xup_and3_1/b"
+                ]
+              },
+              "NINE_OUTTIE": {
+                "ports": [
+                  "NINE/OUTTIE",
+                  "xup_and3_1/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "SEVEN2/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "SEVEN2/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "SEVEN2/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "SEVEN2/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "EIGHT1/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "EIGHT1/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "EIGHT1/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "EIGHT1/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "NINE/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "NINE/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "NINE/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "NINE/IN3"
+                ]
+              },
+              "xup_and3_1_y": {
+                "ports": [
+                  "xup_and3_1/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_0": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_3": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_0_4",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "ONE": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_3",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_1",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_0",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_1",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  }
+                }
+              },
+              "ZERO": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_0": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_0",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_1",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_2",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_0_3",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_0",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_0_y": {
+                    "ports": [
+                      "xup_inv_0/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  }
+                }
+              },
+              "TWO": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_4",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_2",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_2",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_2",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "ZERO_OUTTIE": {
+                "ports": [
+                  "ZERO/OUTTIE",
+                  "xup_and3_3/a"
+                ]
+              },
+              "ONE_OUTTIE": {
+                "ports": [
+                  "ONE/OUTTIE",
+                  "xup_and3_3/b"
+                ]
+              },
+              "TWO_OUTTIE": {
+                "ports": [
+                  "TWO/OUTTIE",
+                  "xup_and3_3/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "ZERO/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "ZERO/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "ZERO/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "ZERO/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "ONE/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "ONE/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "ONE/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "ONE/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "TWO/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "TWO/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "TWO/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "TWO/IN3"
+                ]
+              },
+              "xup_and3_3_y": {
+                "ports": [
+                  "xup_and3_3/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_1": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_7": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_1_1"
+              },
+              "TWO1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_16",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_12",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_13",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_12",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              },
+              "THREE1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_19",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_24",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_18",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              },
+              "ONE1": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_14",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_10",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_12",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_11",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "ONE1_OUTTIE": {
+                "ports": [
+                  "ONE1/OUTTIE",
+                  "xup_and3_7/a"
+                ]
+              },
+              "TWO1_OUTTIE": {
+                "ports": [
+                  "TWO1/OUTTIE",
+                  "xup_and3_7/b"
+                ]
+              },
+              "THREE1_OUTTIE": {
+                "ports": [
+                  "THREE1/OUTTIE",
+                  "xup_and3_7/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "ONE1/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "ONE1/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "ONE1/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "ONE1/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "TWO1/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "TWO1/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "TWO1/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "TWO1/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "THREE1/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "THREE1/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "THREE1/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "THREE1/IN3"
+                ]
+              },
+              "xup_and3_7_y": {
+                "ports": [
+                  "xup_and3_7/y",
+                  "y"
+                ]
+              }
+            }
+          },
+          "F_FLUSH_2": {
+            "ports": {
+              "L0": {
+                "direction": "I"
+              },
+              "L1": {
+                "direction": "I"
+              },
+              "L2": {
+                "direction": "I"
+              },
+              "L3": {
+                "direction": "I"
+              },
+              "C0": {
+                "direction": "I"
+              },
+              "C1": {
+                "direction": "I"
+              },
+              "C2": {
+                "direction": "I"
+              },
+              "C3": {
+                "direction": "I"
+              },
+              "R0": {
+                "direction": "I"
+              },
+              "R1": {
+                "direction": "I"
+              },
+              "R2": {
+                "direction": "I"
+              },
+              "R3": {
+                "direction": "I"
+              },
+              "y": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_and3_0": {
+                "vlnv": "xilinx.com:XUP:xup_and3:1.0",
+                "xci_name": "Win_Conditions_xup_and3_0_0"
+              },
+              "FOUR": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_6",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_6",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_5",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_4": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_13",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/b"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_4/a"
+                    ]
+                  },
+                  "xup_inv_4_y": {
+                    "ports": [
+                      "xup_inv_4/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_and4_0/c"
+                    ]
+                  }
+                }
+              },
+              "TWO2": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_1": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_1_17",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_13",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_14",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_15",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_inv_1/a"
+                    ]
+                  },
+                  "xup_inv_1_y": {
+                    "ports": [
+                      "xup_inv_1/y",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              },
+              "THREE": {
+                "ports": {
+                  "IN0": {
+                    "direction": "I"
+                  },
+                  "IN1": {
+                    "direction": "I"
+                  },
+                  "IN2": {
+                    "direction": "I"
+                  },
+                  "IN3": {
+                    "direction": "I"
+                  },
+                  "OUTTIE": {
+                    "direction": "O"
+                  }
+                },
+                "components": {
+                  "xup_inv_2": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_2_5",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_inv_3": {
+                    "vlnv": "xilinx.com:XUP:xup_inv:1.0",
+                    "xci_name": "Win_Conditions_xup_inv_3_4",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  },
+                  "xup_and4_0": {
+                    "vlnv": "xilinx.com:XUP:xup_and4:1.0",
+                    "xci_name": "Win_Conditions_xup_and4_0_3",
+                    "parameters": {
+                      "DELAY": {
+                        "value": "0"
+                      }
+                    }
+                  }
+                },
+                "nets": {
+                  "xup_inv_2_y": {
+                    "ports": [
+                      "xup_inv_2/y",
+                      "xup_and4_0/c"
+                    ]
+                  },
+                  "xup_inv_3_y": {
+                    "ports": [
+                      "xup_inv_3/y",
+                      "xup_and4_0/d"
+                    ]
+                  },
+                  "IN2_1": {
+                    "ports": [
+                      "IN2",
+                      "xup_inv_2/a"
+                    ]
+                  },
+                  "IN3_1": {
+                    "ports": [
+                      "IN3",
+                      "xup_inv_3/a"
+                    ]
+                  },
+                  "xup_and4_0_y": {
+                    "ports": [
+                      "xup_and4_0/y",
+                      "OUTTIE"
+                    ]
+                  },
+                  "IN0_1": {
+                    "ports": [
+                      "IN0",
+                      "xup_and4_0/a"
+                    ]
+                  },
+                  "IN1_1": {
+                    "ports": [
+                      "IN1",
+                      "xup_and4_0/b"
+                    ]
+                  }
+                }
+              }
+            },
+            "nets": {
+              "TWO2_OUTTIE": {
+                "ports": [
+                  "TWO2/OUTTIE",
+                  "xup_and3_0/a"
+                ]
+              },
+              "THREE_OUTTIE": {
+                "ports": [
+                  "THREE/OUTTIE",
+                  "xup_and3_0/b"
+                ]
+              },
+              "FOUR_OUTTIE": {
+                "ports": [
+                  "FOUR/OUTTIE",
+                  "xup_and3_0/c"
+                ]
+              },
+              "IN0_1": {
+                "ports": [
+                  "L0",
+                  "TWO2/IN0"
+                ]
+              },
+              "IN1_1": {
+                "ports": [
+                  "L1",
+                  "TWO2/IN1"
+                ]
+              },
+              "IN2_1": {
+                "ports": [
+                  "L2",
+                  "TWO2/IN2"
+                ]
+              },
+              "IN3_1": {
+                "ports": [
+                  "L3",
+                  "TWO2/IN3"
+                ]
+              },
+              "IN0_2": {
+                "ports": [
+                  "C0",
+                  "THREE/IN0"
+                ]
+              },
+              "IN1_2": {
+                "ports": [
+                  "C1",
+                  "THREE/IN1"
+                ]
+              },
+              "IN2_2": {
+                "ports": [
+                  "C2",
+                  "THREE/IN2"
+                ]
+              },
+              "IN3_2": {
+                "ports": [
+                  "C3",
+                  "THREE/IN3"
+                ]
+              },
+              "IN0_3": {
+                "ports": [
+                  "R0",
+                  "FOUR/IN0"
+                ]
+              },
+              "IN1_3": {
+                "ports": [
+                  "R1",
+                  "FOUR/IN1"
+                ]
+              },
+              "IN2_3": {
+                "ports": [
+                  "R2",
+                  "FOUR/IN2"
+                ]
+              },
+              "IN3_3": {
+                "ports": [
+                  "R3",
+                  "FOUR/IN3"
+                ]
+              },
+              "xup_and3_0_y": {
+                "ports": [
+                  "xup_and3_0/y",
+                  "y"
+                ]
+              }
+            }
+          }
+        },
+        "nets": {
+          "F_FLUSH_4_y": {
+            "ports": [
+              "F_FLUSH_4/y",
+              "xup_or4_0/a"
+            ]
+          },
+          "F_FLUSH_5_y": {
+            "ports": [
+              "F_FLUSH_5/y",
+              "xup_or4_0/b"
+            ]
+          },
+          "F_FLUSH_6_y": {
+            "ports": [
+              "F_FLUSH_6/y",
+              "xup_or4_0/c"
+            ]
+          },
+          "F_FLUSH_7_y": {
+            "ports": [
+              "F_FLUSH_7/y",
+              "xup_or4_0/d"
+            ]
+          },
+          "xup_or4_0_y1": {
+            "ports": [
+              "xup_or4_0/y",
+              "xup_or2_0/b"
+            ]
+          },
+          "F_FLUSH_0_y": {
+            "ports": [
+              "F_FLUSH_0/y",
+              "xup_or4_1/a"
+            ]
+          },
+          "F_FLUSH_1_y": {
+            "ports": [
+              "F_FLUSH_1/y",
+              "xup_or4_1/b"
+            ]
+          },
+          "F_FLUSH_2_y": {
+            "ports": [
+              "F_FLUSH_2/y",
+              "xup_or4_1/c"
+            ]
+          },
+          "F_FLUSH_3_y": {
+            "ports": [
+              "F_FLUSH_3/y",
+              "xup_or4_1/d"
+            ]
+          },
+          "xup_or4_1_y": {
+            "ports": [
+              "xup_or4_1/y",
+              "xup_or2_0/a"
+            ]
+          },
+          "d_0_1": {
+            "ports": [
+              "L0",
+              "F_FLUSH_4/L0",
+              "F_FLUSH_6/L0",
+              "F_FLUSH_7/L0",
+              "F_FLUSH_5/L0",
+              "F_FLUSH_2/L0",
+              "F_FLUSH_1/L0",
+              "F_FLUSH_0/L0",
+              "F_FLUSH_3/L0"
+            ]
+          },
+          "c_0_1": {
+            "ports": [
+              "L1",
+              "F_FLUSH_4/L1",
+              "F_FLUSH_6/L1",
+              "F_FLUSH_7/L1",
+              "F_FLUSH_5/L1",
+              "F_FLUSH_2/L1",
+              "F_FLUSH_1/L1",
+              "F_FLUSH_0/L1",
+              "F_FLUSH_3/L1"
+            ]
+          },
+          "b_0_1": {
+            "ports": [
+              "L2",
+              "F_FLUSH_4/L2",
+              "F_FLUSH_6/L2",
+              "F_FLUSH_7/L2",
+              "F_FLUSH_5/L2",
+              "F_FLUSH_2/L2",
+              "F_FLUSH_1/L2",
+              "F_FLUSH_0/L2",
+              "F_FLUSH_3/L2"
+            ]
+          },
+          "a_0_1": {
+            "ports": [
+              "L3",
+              "F_FLUSH_4/L3",
+              "F_FLUSH_6/L3",
+              "F_FLUSH_7/L3",
+              "F_FLUSH_5/L3",
+              "F_FLUSH_2/L3",
+              "F_FLUSH_1/L3",
+              "F_FLUSH_0/L3",
+              "F_FLUSH_3/L3"
+            ]
+          },
+          "d_0_2": {
+            "ports": [
+              "C0",
+              "F_FLUSH_4/C0",
+              "F_FLUSH_6/C0",
+              "F_FLUSH_7/C0",
+              "F_FLUSH_5/C0",
+              "F_FLUSH_2/C0",
+              "F_FLUSH_1/C0",
+              "F_FLUSH_0/C0",
+              "F_FLUSH_3/C0"
+            ]
+          },
+          "c_0_2": {
+            "ports": [
+              "C1",
+              "F_FLUSH_4/C1",
+              "F_FLUSH_6/C1",
+              "F_FLUSH_7/C1",
+              "F_FLUSH_5/C1",
+              "F_FLUSH_2/C1",
+              "F_FLUSH_1/C1",
+              "F_FLUSH_0/C1",
+              "F_FLUSH_3/C1"
+            ]
+          },
+          "b_0_2": {
+            "ports": [
+              "C2",
+              "F_FLUSH_4/C2",
+              "F_FLUSH_6/C2",
+              "F_FLUSH_7/C2",
+              "F_FLUSH_5/C2",
+              "F_FLUSH_2/C2",
+              "F_FLUSH_1/C2",
+              "F_FLUSH_0/C2",
+              "F_FLUSH_3/C2"
+            ]
+          },
+          "a_0_2": {
+            "ports": [
+              "C3",
+              "F_FLUSH_4/C3",
+              "F_FLUSH_6/C3",
+              "F_FLUSH_7/C3",
+              "F_FLUSH_5/C3",
+              "F_FLUSH_2/C3",
+              "F_FLUSH_1/C3",
+              "F_FLUSH_0/C3",
+              "F_FLUSH_3/C3"
+            ]
+          },
+          "d_0_3": {
+            "ports": [
+              "R0",
+              "F_FLUSH_4/R0",
+              "F_FLUSH_6/R0",
+              "F_FLUSH_7/R0",
+              "F_FLUSH_5/R0",
+              "F_FLUSH_2/R0",
+              "F_FLUSH_1/R0",
+              "F_FLUSH_0/R0",
+              "F_FLUSH_3/R0"
+            ]
+          },
+          "c_0_3": {
+            "ports": [
+              "R1",
+              "F_FLUSH_4/R1",
+              "F_FLUSH_6/R1",
+              "F_FLUSH_7/R1",
+              "F_FLUSH_5/R1",
+              "F_FLUSH_2/R1",
+              "F_FLUSH_1/R1",
+              "F_FLUSH_0/R1",
+              "F_FLUSH_3/R1"
+            ]
+          },
+          "b_0_3": {
+            "ports": [
+              "R2",
+              "F_FLUSH_4/R2",
+              "F_FLUSH_6/R2",
+              "F_FLUSH_7/R2",
+              "F_FLUSH_5/R2",
+              "F_FLUSH_2/R2",
+              "F_FLUSH_1/R2",
+              "F_FLUSH_0/R2",
+              "F_FLUSH_3/R2"
+            ]
+          },
+          "a_0_3": {
+            "ports": [
+              "R3",
+              "F_FLUSH_4/R3",
+              "F_FLUSH_6/R3",
+              "F_FLUSH_7/R3",
+              "F_FLUSH_5/R3",
+              "F_FLUSH_2/R3",
+              "F_FLUSH_1/R3",
+              "F_FLUSH_0/R3",
+              "F_FLUSH_3/R3"
+            ]
+          }
+        }
       }
     },
     "nets": {
       "a_0_1": {
         "ports": [
           "L3",
-          "Regular_Credit/L3"
+          "Regular_Credit/L3",
+          "F_FLUSH/L3"
         ]
       },
       "b_0_1": {
         "ports": [
           "L2",
-          "Regular_Credit/L2"
+          "Regular_Credit/L2",
+          "F_FLUSH/L2"
         ]
       },
       "c_0_1": {
         "ports": [
           "L1",
-          "Regular_Credit/L1"
+          "Regular_Credit/L1",
+          "F_FLUSH/L1"
         ]
       },
       "d_0_1": {
         "ports": [
           "L0",
-          "Regular_Credit/L0"
+          "Regular_Credit/L0",
+          "F_FLUSH/L0"
         ]
       },
       "a_0_2": {
         "ports": [
           "C3",
-          "Regular_Credit/C3"
+          "Regular_Credit/C3",
+          "F_FLUSH/C3"
         ]
       },
       "b_0_2": {
         "ports": [
           "C2",
-          "Regular_Credit/C2"
+          "Regular_Credit/C2",
+          "F_FLUSH/C2"
         ]
       },
       "c_0_2": {
         "ports": [
           "C1",
-          "Regular_Credit/C1"
+          "Regular_Credit/C1",
+          "F_FLUSH/C1"
         ]
       },
       "d_0_2": {
         "ports": [
           "C0",
-          "Regular_Credit/C0"
+          "Regular_Credit/C0",
+          "F_FLUSH/C0"
         ]
       },
       "a_0_3": {
         "ports": [
           "R3",
-          "Regular_Credit/R3"
+          "Regular_Credit/R3",
+          "F_FLUSH/R3"
         ]
       },
       "b_0_3": {
         "ports": [
           "R2",
-          "Regular_Credit/R2"
+          "Regular_Credit/R2",
+          "F_FLUSH/R2"
         ]
       },
       "c_0_3": {
         "ports": [
           "R1",
-          "Regular_Credit/R1"
+          "Regular_Credit/R1",
+          "F_FLUSH/R1"
         ]
       },
       "d_0_3": {
         "ports": [
           "R0",
-          "Regular_Credit/R0"
+          "Regular_Credit/R0",
+          "F_FLUSH/R0"
         ]
       },
       "xup_or4_0_y": {
