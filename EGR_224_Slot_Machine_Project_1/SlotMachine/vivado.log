@@ -2,21 +2,19 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Mon Feb 24 00:52:01 2020
-# Process ID: 1520
-# Current directory: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4932 C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.xpr
-# Log file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine/vivado.log
-# Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
+# Start of session at: Wed Feb 26 15:00:21 2020
+# Process ID: 7024
+# Current directory: W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7852 W:\EGR_224\EGR_224\EGR_224_Slot_Machine_Project_1\SlotMachine\SlotMachine.xpr
+# Log file: W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine/vivado.log
+# Journal file: W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
-INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
-Current project path is 'C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine'
+open_project W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine/SlotMachine.xpr
 INFO: [Project 1-313] Project file moved from 'C:/Users/vonehrka/EGR_224/EGR_224_Slot_Machine_Project/SlotMachine' since last save.
 Scanning sources...
 Finished scanning sources
-INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/Xilinx/XUP_LIB'; using path 'C:/Xilinx/XUP_LIB' instead.
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'W:/../Xilinx/XUP_LIB'; using path 'C:/Xilinx/XUP_LIB' instead.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
@@ -52,5 +50,41 @@ State_machine_xup_inv_5_3
 State_machine_xup_xor2_0_4
 State_machine_xup_or2_0_2
 
-open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:21 . Memory (MB): peak = 1014.195 ; gain = 317.641
+open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:48 . Memory (MB): peak = 1104.332 ; gain = 512.402
 update_compile_order -fileset sources_1
+open_bd_design {W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine/SlotMachine.srcs/sources_1/bd/State_machine/State_machine.bd}
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_0
+Adding cell -- xilinx.com:ip:xlconcat:2.1 - xlconcat_0
+Adding cell -- xilinx.com:XUP:xup_dff_en_reset:1.0 - xup_dff_en_reset_1
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_1
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_7
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_8
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:XUP:xup_xor2:1.0 - xup_xor2_0
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_4
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_5
+Adding cell -- xilinx.com:XUP:xup_and6:1.0 - xup_and6_1
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_6
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_7
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_5
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_6
+Adding cell -- xilinx.com:XUP:xup_or2:1.0 - xup_or2_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_9
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_2
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_3
+Adding cell -- xilinx.com:XUP:xup_or5:1.0 - xup_or5_0
+Adding cell -- xilinx.com:XUP:xup_xor2:1.0 - xup_xor2_0
+Adding cell -- xilinx.com:XUP:xup_and6:1.0 - xup_and6_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_0
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_1
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_2
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_3
+Adding cell -- xilinx.com:XUP:xup_inv:1.0 - xup_inv_4
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_0
+Adding cell -- xilinx.com:XUP:xup_and5:1.0 - xup_and5_1
+Adding cell -- xilinx.com:XUP:xup_xor2:1.0 - xup_xor2_1
+Successfully read diagram <State_machine> from BD file <W:/EGR_224/EGR_224/EGR_224_Slot_Machine_Project_1/SlotMachine/SlotMachine.srcs/sources_1/bd/State_machine/State_machine.bd>
+open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 1745.332 ; gain = 0.000
+regenerate_bd_layout
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Feb 26 17:26:07 2020...
