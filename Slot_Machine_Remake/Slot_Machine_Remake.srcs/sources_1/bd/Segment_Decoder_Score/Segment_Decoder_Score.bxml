@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="Segment_Decoder_Score" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1583260076"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1583260076"/>
+    <Generation Name="SIMULATION" State="GENERATED" Timestamp="1583260077"/>
+    <Generation Name="HW_HANDOFF" State="GENERATED" Timestamp="1583260077"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_3\Segment_Decoder_Score_xup_and4_0_3.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_4\Segment_Decoder_Score_xup_and4_0_4.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_5\Segment_Decoder_Score_xup_and4_0_5.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_6\Segment_Decoder_Score_xup_and4_0_6.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_7\Segment_Decoder_Score_xup_and4_0_7.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_10\Segment_Decoder_Score_xup_and4_0_10.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_8\Segment_Decoder_Score_xup_and4_0_8.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_11\Segment_Decoder_Score_xup_and4_0_11.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_9\Segment_Decoder_Score_xup_and4_0_9.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_12\Segment_Decoder_Score_xup_and4_0_12.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_12"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_inv_0_0\Segment_Decoder_Score_xup_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or4_0_0\Segment_Decoder_Score_xup_or4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_A"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_13\Segment_Decoder_Score_xup_and4_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_13"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_inv_0_1\Segment_Decoder_Score_xup_inv_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or6_0_0\Segment_Decoder_Score_xup_or6_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_14\Segment_Decoder_Score_xup_and4_0_14.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_14"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_inv_0_2\Segment_Decoder_Score_xup_inv_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or4_0_1\Segment_Decoder_Score_xup_or4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_C"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_NUM_14_0\Segment_Decoder_Score_NUM_14_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_15"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_inv_0_3\Segment_Decoder_Score_xup_inv_0_3.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or5_0_0\Segment_Decoder_Score_xup_or5_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_D"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_0\Segment_Decoder_Score_xup_and4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or6_0_1\Segment_Decoder_Score_xup_or6_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_E"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or5_0_1\Segment_Decoder_Score_xup_or5_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_F"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_1\Segment_Decoder_Score_xup_and4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_or4_0_2\Segment_Decoder_Score_xup_or4_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/Segment_G"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_Score_xup_and4_0_2\Segment_Decoder_Score_xup_and4_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_Score/NUM_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\Segment_Decoder_Score.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\Segment_Decoder_Score.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="Segment_Decoder_Score_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\Segment_Decoder_Score.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\Segment_Decoder_Score_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\Segment_Decoder_Score.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="sim\Segment_Decoder_Score.protoinst">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

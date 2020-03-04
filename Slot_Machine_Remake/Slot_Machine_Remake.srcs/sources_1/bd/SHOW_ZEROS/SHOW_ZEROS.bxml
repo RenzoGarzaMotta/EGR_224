@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="SHOW_ZEROS" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1583304149"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1583304149"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1583304149"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1583304149"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\SHOW_ZEROS_xup_4_to_1_mux_0_0\SHOW_ZEROS_xup_4_to_1_mux_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xup_4_to_1_mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_and2_0_0\SHOW_ZEROS_xup_and2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/STATE_CHECK"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlslice_X0_0\SHOW_ZEROS_xlslice_X0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xlslice_X0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlslice_1k_0\SHOW_ZEROS_xlslice_1k_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xlslice_1k"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlslice_X1_0\SHOW_ZEROS_xlslice_X1_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xlslice_X1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlconstant_0_1\SHOW_ZEROS_xlconstant_0_1.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/ZERO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlslice_X2_0\SHOW_ZEROS_xlslice_X2_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xlslice_X2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_c_counter_binary_3_0\SHOW_ZEROS_c_counter_binary_3_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/c_counter_binary_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlslice_X3_0\SHOW_ZEROS_xlslice_X3_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/xlslice_X3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_4_to_1_mux_vector_1_0\SHOW_ZEROS_xup_4_to_1_mux_vector_1_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xup_4_to_1_mux_vector_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_4_to_1_mux_vector_2_0\SHOW_ZEROS_xup_4_to_1_mux_vector_2_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xup_4_to_1_mux_vector_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_4_to_1_mux_vector_3_0\SHOW_ZEROS_xup_4_to_1_mux_vector_3_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xup_4_to_1_mux_vector_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlconstant_0_0\SHOW_ZEROS_xlconstant_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xlconstant_1_0\SHOW_ZEROS_xlconstant_1_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_4_to_1_mux_vector_0_0\SHOW_ZEROS_xup_4_to_1_mux_vector_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Enable_Mux/xup_4_to_1_mux_vector_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_ONE_0\SHOW_ZEROS_ONE_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/ONE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_G_0\SHOW_ZEROS_Segment_G_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_G"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_FOUR_0\SHOW_ZEROS_FOUR_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/FOUR"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_FOURTEEN_0\SHOW_ZEROS_FOURTEEN_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/FOURTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_TWO_0\SHOW_ZEROS_TWO_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/TWO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_FIVE_0\SHOW_ZEROS_FIVE_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/FIVE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_B_0\SHOW_ZEROS_Segment_B_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_SEVEN_0\SHOW_ZEROS_SEVEN_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/SEVEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_A_0\SHOW_ZEROS_Segment_A_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_A"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_D_0\SHOW_ZEROS_Segment_D_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_D"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_EIGHT_0\SHOW_ZEROS_EIGHT_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/EIGHT"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_F_0\SHOW_ZEROS_Segment_F_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_F"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_E_0\SHOW_ZEROS_Segment_E_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_E"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_inv_0_0\SHOW_ZEROS_xup_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_FIFTEEN_0\SHOW_ZEROS_FIFTEEN_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/FIFTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_inv_1_0\SHOW_ZEROS_xup_inv_1_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_NINE_0\SHOW_ZEROS_NINE_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/NINE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_inv_2_0\SHOW_ZEROS_xup_inv_2_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_THREE_0\SHOW_ZEROS_THREE_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/THREE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_SIX_0\SHOW_ZEROS_SIX_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/SIX"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_inv_3_0\SHOW_ZEROS_xup_inv_3_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_ZERO_0\SHOW_ZEROS_ZERO_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/ZERO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_Segment_C_0\SHOW_ZEROS_Segment_C_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/Segment_Decoder_V_L/Segment_C"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_15_0\SHOW_ZEROS_xup_clk_divider_15_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_15"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_2_0\SHOW_ZEROS_xup_clk_divider_2_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_16_0\SHOW_ZEROS_xup_clk_divider_16_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_16"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_3_0\SHOW_ZEROS_xup_clk_divider_3_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_4_0\SHOW_ZEROS_xup_clk_divider_4_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_5_0\SHOW_ZEROS_xup_clk_divider_5_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_6_0\SHOW_ZEROS_xup_clk_divider_6_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_7_0\SHOW_ZEROS_xup_clk_divider_7_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_8_0\SHOW_ZEROS_xup_clk_divider_8_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_9_0\SHOW_ZEROS_xup_clk_divider_9_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_10_0\SHOW_ZEROS_xup_clk_divider_10_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_11_0\SHOW_ZEROS_xup_clk_divider_11_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_12_0\SHOW_ZEROS_xup_clk_divider_12_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_12"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_13_0\SHOW_ZEROS_xup_clk_divider_13_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_13"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_0_0\SHOW_ZEROS_xup_clk_divider_0_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_14_0\SHOW_ZEROS_xup_clk_divider_14_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_14"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\SHOW_ZEROS_xup_clk_divider_1_0\SHOW_ZEROS_xup_clk_divider_1_0.xci" Type="IP">
+        <Instance HierarchyPath="SHOW_ZEROS/CLK_DIV_1kHz/xup_clk_divider_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

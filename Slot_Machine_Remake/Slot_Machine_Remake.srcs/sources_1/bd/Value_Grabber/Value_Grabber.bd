@@ -1,0 +1,343 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xBD8A612BBD8A612B",
+      "device": "xc7a35tcpg236-1",
+      "name": "Value_Grabber",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Value_Grabber": {
+        "xup_dff_en_reset_0": "",
+        "xlslice_0": "",
+        "xup_dff_en_reset_1": "",
+        "xlslice_1": "",
+        "xup_dff_en_reset_2": "",
+        "xlslice_2": "",
+        "xup_dff_en_reset_3": "",
+        "xlslice_3": "",
+        "xup_inv_0": ""
+      }
+    },
+    "ports": {
+      "VAL": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "RESET": {
+        "direction": "I"
+      },
+      "EN": {
+        "direction": "I"
+      },
+      "CLK": {
+        "direction": "I"
+      },
+      "BIT_0": {
+        "direction": "O"
+      },
+      "BIT_1": {
+        "direction": "O"
+      },
+      "BIT_2": {
+        "direction": "O"
+      },
+      "BIT_3": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Value_Grabber": {
+        "ports": {
+          "CLK": {
+            "direction": "I"
+          },
+          "EN": {
+            "direction": "I"
+          },
+          "RESET": {
+            "direction": "I"
+          },
+          "BIT_0": {
+            "direction": "O"
+          },
+          "VAL": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "BIT_1": {
+            "direction": "O"
+          },
+          "BIT_2": {
+            "direction": "O"
+          },
+          "BIT_3": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "xup_dff_en_reset_0": {
+            "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+            "xci_name": "Value_Grabber_xup_dff_en_reset_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xlslice_0": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Value_Grabber_xlslice_0_0",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "0"
+              },
+              "DIN_TO": {
+                "value": "0"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              }
+            }
+          },
+          "xup_dff_en_reset_1": {
+            "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+            "xci_name": "Value_Grabber_xup_dff_en_reset_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xlslice_1": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Value_Grabber_xlslice_0_1",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "1"
+              },
+              "DIN_TO": {
+                "value": "1"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "xup_dff_en_reset_2": {
+            "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+            "xci_name": "Value_Grabber_xup_dff_en_reset_0_2",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xlslice_2": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Value_Grabber_xlslice_0_2",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "2"
+              },
+              "DIN_TO": {
+                "value": "2"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "xup_dff_en_reset_3": {
+            "vlnv": "xilinx.com:xup:xup_dff_en_reset:1.0",
+            "xci_name": "Value_Grabber_xup_dff_en_reset_0_3",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xlslice_3": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Value_Grabber_xlslice_0_3",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "3"
+              },
+              "DIN_TO": {
+                "value": "3"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "xup_inv_0": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Value_Grabber_xup_inv_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "xlslice_0_Dout": {
+            "ports": [
+              "xlslice_0/Dout",
+              "xup_dff_en_reset_0/d"
+            ]
+          },
+          "xlslice_1_Dout": {
+            "ports": [
+              "xlslice_1/Dout",
+              "xup_dff_en_reset_1/d"
+            ]
+          },
+          "xlslice_2_Dout": {
+            "ports": [
+              "xlslice_2/Dout",
+              "xup_dff_en_reset_2/d"
+            ]
+          },
+          "xlslice_3_Dout": {
+            "ports": [
+              "xlslice_3/Dout",
+              "xup_dff_en_reset_3/d"
+            ]
+          },
+          "Net": {
+            "ports": [
+              "xup_inv_0/y",
+              "xup_dff_en_reset_1/clk",
+              "xup_dff_en_reset_2/clk",
+              "xup_dff_en_reset_3/clk",
+              "xup_dff_en_reset_0/clk"
+            ]
+          },
+          "Net1": {
+            "ports": [
+              "EN",
+              "xup_dff_en_reset_1/en",
+              "xup_dff_en_reset_2/en",
+              "xup_dff_en_reset_3/en",
+              "xup_dff_en_reset_0/en"
+            ]
+          },
+          "Net2": {
+            "ports": [
+              "RESET",
+              "xup_dff_en_reset_1/reset",
+              "xup_dff_en_reset_2/reset",
+              "xup_dff_en_reset_3/reset",
+              "xup_dff_en_reset_0/reset"
+            ]
+          },
+          "xup_dff_en_reset_0_q": {
+            "ports": [
+              "xup_dff_en_reset_0/q",
+              "BIT_0"
+            ]
+          },
+          "VAL_1": {
+            "ports": [
+              "VAL",
+              "xlslice_1/Din",
+              "xlslice_2/Din",
+              "xlslice_3/Din",
+              "xlslice_0/Din"
+            ]
+          },
+          "xup_dff_en_reset_1_q": {
+            "ports": [
+              "xup_dff_en_reset_1/q",
+              "BIT_1"
+            ]
+          },
+          "xup_dff_en_reset_2_q": {
+            "ports": [
+              "xup_dff_en_reset_2/q",
+              "BIT_2"
+            ]
+          },
+          "xup_dff_en_reset_3_q": {
+            "ports": [
+              "xup_dff_en_reset_3/q",
+              "BIT_3"
+            ]
+          },
+          "CLK_1": {
+            "ports": [
+              "CLK",
+              "xup_inv_0/a"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "xup_dff_en_reset_0_q": {
+        "ports": [
+          "Value_Grabber/BIT_0",
+          "BIT_0"
+        ]
+      },
+      "xup_dff_en_reset_2_q": {
+        "ports": [
+          "Value_Grabber/BIT_2",
+          "BIT_2"
+        ]
+      },
+      "xup_dff_en_reset_1_q": {
+        "ports": [
+          "Value_Grabber/BIT_1",
+          "BIT_1"
+        ]
+      },
+      "xup_dff_en_reset_3_q": {
+        "ports": [
+          "Value_Grabber/BIT_3",
+          "BIT_3"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "CLK",
+          "Value_Grabber/CLK"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "EN",
+          "Value_Grabber/EN"
+        ]
+      },
+      "Net2": {
+        "ports": [
+          "RESET",
+          "Value_Grabber/RESET"
+        ]
+      },
+      "VAL_1": {
+        "ports": [
+          "VAL",
+          "Value_Grabber/VAL"
+        ]
+      }
+    }
+  }
+}

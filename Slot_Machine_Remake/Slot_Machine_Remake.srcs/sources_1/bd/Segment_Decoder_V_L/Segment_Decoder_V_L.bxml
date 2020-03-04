@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="Segment_Decoder_V_L" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1583253817"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1583253817"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1583254166"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1583254166"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\Segment_Decoder_V_L_xup_inv_0_0\Segment_Decoder_V_L_xup_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_inv_0_1\Segment_Decoder_V_L_xup_inv_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_inv_0_2\Segment_Decoder_V_L_xup_inv_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_inv_0_3\Segment_Decoder_V_L_xup_inv_0_3.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="synth\Segment_Decoder_V_L.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+      </File>
+      <File Name="sim\Segment_Decoder_V_L.v" Type="Verilog">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_9\Segment_Decoder_V_L_xup_and4_0_9.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/ONE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or5_0_0\Segment_Decoder_V_L_xup_or5_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_G"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_12\Segment_Decoder_V_L_xup_and4_0_12.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/FOUR"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_NINE_1\Segment_Decoder_V_L_NINE_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/FOURTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_10\Segment_Decoder_V_L_xup_and4_0_10.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/TWO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_13\Segment_Decoder_V_L_xup_and4_0_13.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/FIVE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or3_0_5\Segment_Decoder_V_L_xup_or3_0_5.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_4_1\Segment_Decoder_V_L_xup_and4_4_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/SEVEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or4_0_0\Segment_Decoder_V_L_xup_or4_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_A"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or3_0_6\Segment_Decoder_V_L_xup_or3_0_6.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_D"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_4_2\Segment_Decoder_V_L_xup_and4_4_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/EIGHT"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or4_0_1\Segment_Decoder_V_L_xup_or4_0_1.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_F"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or6_0_0\Segment_Decoder_V_L_xup_or6_0_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_E"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_NINE_2\Segment_Decoder_V_L_NINE_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/FIFTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_4_3\Segment_Decoder_V_L_xup_and4_4_3.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/NINE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_11\Segment_Decoder_V_L_xup_and4_0_11.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/THREE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_4_0\Segment_Decoder_V_L_xup_and4_4_0.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/SIX"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_and4_0_8\Segment_Decoder_V_L_xup_and4_0_8.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/ZERO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\Segment_Decoder_V_L_xup_or2_0_2\Segment_Decoder_V_L_xup_or2_0_2.xci" Type="IP">
+        <Instance HierarchyPath="Segment_Decoder_V_L/Segment_C"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="Segment_Decoder_V_L_ooc.xdc" Type="XDC">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="OUT_OF_CONTEXT"/>
+      </File>
+      <File Name="hw_handoff\Segment_Decoder_V_L.hwh" Type="HwHandoff">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="hw_handoff\Segment_Decoder_V_L_bd.tcl">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="synth\Segment_Decoder_V_L.hwdef">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="HW_HANDOFF"/>
+      </File>
+      <File Name="sim\Segment_Decoder_V_L.protoinst">
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="false" IsStatusTracked="false"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

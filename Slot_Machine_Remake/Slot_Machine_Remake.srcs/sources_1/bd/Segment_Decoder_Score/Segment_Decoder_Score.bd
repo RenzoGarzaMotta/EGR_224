@@ -1,0 +1,691 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7E6BA1267E6BA126",
+      "device": "xc7a35tcpg236-1",
+      "name": "Segment_Decoder_Score",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "Segment_Decoder_Score": {
+        "NUM_3": "",
+        "NUM_4": "",
+        "NUM_5": "",
+        "NUM_6": "",
+        "NUM_7": "",
+        "NUM_10": "",
+        "NUM_8": "",
+        "NUM_11": "",
+        "NUM_9": "",
+        "NUM_12": "",
+        "xup_inv_0": "",
+        "Segment_A": "",
+        "NUM_13": "",
+        "xup_inv_1": "",
+        "Segment_B": "",
+        "NUM_14": "",
+        "xup_inv_2": "",
+        "Segment_C": "",
+        "NUM_15": "",
+        "xup_inv_3": "",
+        "Segment_D": "",
+        "NUM_0": "",
+        "Segment_E": "",
+        "Segment_F": "",
+        "NUM_1": "",
+        "Segment_G": "",
+        "NUM_2": ""
+      }
+    },
+    "ports": {
+      "X0": {
+        "direction": "I"
+      },
+      "X1": {
+        "direction": "I"
+      },
+      "X2": {
+        "direction": "I"
+      },
+      "X3": {
+        "direction": "I"
+      },
+      "A": {
+        "direction": "O"
+      },
+      "B": {
+        "direction": "O"
+      },
+      "C": {
+        "direction": "O"
+      },
+      "D": {
+        "direction": "O"
+      },
+      "E": {
+        "direction": "O"
+      },
+      "F": {
+        "direction": "O"
+      },
+      "G": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "Segment_Decoder_Score": {
+        "ports": {
+          "X0": {
+            "direction": "I"
+          },
+          "X1": {
+            "direction": "I"
+          },
+          "X2": {
+            "direction": "I"
+          },
+          "X3": {
+            "direction": "I"
+          },
+          "A": {
+            "direction": "O"
+          },
+          "B": {
+            "direction": "O"
+          },
+          "C": {
+            "direction": "O"
+          },
+          "D": {
+            "direction": "O"
+          },
+          "E": {
+            "direction": "O"
+          },
+          "F": {
+            "direction": "O"
+          },
+          "G": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "NUM_3": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_3",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_4": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_4",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_5": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_5",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_6": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_6",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_7": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_7",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_10": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_10",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_8": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_8",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_11": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_11",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_9": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_9",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_12": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_12",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_inv_0": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_inv_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_A": {
+            "vlnv": "xilinx.com:xup:xup_or4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or4_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_13": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_13",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_inv_1": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_inv_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_B": {
+            "vlnv": "xilinx.com:xup:xup_or6:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or6_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_14": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_14",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_inv_2": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_inv_0_2",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_C": {
+            "vlnv": "xilinx.com:xup:xup_or4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or4_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_15": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_NUM_14_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "xup_inv_3": {
+            "vlnv": "xilinx.com:xup:xup_inv:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_inv_0_3",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_D": {
+            "vlnv": "xilinx.com:xup:xup_or5:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or5_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_0": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_0",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_E": {
+            "vlnv": "xilinx.com:xup:xup_or6:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or6_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_F": {
+            "vlnv": "xilinx.com:xup:xup_or5:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or5_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_1": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_1",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "Segment_G": {
+            "vlnv": "xilinx.com:xup:xup_or4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_or4_0_2",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          },
+          "NUM_2": {
+            "vlnv": "xilinx.com:xup:xup_and4:1.0",
+            "xci_name": "Segment_Decoder_Score_xup_and4_0_2",
+            "parameters": {
+              "DELAY": {
+                "value": "0"
+              }
+            }
+          }
+        },
+        "nets": {
+          "xup_inv_2_y": {
+            "ports": [
+              "xup_inv_2/y",
+              "NUM_0/c",
+              "NUM_1/c",
+              "NUM_2/c",
+              "NUM_3/c",
+              "NUM_8/c",
+              "NUM_9/c",
+              "NUM_10/c",
+              "NUM_11/c"
+            ]
+          },
+          "xup_inv_3_y": {
+            "ports": [
+              "xup_inv_3/y",
+              "NUM_0/d",
+              "NUM_1/d",
+              "NUM_2/d",
+              "NUM_3/d",
+              "NUM_4/d",
+              "NUM_5/d",
+              "NUM_6/d",
+              "NUM_7/d"
+            ]
+          },
+          "NUM_3_y": {
+            "ports": [
+              "NUM_3/y",
+              "Segment_E/b",
+              "Segment_F/c"
+            ]
+          },
+          "xup_inv_0_y": {
+            "ports": [
+              "xup_inv_0/y",
+              "NUM_0/a",
+              "NUM_2/a",
+              "NUM_4/a",
+              "NUM_6/a",
+              "NUM_8/a",
+              "NUM_10/a",
+              "NUM_12/a",
+              "NUM_14/a"
+            ]
+          },
+          "xup_inv_1_y": {
+            "ports": [
+              "xup_inv_1/y",
+              "NUM_0/b",
+              "NUM_1/b",
+              "NUM_4/b",
+              "NUM_5/b",
+              "NUM_8/b",
+              "NUM_9/b",
+              "NUM_12/b",
+              "NUM_13/b"
+            ]
+          },
+          "NUM_4_y": {
+            "ports": [
+              "NUM_4/y",
+              "Segment_A/b",
+              "Segment_D/b",
+              "Segment_E/c"
+            ]
+          },
+          "NUM_5_y": {
+            "ports": [
+              "NUM_5/y",
+              "Segment_B/a",
+              "Segment_E/d"
+            ]
+          },
+          "NUM_6_y": {
+            "ports": [
+              "NUM_6/y",
+              "Segment_B/b"
+            ]
+          },
+          "NUM_7_y": {
+            "ports": [
+              "NUM_7/y",
+              "Segment_D/c",
+              "Segment_E/e",
+              "Segment_F/d",
+              "Segment_G/c"
+            ]
+          },
+          "NUM_10_y": {
+            "ports": [
+              "NUM_10/y",
+              "Segment_D/d"
+            ]
+          },
+          "NUM_11_y": {
+            "ports": [
+              "NUM_11/y",
+              "Segment_A/c",
+              "Segment_B/c"
+            ]
+          },
+          "NUM_9_y": {
+            "ports": [
+              "NUM_9/y",
+              "Segment_E/f"
+            ]
+          },
+          "NUM_12_y": {
+            "ports": [
+              "NUM_12/y",
+              "Segment_B/d",
+              "Segment_C/b",
+              "Segment_G/d"
+            ]
+          },
+          "NUM_1_y": {
+            "ports": [
+              "NUM_1/y",
+              "Segment_A/a",
+              "Segment_D/a",
+              "Segment_E/a",
+              "Segment_F/a",
+              "Segment_G/b"
+            ]
+          },
+          "NUM_13_y": {
+            "ports": [
+              "NUM_13/y",
+              "Segment_A/d",
+              "Segment_F/e"
+            ]
+          },
+          "NUM_14_y": {
+            "ports": [
+              "NUM_14/y",
+              "Segment_B/e",
+              "Segment_C/c"
+            ]
+          },
+          "NUM_15_y": {
+            "ports": [
+              "NUM_15/y",
+              "Segment_B/f",
+              "Segment_C/d",
+              "Segment_D/e"
+            ]
+          },
+          "NUM_2_y": {
+            "ports": [
+              "NUM_2/y",
+              "Segment_C/a",
+              "Segment_F/b"
+            ]
+          },
+          "NUM_0_y": {
+            "ports": [
+              "NUM_0/y",
+              "Segment_G/a"
+            ]
+          },
+          "X0_1": {
+            "ports": [
+              "X0",
+              "xup_inv_0/a",
+              "NUM_1/a",
+              "NUM_5/a",
+              "NUM_7/a",
+              "NUM_9/a",
+              "NUM_11/a",
+              "NUM_13/a",
+              "NUM_15/a",
+              "NUM_3/a"
+            ]
+          },
+          "X1_1": {
+            "ports": [
+              "X1",
+              "xup_inv_1/a",
+              "NUM_2/b",
+              "NUM_6/b",
+              "NUM_7/b",
+              "NUM_10/b",
+              "NUM_11/b",
+              "NUM_14/b",
+              "NUM_15/b",
+              "NUM_3/b"
+            ]
+          },
+          "X2_1": {
+            "ports": [
+              "X2",
+              "xup_inv_2/a",
+              "NUM_5/c",
+              "NUM_6/c",
+              "NUM_7/c",
+              "NUM_12/c",
+              "NUM_13/c",
+              "NUM_14/c",
+              "NUM_15/c",
+              "NUM_4/c"
+            ]
+          },
+          "X3_1": {
+            "ports": [
+              "X3",
+              "xup_inv_3/a",
+              "NUM_8/d",
+              "NUM_9/d",
+              "NUM_11/d",
+              "NUM_12/d",
+              "NUM_13/d",
+              "NUM_14/d",
+              "NUM_15/d",
+              "NUM_10/d"
+            ]
+          },
+          "xup_or4_0_y": {
+            "ports": [
+              "Segment_A/y",
+              "A"
+            ]
+          },
+          "xup_or6_0_y": {
+            "ports": [
+              "Segment_B/y",
+              "B"
+            ]
+          },
+          "xup_or4_1_y": {
+            "ports": [
+              "Segment_C/y",
+              "C"
+            ]
+          },
+          "xup_or5_0_y": {
+            "ports": [
+              "Segment_D/y",
+              "D"
+            ]
+          },
+          "xup_or6_1_y": {
+            "ports": [
+              "Segment_E/y",
+              "E"
+            ]
+          },
+          "xup_or5_1_y": {
+            "ports": [
+              "Segment_F/y",
+              "F"
+            ]
+          },
+          "xup_or4_2_y": {
+            "ports": [
+              "Segment_G/y",
+              "G"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "X0_1": {
+        "ports": [
+          "X0",
+          "Segment_Decoder_Score/X0"
+        ]
+      },
+      "X1_1": {
+        "ports": [
+          "X1",
+          "Segment_Decoder_Score/X1"
+        ]
+      },
+      "X2_1": {
+        "ports": [
+          "X2",
+          "Segment_Decoder_Score/X2"
+        ]
+      },
+      "X3_1": {
+        "ports": [
+          "X3",
+          "Segment_Decoder_Score/X3"
+        ]
+      },
+      "xup_or4_0_y": {
+        "ports": [
+          "Segment_Decoder_Score/A",
+          "A"
+        ]
+      },
+      "xup_or6_0_y": {
+        "ports": [
+          "Segment_Decoder_Score/B",
+          "B"
+        ]
+      },
+      "xup_or4_1_y": {
+        "ports": [
+          "Segment_Decoder_Score/C",
+          "C"
+        ]
+      },
+      "xup_or5_0_y": {
+        "ports": [
+          "Segment_Decoder_Score/D",
+          "D"
+        ]
+      },
+      "xup_or6_1_y": {
+        "ports": [
+          "Segment_Decoder_Score/E",
+          "E"
+        ]
+      },
+      "xup_or5_1_y": {
+        "ports": [
+          "Segment_Decoder_Score/F",
+          "F"
+        ]
+      },
+      "xup_or4_2_y": {
+        "ports": [
+          "Segment_Decoder_Score/G",
+          "G"
+        ]
+      }
+    }
+  }
+}

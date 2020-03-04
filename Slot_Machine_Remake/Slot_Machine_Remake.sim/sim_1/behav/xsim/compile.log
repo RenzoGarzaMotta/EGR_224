@@ -1,0 +1,30 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ipshared/1046/xup_dff_en_reset.srcs/sources_1/new/xup_dff_en_reset.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_dff_en_reset
+WARNING: [VRFC 10-3676] redeclaration of ansi port 'q' is not allowed [C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ipshared/1046/xup_dff_en_reset.srcs/sources_1/new/xup_dff_en_reset.v:12]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xup_dff_en_reset_0_0/sim/Value_Grabber_xup_dff_en_reset_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xup_dff_en_reset_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xlslice_0_0/sim/Value_Grabber_xlslice_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xlslice_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xup_dff_en_reset_0_1/sim/Value_Grabber_xup_dff_en_reset_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xup_dff_en_reset_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xlslice_0_1/sim/Value_Grabber_xlslice_0_1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xlslice_0_1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xup_dff_en_reset_0_2/sim/Value_Grabber_xup_dff_en_reset_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xup_dff_en_reset_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xlslice_0_2/sim/Value_Grabber_xlslice_0_2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xlslice_0_2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xup_dff_en_reset_0_3/sim/Value_Grabber_xup_dff_en_reset_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xup_dff_en_reset_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xlslice_0_3/sim/Value_Grabber_xlslice_0_3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xlslice_0_3
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ipshared/e3e7/xup_inv.srcs/sources_1/new/xup_inv.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module xup_inv
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/ip/Value_Grabber_xup_inv_0_0/sim/Value_Grabber_xup_inv_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_xup_inv_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.ip_user_files/bd/Value_Grabber/sim/Value_Grabber.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber
+INFO: [VRFC 10-311] analyzing module Value_Grabber_imp_C5RE5P
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.srcs/sources_1/bd/Value_Grabber/hdl/Value_Grabber_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/vonehrka/EGR_224/Slot_Machine_Remake/Slot_Machine_Remake.srcs/sim_1/new/Value_Grabber_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Value_Grabber_tb
