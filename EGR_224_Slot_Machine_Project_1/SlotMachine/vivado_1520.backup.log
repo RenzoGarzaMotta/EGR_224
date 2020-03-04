@@ -1,0 +1,56 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Feb 24 00:52:01 2020
+# Process ID: 1520
+# Current directory: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4932 C:\Users\garzamor\EGR224\EGR_224_Slot_Machine_Project\EGR_224_Slot_Machine_Project\SlotMachine\SlotMachine.xpr
+# Log file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine/vivado.log
+# Journal file: C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine/SlotMachine.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/garzamor/EGR224/EGR_224_Slot_Machine_Project/EGR_224_Slot_Machine_Project/SlotMachine'
+INFO: [Project 1-313] Project file moved from 'C:/Users/vonehrka/EGR_224/EGR_224_Slot_Machine_Project/SlotMachine' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [filemgmt 56-1] IP Repository Path: Directory not found as 'C:/Users/Xilinx/XUP_LIB'; using path 'C:/Xilinx/XUP_LIB' instead.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Xilinx/XUP_LIB'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'State_machine.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+State_machine_xup_dff_en_reset_0_0
+State_machine_xup_dff_en_reset_0_1
+State_machine_xup_inv_5_0
+State_machine_xup_inv_0_5
+State_machine_xup_inv_0_2
+State_machine_xup_or5_0_1
+State_machine_xup_and5_1_0
+State_machine_xup_and6_0_0
+State_machine_xup_and5_0_1
+State_machine_xup_and6_0_1
+State_machine_xup_and5_2_0
+State_machine_xup_and5_1_1
+State_machine_xup_xor2_0_2
+State_machine_xup_or2_0_3
+State_machine_xup_inv_1_0
+State_machine_xup_inv_0_1
+State_machine_xup_or5_0_2
+State_machine_xup_inv_0_3
+State_machine_xup_inv_0_4
+State_machine_xup_and5_0_0
+State_machine_xup_xor2_0_3
+State_machine_xup_and5_4_0
+State_machine_xup_and5_4_1
+State_machine_xup_and5_4_2
+State_machine_xup_inv_5_1
+State_machine_xup_inv_5_2
+State_machine_xup_inv_5_3
+State_machine_xup_xor2_0_4
+State_machine_xup_or2_0_2
+
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:21 . Memory (MB): peak = 1014.195 ; gain = 317.641
+update_compile_order -fileset sources_1
