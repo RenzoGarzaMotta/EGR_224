@@ -1,0 +1,917 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a35tcpg236-1",
+      "name": "Score_Adder",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "Score_Adder": {
+        "Score_0": "",
+        "Score_1": "",
+        "xlconcat_0": "",
+        "Score_2": "",
+        "xlconstant_0": "",
+        "Score_3": "",
+        "V_0": "",
+        "V_1": "",
+        "V_2": "",
+        "V_3": "",
+        "One_Bit": {
+          "xup_xor2_0": "",
+          "xup_xor2_1": "",
+          "xup_xor2_2": "",
+          "xup_and2_0": "",
+          "xup_and2_1": "",
+          "xup_or2_0": ""
+        },
+        "Three_Bit": {
+          "xup_xor2_0": "",
+          "xup_xor2_1": "",
+          "xup_xor2_2": "",
+          "xup_and2_0": "",
+          "xup_and2_1": "",
+          "xup_or2_0": ""
+        },
+        "Zero_Bit": {
+          "xup_xor2_0": "",
+          "xup_xor2_1": "",
+          "xup_xor2_2": "",
+          "xup_and2_0": "",
+          "xup_and2_1": "",
+          "xup_or2_0": ""
+        },
+        "Two_Bit": {
+          "xup_xor2_0": "",
+          "xup_xor2_1": "",
+          "xup_xor2_2": "",
+          "xup_and2_0": "",
+          "xup_and2_1": "",
+          "xup_or2_0": ""
+        }
+      }
+    },
+    "ports": {
+      "Cout": {
+        "direction": "O"
+      },
+      "SUM": {
+        "direction": "O",
+        "left": "3",
+        "right": "0"
+      },
+      "Score": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Victory": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      }
+    },
+    "components": {
+      "Score_Adder": {
+        "ports": {
+          "Score": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "SUM": {
+            "direction": "O",
+            "left": "3",
+            "right": "0"
+          },
+          "Victory": {
+            "direction": "I",
+            "left": "3",
+            "right": "0"
+          },
+          "Cout": {
+            "direction": "O"
+          }
+        },
+        "components": {
+          "Score_0": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_0_1",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "0"
+              },
+              "DIN_TO": {
+                "value": "0"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              }
+            }
+          },
+          "Score_1": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_0_0",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "1"
+              },
+              "DIN_TO": {
+                "value": "1"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "xlconcat_0": {
+            "vlnv": "xilinx.com:ip:xlconcat:2.1",
+            "xci_name": "Score_Adder_xlconcat_0_0",
+            "parameters": {
+              "NUM_PORTS": {
+                "value": "4"
+              }
+            }
+          },
+          "Score_2": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_0_2",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "2"
+              },
+              "DIN_TO": {
+                "value": "2"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "xlconstant_0": {
+            "vlnv": "xilinx.com:ip:xlconstant:1.1",
+            "xci_name": "Score_Adder_xlconstant_0_0",
+            "parameters": {
+              "CONST_VAL": {
+                "value": "0"
+              }
+            }
+          },
+          "Score_3": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_1_0",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "3"
+              },
+              "DIN_TO": {
+                "value": "3"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "V_0": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_1_1",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "0"
+              },
+              "DIN_TO": {
+                "value": "0"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              }
+            }
+          },
+          "V_1": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_0_3",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "1"
+              },
+              "DIN_TO": {
+                "value": "1"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "V_2": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_2_0",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "2"
+              },
+              "DIN_TO": {
+                "value": "2"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "V_3": {
+            "vlnv": "xilinx.com:ip:xlslice:1.0",
+            "xci_name": "Score_Adder_xlslice_3_0",
+            "parameters": {
+              "DIN_FROM": {
+                "value": "3"
+              },
+              "DIN_TO": {
+                "value": "3"
+              },
+              "DIN_WIDTH": {
+                "value": "4"
+              },
+              "DOUT_WIDTH": {
+                "value": "1"
+              }
+            }
+          },
+          "One_Bit": {
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "Cin": {
+                "direction": "I"
+              },
+              "X": {
+                "direction": "O"
+              },
+              "Cout": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_xor2_0": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_3",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_1": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_1_0",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_2": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_2_0",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_and2_0": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_0_2"
+              },
+              "xup_and2_1": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_1_0"
+              },
+              "xup_or2_0": {
+                "vlnv": "xilinx.com:xup:xup_or2:1.0",
+                "xci_name": "Score_Adder_xup_or2_0_1",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              }
+            },
+            "nets": {
+              "xup_xor2_0_y": {
+                "ports": [
+                  "xup_xor2_0/y",
+                  "xup_and2_0/a"
+                ]
+              },
+              "xup_xor2_1_y": {
+                "ports": [
+                  "xup_xor2_1/y",
+                  "xup_xor2_2/b"
+                ]
+              },
+              "xup_and2_0_y": {
+                "ports": [
+                  "xup_and2_0/y",
+                  "xup_or2_0/a"
+                ]
+              },
+              "xup_and2_1_y": {
+                "ports": [
+                  "xup_and2_1/y",
+                  "xup_or2_0/b"
+                ]
+              },
+              "a_1": {
+                "ports": [
+                  "a",
+                  "xup_xor2_1/a",
+                  "xup_and2_1/a",
+                  "xup_xor2_0/a"
+                ]
+              },
+              "b_1": {
+                "ports": [
+                  "b",
+                  "xup_xor2_1/b",
+                  "xup_and2_1/b",
+                  "xup_xor2_0/b"
+                ]
+              },
+              "Cin_1": {
+                "ports": [
+                  "Cin",
+                  "xup_and2_0/b",
+                  "xup_xor2_2/a"
+                ]
+              },
+              "xup_xor2_2_y": {
+                "ports": [
+                  "xup_xor2_2/y",
+                  "X"
+                ]
+              },
+              "xup_or2_0_y": {
+                "ports": [
+                  "xup_or2_0/y",
+                  "Cout"
+                ]
+              }
+            }
+          },
+          "Three_Bit": {
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "Cin": {
+                "direction": "I"
+              },
+              "X": {
+                "direction": "O"
+              },
+              "Cout": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_xor2_0": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_5",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_1": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_1_2",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_2": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_2_2",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_and2_0": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_0_4"
+              },
+              "xup_and2_1": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_1_2"
+              },
+              "xup_or2_0": {
+                "vlnv": "xilinx.com:xup:xup_or2:1.0",
+                "xci_name": "Score_Adder_xup_or2_0_3",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              }
+            },
+            "nets": {
+              "xup_xor2_0_y": {
+                "ports": [
+                  "xup_xor2_0/y",
+                  "xup_and2_0/a"
+                ]
+              },
+              "xup_xor2_1_y": {
+                "ports": [
+                  "xup_xor2_1/y",
+                  "xup_xor2_2/b"
+                ]
+              },
+              "xup_and2_0_y": {
+                "ports": [
+                  "xup_and2_0/y",
+                  "xup_or2_0/a"
+                ]
+              },
+              "xup_and2_1_y": {
+                "ports": [
+                  "xup_and2_1/y",
+                  "xup_or2_0/b"
+                ]
+              },
+              "a_1": {
+                "ports": [
+                  "a",
+                  "xup_xor2_1/a",
+                  "xup_and2_1/a",
+                  "xup_xor2_0/a"
+                ]
+              },
+              "b_1": {
+                "ports": [
+                  "b",
+                  "xup_xor2_1/b",
+                  "xup_and2_1/b",
+                  "xup_xor2_0/b"
+                ]
+              },
+              "Cin_1": {
+                "ports": [
+                  "Cin",
+                  "xup_and2_0/b",
+                  "xup_xor2_2/a"
+                ]
+              },
+              "xup_xor2_2_y": {
+                "ports": [
+                  "xup_xor2_2/y",
+                  "X"
+                ]
+              },
+              "xup_or2_0_y": {
+                "ports": [
+                  "xup_or2_0/y",
+                  "Cout"
+                ]
+              }
+            }
+          },
+          "Zero_Bit": {
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "Cin": {
+                "direction": "I"
+              },
+              "X": {
+                "direction": "O"
+              },
+              "Cout": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_xor2_0": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_0",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_1": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_1",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_2": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_2",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_and2_0": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_0_0"
+              },
+              "xup_and2_1": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_0_1"
+              },
+              "xup_or2_0": {
+                "vlnv": "xilinx.com:xup:xup_or2:1.0",
+                "xci_name": "Score_Adder_xup_or2_0_0",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              }
+            },
+            "nets": {
+              "xup_xor2_0_y": {
+                "ports": [
+                  "xup_xor2_0/y",
+                  "xup_and2_0/a"
+                ]
+              },
+              "xup_xor2_1_y": {
+                "ports": [
+                  "xup_xor2_1/y",
+                  "xup_xor2_2/b"
+                ]
+              },
+              "xup_and2_0_y": {
+                "ports": [
+                  "xup_and2_0/y",
+                  "xup_or2_0/a"
+                ]
+              },
+              "xup_and2_1_y": {
+                "ports": [
+                  "xup_and2_1/y",
+                  "xup_or2_0/b"
+                ]
+              },
+              "a_1": {
+                "ports": [
+                  "a",
+                  "xup_xor2_1/a",
+                  "xup_and2_1/a",
+                  "xup_xor2_0/a"
+                ]
+              },
+              "b_1": {
+                "ports": [
+                  "b",
+                  "xup_xor2_1/b",
+                  "xup_and2_1/b",
+                  "xup_xor2_0/b"
+                ]
+              },
+              "Cin_1": {
+                "ports": [
+                  "Cin",
+                  "xup_and2_0/b",
+                  "xup_xor2_2/a"
+                ]
+              },
+              "xup_xor2_2_y": {
+                "ports": [
+                  "xup_xor2_2/y",
+                  "X"
+                ]
+              },
+              "xup_or2_0_y": {
+                "ports": [
+                  "xup_or2_0/y",
+                  "Cout"
+                ]
+              }
+            }
+          },
+          "Two_Bit": {
+            "ports": {
+              "a": {
+                "direction": "I"
+              },
+              "b": {
+                "direction": "I"
+              },
+              "Cin": {
+                "direction": "I"
+              },
+              "X": {
+                "direction": "O"
+              },
+              "Cout": {
+                "direction": "O"
+              }
+            },
+            "components": {
+              "xup_xor2_0": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_0_4",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_1": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_1_1",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_xor2_2": {
+                "vlnv": "xilinx.com:xup:xup_xor2:1.0",
+                "xci_name": "Score_Adder_xup_xor2_2_1",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              },
+              "xup_and2_0": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_0_3"
+              },
+              "xup_and2_1": {
+                "vlnv": "xilinx.com:xup:xup_and2:1.0",
+                "xci_name": "Score_Adder_xup_and2_1_1"
+              },
+              "xup_or2_0": {
+                "vlnv": "xilinx.com:xup:xup_or2:1.0",
+                "xci_name": "Score_Adder_xup_or2_0_2",
+                "parameters": {
+                  "DELAY": {
+                    "value": "0"
+                  }
+                }
+              }
+            },
+            "nets": {
+              "xup_xor2_0_y": {
+                "ports": [
+                  "xup_xor2_0/y",
+                  "xup_and2_0/a"
+                ]
+              },
+              "xup_xor2_1_y": {
+                "ports": [
+                  "xup_xor2_1/y",
+                  "xup_xor2_2/b"
+                ]
+              },
+              "xup_and2_0_y": {
+                "ports": [
+                  "xup_and2_0/y",
+                  "xup_or2_0/a"
+                ]
+              },
+              "xup_and2_1_y": {
+                "ports": [
+                  "xup_and2_1/y",
+                  "xup_or2_0/b"
+                ]
+              },
+              "a_1": {
+                "ports": [
+                  "a",
+                  "xup_xor2_1/a",
+                  "xup_and2_1/a",
+                  "xup_xor2_0/a"
+                ]
+              },
+              "b_1": {
+                "ports": [
+                  "b",
+                  "xup_xor2_1/b",
+                  "xup_and2_1/b",
+                  "xup_xor2_0/b"
+                ]
+              },
+              "Cin_1": {
+                "ports": [
+                  "Cin",
+                  "xup_and2_0/b",
+                  "xup_xor2_2/a"
+                ]
+              },
+              "xup_xor2_2_y": {
+                "ports": [
+                  "xup_xor2_2/y",
+                  "X"
+                ]
+              },
+              "xup_or2_0_y": {
+                "ports": [
+                  "xup_or2_0/y",
+                  "Cout"
+                ]
+              }
+            }
+          }
+        },
+        "nets": {
+          "Score_0_Dout": {
+            "ports": [
+              "Score_0/Dout",
+              "Zero_Bit/b"
+            ]
+          },
+          "Score_1_Dout": {
+            "ports": [
+              "Score_1/Dout",
+              "One_Bit/b"
+            ]
+          },
+          "Zero_Bit_X": {
+            "ports": [
+              "Zero_Bit/X",
+              "xlconcat_0/In0"
+            ]
+          },
+          "One_Bit_X": {
+            "ports": [
+              "One_Bit/X",
+              "xlconcat_0/In1"
+            ]
+          },
+          "Two_Bit_X": {
+            "ports": [
+              "Two_Bit/X",
+              "xlconcat_0/In2"
+            ]
+          },
+          "Three_Bit_X": {
+            "ports": [
+              "Three_Bit/X",
+              "xlconcat_0/In3"
+            ]
+          },
+          "Score_2_Dout": {
+            "ports": [
+              "Score_2/Dout",
+              "Two_Bit/b"
+            ]
+          },
+          "xlconstant_0_dout": {
+            "ports": [
+              "xlconstant_0/dout",
+              "Zero_Bit/Cin"
+            ]
+          },
+          "Score_3_Dout": {
+            "ports": [
+              "Score_3/Dout",
+              "Three_Bit/b"
+            ]
+          },
+          "V_0_Dout": {
+            "ports": [
+              "V_0/Dout",
+              "Zero_Bit/a"
+            ]
+          },
+          "V_1_Dout": {
+            "ports": [
+              "V_1/Dout",
+              "One_Bit/a"
+            ]
+          },
+          "V_2_Dout": {
+            "ports": [
+              "V_2/Dout",
+              "Two_Bit/a"
+            ]
+          },
+          "V_3_Dout": {
+            "ports": [
+              "V_3/Dout",
+              "Three_Bit/a"
+            ]
+          },
+          "Zero_Bit_Cout": {
+            "ports": [
+              "Zero_Bit/Cout",
+              "One_Bit/Cin"
+            ]
+          },
+          "One_Bit_Cout": {
+            "ports": [
+              "One_Bit/Cout",
+              "Two_Bit/Cin"
+            ]
+          },
+          "Two_Bit_Cout": {
+            "ports": [
+              "Two_Bit/Cout",
+              "Three_Bit/Cin"
+            ]
+          },
+          "Net1": {
+            "ports": [
+              "Score",
+              "Score_1/Din",
+              "Score_2/Din",
+              "Score_3/Din",
+              "Score_0/Din"
+            ]
+          },
+          "xlconcat_0_dout": {
+            "ports": [
+              "xlconcat_0/dout",
+              "SUM"
+            ]
+          },
+          "Net": {
+            "ports": [
+              "Victory",
+              "V_1/Din",
+              "V_2/Din",
+              "V_3/Din",
+              "V_0/Din"
+            ]
+          },
+          "Three_Bit_Cout": {
+            "ports": [
+              "Three_Bit/Cout",
+              "Cout"
+            ]
+          }
+        }
+      }
+    },
+    "nets": {
+      "Three_Bit_Cout": {
+        "ports": [
+          "Score_Adder/Cout",
+          "Cout"
+        ]
+      },
+      "xlconcat_0_dout": {
+        "ports": [
+          "Score_Adder/SUM",
+          "SUM"
+        ]
+      },
+      "Net": {
+        "ports": [
+          "Victory",
+          "Score_Adder/Victory"
+        ]
+      },
+      "Net1": {
+        "ports": [
+          "Score",
+          "Score_Adder/Score"
+        ]
+      }
+    }
+  }
+}

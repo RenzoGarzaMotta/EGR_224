@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="S3_Mux" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1583296508"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1583296508"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1583296508"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1583296508"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\S3_Mux_xup_4_to_1_mux_0_0\S3_Mux_xup_4_to_1_mux_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xup_4_to_1_mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_X0_0\S3_Mux_xlslice_X0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xlslice_X0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_1k_0\S3_Mux_xlslice_1k_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xlslice_1k"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_X1_0\S3_Mux_xlslice_X1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xlslice_X1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_X2_0\S3_Mux_xlslice_X2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xlslice_X2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_c_counter_binary_3_0\S3_Mux_c_counter_binary_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/c_counter_binary_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_X3_0\S3_Mux_xlslice_X3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/xlslice_X3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_4_to_1_mux_vector_1_0\S3_Mux_xup_4_to_1_mux_vector_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xup_4_to_1_mux_vector_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_4_to_1_mux_vector_2_0\S3_Mux_xup_4_to_1_mux_vector_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xup_4_to_1_mux_vector_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_4_to_1_mux_vector_3_0\S3_Mux_xup_4_to_1_mux_vector_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xup_4_to_1_mux_vector_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconstant_0_0\S3_Mux_xlconstant_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconstant_1_0\S3_Mux_xlconstant_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xlconstant_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_4_to_1_mux_vector_0_0\S3_Mux_xup_4_to_1_mux_vector_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Enable_Mux/xup_4_to_1_mux_vector_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_ONE_0\S3_Mux_ONE_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/ONE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_G_0\S3_Mux_Segment_G_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_G"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_FOUR_0\S3_Mux_FOUR_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/FOUR"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_FOURTEEN_0\S3_Mux_FOURTEEN_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/FOURTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_TWO_0\S3_Mux_TWO_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/TWO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_FIVE_0\S3_Mux_FIVE_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/FIVE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_B_0\S3_Mux_Segment_B_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_B"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_SEVEN_0\S3_Mux_SEVEN_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/SEVEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_A_0\S3_Mux_Segment_A_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_A"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_D_0\S3_Mux_Segment_D_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_D"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_EIGHT_0\S3_Mux_EIGHT_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/EIGHT"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_F_0\S3_Mux_Segment_F_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_F"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_E_0\S3_Mux_Segment_E_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_E"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_inv_0_0\S3_Mux_xup_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_FIFTEEN_0\S3_Mux_FIFTEEN_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/FIFTEEN"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_inv_1_0\S3_Mux_xup_inv_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/xup_inv_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_NINE_0\S3_Mux_NINE_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/NINE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_inv_2_0\S3_Mux_xup_inv_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/xup_inv_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_THREE_0\S3_Mux_THREE_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/THREE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_SIX_0\S3_Mux_SIX_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/SIX"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_inv_3_0\S3_Mux_xup_inv_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/xup_inv_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_ZERO_0\S3_Mux_ZERO_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/ZERO"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Segment_C_0\S3_Mux_Segment_C_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Segment_Decoder_V_L/Segment_C"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_15_0\S3_Mux_xup_clk_divider_15_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_15"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_2_0\S3_Mux_xup_clk_divider_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_16_0\S3_Mux_xup_clk_divider_16_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_16"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_3_0\S3_Mux_xup_clk_divider_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_4_0\S3_Mux_xup_clk_divider_4_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_4"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_5_0\S3_Mux_xup_clk_divider_5_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_5"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_6_0\S3_Mux_xup_clk_divider_6_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_6"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_7_0\S3_Mux_xup_clk_divider_7_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_7"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_8_0\S3_Mux_xup_clk_divider_8_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_8"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_9_0\S3_Mux_xup_clk_divider_9_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_9"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_10_0\S3_Mux_xup_clk_divider_10_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_10"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_11_0\S3_Mux_xup_clk_divider_11_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_11"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_12_0\S3_Mux_xup_clk_divider_12_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_12"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_13_0\S3_Mux_xup_clk_divider_13_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_13"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_0_0\S3_Mux_xup_clk_divider_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_14_0\S3_Mux_xup_clk_divider_14_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_14"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_clk_divider_1_0\S3_Mux_xup_clk_divider_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/CLK_DIV_1kHz/xup_clk_divider_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_NOT_Triple_0\S3_Mux_NOT_Triple_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/NOT_Triple"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Two_Point_0\S3_Mux_Two_Point_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Two_Point"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Flush_Const_0\S3_Mux_Flush_Const_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Flush_Const"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_NOT_Double_0\S3_Mux_NOT_Double_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/NOT_Double"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconcat_0_1\S3_Mux_xlconcat_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconcat_1_0\S3_Mux_xlconcat_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/xlconcat_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Flush_0\S3_Mux_Flush_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Flush"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Double_0\S3_Mux_Double_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Double"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_NOT_Flush_0\S3_Mux_NOT_Flush_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/NOT_Flush"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Triple_0\S3_Mux_Triple_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Triple"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Flush1_0\S3_Mux_Flush1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Flush1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_X2_0\S3_Mux_X2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/X2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_X3_0\S3_Mux_X3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/X3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_One_Point_0\S3_Mux_One_Point_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/One_Point"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Score_0_0\S3_Mux_Score_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Score_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Score_1_0\S3_Mux_Score_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Score_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconcat_0_2\S3_Mux_xlconcat_0_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/xlconcat_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Score_2_0\S3_Mux_Score_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Score_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlconstant_0_1\S3_Mux_xlconstant_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/xlconstant_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_Score_3_0\S3_Mux_Score_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Score_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_V_0_0\S3_Mux_V_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/V_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_V_1_0\S3_Mux_V_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/V_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_V_2_0\S3_Mux_V_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/V_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_V_3_0\S3_Mux_V_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/V_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_0_0\S3_Mux_xup_xor2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_xor2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_1_0\S3_Mux_xup_xor2_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_xor2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_2_0\S3_Mux_xup_xor2_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_xor2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_0_1\S3_Mux_xup_and2_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_1_0\S3_Mux_xup_and2_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_or2_0_0\S3_Mux_xup_or2_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/One_Bit/xup_or2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_0_1\S3_Mux_xup_xor2_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_xor2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_1_1\S3_Mux_xup_xor2_1_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_xor2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_2_1\S3_Mux_xup_xor2_2_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_xor2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_0_2\S3_Mux_xup_and2_0_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_1_1\S3_Mux_xup_and2_1_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_or2_0_1\S3_Mux_xup_or2_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Three_Bit/xup_or2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_0_2\S3_Mux_xup_xor2_0_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_xor2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_1_2\S3_Mux_xup_xor2_1_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_xor2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_2_2\S3_Mux_xup_xor2_2_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_xor2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_0_3\S3_Mux_xup_and2_0_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_1_2\S3_Mux_xup_and2_1_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_or2_0_2\S3_Mux_xup_or2_0_2.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Zero_Bit/xup_or2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_0_3\S3_Mux_xup_xor2_0_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_xor2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_1_3\S3_Mux_xup_xor2_1_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_xor2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_xor2_2_3\S3_Mux_xup_xor2_2_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_xor2_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_0_4\S3_Mux_xup_and2_0_4.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_and2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_and2_1_3\S3_Mux_xup_and2_1_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_and2_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_or2_0_3\S3_Mux_xup_or2_0_3.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Adder/Two_Bit/xup_or2_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_dff_en_reset_0_0\S3_Mux_xup_dff_en_reset_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xup_dff_en_reset_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_0_0\S3_Mux_xlslice_0_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xlslice_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_dff_en_reset_1_0\S3_Mux_xup_dff_en_reset_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xup_dff_en_reset_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_1_0\S3_Mux_xlslice_1_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xlslice_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_dff_en_reset_2_0\S3_Mux_xup_dff_en_reset_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xup_dff_en_reset_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_2_0\S3_Mux_xlslice_2_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xlslice_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_dff_en_reset_3_0\S3_Mux_xup_dff_en_reset_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xup_dff_en_reset_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xlslice_3_0\S3_Mux_xlslice_3_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xlslice_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_xup_inv_0_1\S3_Mux_xup_inv_0_1.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/xup_inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\S3_Mux_ENABLE_0\S3_Mux_ENABLE_0.xci" Type="IP">
+        <Instance HierarchyPath="S3_Mux/Score/Score_Grabber/ENABLE"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

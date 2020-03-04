@@ -1,0 +1,888 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar  3 11:43:38 2020" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="Segment_Decoder_V_L" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" NAME="X0" SIGIS="undef" SIGNAME="External_Ports_X0">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_NINE" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X1" SIGIS="undef" SIGNAME="External_Ports_X1">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="b"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="b"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_SIX" PORT="b"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="b"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="b"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="b"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X2" SIGIS="undef" SIGNAME="External_Ports_X2">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="c"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_SIX" PORT="c"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="c"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="c"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="c"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="c"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="X3" SIGIS="undef" SIGNAME="External_Ports_X3">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="a"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_EIGHT" PORT="d"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_NINE" PORT="d"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="d"/>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="d"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="A" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or4_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="B" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or3_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="C" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or2_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or2_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="D" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or3_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="E" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or6_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="F" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or4_1_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_1" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="G" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or5_0_y">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="y"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/EIGHT" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_EIGHT" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_4_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/FIFTEEN" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_FIFTEEN" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_NINE_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIFTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_0" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="e"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/FIVE" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_FIVE" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_13"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIVE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_0" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/FOUR" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_FOUR" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_12"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOUR_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_0" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_1" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/FOURTEEN" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_FOURTEEN" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_NINE_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOURTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_0" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_0" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or2_0" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/NINE" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_NINE" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_4_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_NINE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="f"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/ONE" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_ONE" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_9"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_0" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_1" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_1" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/SEVEN" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_SEVEN" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_4_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SEVEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_1" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="e"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_1" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/SIX" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_SIX" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_4_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SIX_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or3_0" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/THREE" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_THREE" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_11"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_THREE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or6_0" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_1" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/TWO" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_TWO" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_10"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_TWO_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or2_0" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or4_1" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/ZERO" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_ZERO" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_and4" VLNV="xilinx.com:xup:xup_and4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_and4_0_8"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_1" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_2" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_inv_3" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ZERO_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_xup_or5_0" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_inv_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X0">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X0"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ZERO" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SIX" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_EIGHT" PORT="a"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="a"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_inv_1" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_inv_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_inv_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X1">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X1"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ZERO" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_EIGHT" PORT="b"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_NINE" PORT="b"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_inv_2" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_inv_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_inv_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X2">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X2"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_2_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ZERO" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_EIGHT" PORT="c"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_NINE" PORT="c"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_inv_3" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_inv_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_inv_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_X3">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="X3"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_inv_3_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ZERO" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SIX" PORT="d"/>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or2_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or2" VLNV="xilinx.com:xup:xup_or2:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or2_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_TWO_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOURTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or2_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="C"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or3_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or3_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or3_0_5"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIVE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SIX_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SIX" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOURTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or3_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="B"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or3_1" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or3_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or3" VLNV="xilinx.com:xup:xup_or3:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or3_0_6"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOUR_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SEVEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or3_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="D"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or4_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or4_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or4_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOUR_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOURTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIFTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or4_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="A"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or4_1" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or4_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or4" VLNV="xilinx.com:xup:xup_or4:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or4_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_TWO_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_TWO" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_THREE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SEVEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or4_1_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="F"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or5_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or5_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or5" VLNV="xilinx.com:xup:xup_or5:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or5_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ZERO_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ZERO" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SEVEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOURTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOURTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIFTEEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIFTEEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or5_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="G"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Segment_Decoder_V_L/xup_or6_0" HWVERSION="1.0" INSTANCE="Segment_Decoder_V_L_xup_or6_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_or6" VLNV="xilinx.com:xup:xup_or6:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Segment_Decoder_V_L_xup_or6_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_ONE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_ONE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="b" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_THREE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_THREE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="c" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FOUR_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FOUR" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_FIVE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_FIVE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="e" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_SEVEN_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_SEVEN" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="f" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_NINE_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Segment_Decoder_V_L_NINE" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Segment_Decoder_V_L_xup_or6_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="E"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

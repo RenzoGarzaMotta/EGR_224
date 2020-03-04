@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"Segment_Decoder_V_L": {
+			"proto_instances": {
+			}
+		}
+	}
+}

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Mar  3 14:32:34 2020" VIVADOVERSION="2018.3">
+
+  <SYSTEMINFO ARCH="artix7" BOARD="digilentinc.com:basys3:part0:1.1" DEVICE="7a35t" NAME="Value_Grabber" PACKAGE="cpg236" SPEEDGRADE="-1"/>
+
+  <EXTERNALPORTS>
+    <PORT DIR="I" LEFT="3" NAME="VAL" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_VAL">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xlslice_1" PORT="Din"/>
+        <CONNECTION INSTANCE="Value_Grabber_xlslice_2" PORT="Din"/>
+        <CONNECTION INSTANCE="Value_Grabber_xlslice_3" PORT="Din"/>
+        <CONNECTION INSTANCE="Value_Grabber_xlslice_0" PORT="Din"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="RESET" SIGIS="undef" SIGNAME="External_Ports_RESET">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_1" PORT="reset"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_2" PORT="reset"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_3" PORT="reset"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_0" PORT="reset"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="EN" SIGIS="undef" SIGNAME="External_Ports_EN">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_1" PORT="en"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_2" PORT="en"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_3" PORT="en"/>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_0" PORT="en"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="I" NAME="CLK" SIGIS="undef" SIGNAME="External_Ports_CLK">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_inv_0" PORT="a"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="BIT_0" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_0_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_0" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="BIT_1" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_1_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_1" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="BIT_2" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_2_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_2" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+    <PORT DIR="O" NAME="BIT_3" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_3_q">
+      <CONNECTIONS>
+        <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_3" PORT="q"/>
+      </CONNECTIONS>
+    </PORT>
+  </EXTERNALPORTS>
+
+  <EXTERNALINTERFACES/>
+
+  <MODULES>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xlslice_0" HWVERSION="1.0" INSTANCE="Value_Grabber_xlslice_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="0"/>
+        <PARAMETER NAME="DIN_TO" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xlslice_0_0"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_VAL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="VAL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_0" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xlslice_1" HWVERSION="1.0" INSTANCE="Value_Grabber_xlslice_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="1"/>
+        <PARAMETER NAME="DIN_TO" VALUE="1"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xlslice_0_1"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_VAL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="VAL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_1" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xlslice_2" HWVERSION="1.0" INSTANCE="Value_Grabber_xlslice_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="2"/>
+        <PARAMETER NAME="DIN_TO" VALUE="2"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xlslice_0_2"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_VAL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="VAL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_2" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xlslice_3" HWVERSION="1.0" INSTANCE="Value_Grabber_xlslice_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xlslice" VLNV="xilinx.com:ip:xlslice:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DIN_WIDTH" VALUE="4"/>
+        <PARAMETER NAME="DIN_FROM" VALUE="3"/>
+        <PARAMETER NAME="DIN_TO" VALUE="3"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xlslice_0_3"/>
+        <PARAMETER NAME="DOUT_WIDTH" VALUE="1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" LEFT="3" NAME="Din" RIGHT="0" SIGIS="undef" SIGNAME="External_Ports_VAL">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="VAL"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" LEFT="0" NAME="Dout" RIGHT="0" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_3" PORT="d"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xup_dff_en_reset_0" HWVERSION="1.0" INSTANCE="Value_Grabber_xup_dff_en_reset_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_en_reset" VLNV="xilinx.com:xup:xup_dff_en_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xup_dff_en_reset_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_0_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xlslice_0" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="Value_Grabber_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_0_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BIT_0"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xup_dff_en_reset_1" HWVERSION="1.0" INSTANCE="Value_Grabber_xup_dff_en_reset_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_en_reset" VLNV="xilinx.com:xup:xup_dff_en_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xup_dff_en_reset_0_1"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_1_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xlslice_1" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="Value_Grabber_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_1_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BIT_1"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xup_dff_en_reset_2" HWVERSION="1.0" INSTANCE="Value_Grabber_xup_dff_en_reset_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_en_reset" VLNV="xilinx.com:xup:xup_dff_en_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xup_dff_en_reset_0_2"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_2_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xlslice_2" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="Value_Grabber_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_2_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BIT_2"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xup_dff_en_reset_3" HWVERSION="1.0" INSTANCE="Value_Grabber_xup_dff_en_reset_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_dff_en_reset" VLNV="xilinx.com:xup:xup_dff_en_reset:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xup_dff_en_reset_0_3"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="d" SIGIS="undef" SIGNAME="Value_Grabber_xlslice_3_Dout">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xlslice_3" PORT="Dout"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="clk" SIGIS="undef" SIGNAME="Value_Grabber_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_inv_0" PORT="y"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="en" SIGIS="undef" SIGNAME="External_Ports_EN">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="EN"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="I" NAME="reset" SIGIS="undef" SIGNAME="External_Ports_RESET">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="RESET"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="q" SIGIS="undef" SIGNAME="Value_Grabber_xup_dff_en_reset_3_q">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="BIT_3"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="1" FULLNAME="/Value_Grabber/xup_inv_0" HWVERSION="1.0" INSTANCE="Value_Grabber_xup_inv_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="xup_inv" VLNV="xilinx.com:xup:xup_inv:1.0">
+      <DOCUMENTS/>
+      <PARAMETERS>
+        <PARAMETER NAME="DELAY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="Value_Grabber_xup_inv_0_0"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT DIR="I" NAME="a" SIGIS="undef" SIGNAME="External_Ports_CLK">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="External_Ports" PORT="CLK"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="y" SIGIS="undef" SIGNAME="Value_Grabber_xup_inv_0_y">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_1" PORT="clk"/>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_2" PORT="clk"/>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_3" PORT="clk"/>
+            <CONNECTION INSTANCE="Value_Grabber_xup_dff_en_reset_0" PORT="clk"/>
+          </CONNECTIONS>
+        </PORT>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+  </MODULES>
+
+</EDKSYSTEM>

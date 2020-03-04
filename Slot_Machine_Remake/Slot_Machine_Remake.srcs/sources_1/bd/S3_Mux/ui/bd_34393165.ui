@@ -1,0 +1,26 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace portBus sel_0 -pg 1 -y 270 -defaultsOSRD
+preplace portBus AN0 -pg 1 -y 90 -defaultsOSRD
+preplace portBus AN1 -pg 1 -y 270 -defaultsOSRD
+preplace portBus AN2 -pg 1 -y 450 -defaultsOSRD
+preplace portBus AN3 -pg 1 -y 630 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_0 -pg 1 -lvl 2 -y 90 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 1 -y 110 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_1 -pg 1 -lvl 2 -y 270 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 1 -y 210 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_2 -pg 1 -lvl 2 -y 450 -defaultsOSRD
+preplace inst xup_4_to_1_mux_vector_3 -pg 1 -lvl 2 -y 630 -defaultsOSRD
+preplace netloc xup_4_to_1_mux_vector_2_y 1 2 1 NJ
+preplace netloc xup_4_to_1_mux_vector_3_y 1 2 1 NJ
+preplace netloc xlconstant_0_dout 1 1 1 190
+preplace netloc xup_4_to_1_mux_vector_0_y 1 2 1 NJ
+preplace netloc Net1 1 0 2 NJ 270 180
+preplace netloc Net 1 1 1 200
+preplace netloc xup_4_to_1_mux_vector_1_y 1 2 1 NJ
+levelinfo -pg 1 0 100 310 440 -top -10 -bot 730
+"
+}
+

@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port A -pg 1 -y 180 -defaultsOSRD
+preplace port B -pg 1 -y 160 -defaultsOSRD
+preplace port C -pg 1 -y 260 -defaultsOSRD
+preplace port STATE -pg 1 -y 170 -defaultsOSRD
+preplace port D -pg 1 -y 200 -defaultsOSRD
+preplace port E -pg 1 -y 240 -defaultsOSRD
+preplace port F -pg 1 -y 220 -defaultsOSRD
+preplace port G -pg 1 -y 140 -defaultsOSRD
+preplace port clk -pg 1 -y 150 -defaultsOSRD
+preplace portBus AN0 -pg 1 -y 120 -defaultsOSRD
+preplace portBus AN1 -pg 1 -y 60 -defaultsOSRD
+preplace portBus AN2 -pg 1 -y 80 -defaultsOSRD
+preplace portBus AN3 -pg 1 -y 100 -defaultsOSRD
+preplace inst SHOW_ZEROS -pg 1 -lvl 1 -y 160 -defaultsOSRD
+preplace netloc Enable_Mux_AN2 1 1 1 NJ
+preplace netloc Enable_Mux_AN3 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_A 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_B 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_C 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_D 1 1 1 NJ
+preplace netloc STATE_1 1 0 1 NJ
+preplace netloc clk_1 1 0 1 NJ
+preplace netloc Segment_Decoder_V_L_E 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_F 1 1 1 NJ
+preplace netloc Segment_Decoder_V_L_G 1 1 1 NJ
+preplace netloc Enable_Mux_AN0 1 1 1 NJ
+preplace netloc Enable_Mux_AN1 1 1 1 NJ
+levelinfo -pg 1 0 110 220 -top 0 -bot 310
+"
+}
+
